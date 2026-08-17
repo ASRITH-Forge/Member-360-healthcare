@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+
+{% block title %}Member Directory &bull; Member 360° Care Intelligence{% endblock %}
+
+{% block content %}
+<!-- Navigation Breadcrumbs -->
+<div class="breadcrumbs-bar">
+  <div class="breadcrumbs-trail">
+    <a href="/">Dashboard</a>
+    <span class="breadcrumb-separator">/</span>
+    <span class="breadcrumb-current">Member Directory</span>
+  </div>
+  <a href="/" class="back-link">&larr; Back to Dashboard</a>
+</div>
+
+<!-- Page Header & Search Filter Card -->
+<div class="page-header-block">
+  <h1 class="page-title">Member Directory</h1>
+  <p class="page-subtitle">
+    Filter and look up member records across the healthcare operations registry by Member ID, Name, City, or State.
+  </p>
+
+  <form action="/search" method="GET" class="search-form-card">
+    <div class="search-input-group">
+      <span class="search-icon-prefix">🔍</span>
+      <input 
+        type="text" 
+        name="q" 
+        class="search-text-field" 
+        placeholder="Filter by Member ID (e.g., M00001), First Name, Last Name, City, or State..." 
+        value="{{ query }}"
+        autocomplete="off"
+        aria-label="Filter member records"
+      />
+      <div class="search-actions-group">
+        <button type="submit" class="btn-primary">Filter Records</button>
+        {% if query %}
+        <a href="/search" class="btn-secondary">Clear</a>
+        {% endif %}
+      </div>
+    </div>
+  </form>
+</div>
+
+{% if error %}
+<div class="operational-alerts-panel" style="background-color: #fef2f2; border-color: #fecaca; margin-bottom: 1.25rem;">
+  <div style="display: flex; align-items: center; gap: 0.5rem; color: #991b1b; font-size: 0.875rem;">
+    <strong>Notice:</strong> {{ error }}
+  </div>
+</div>
+{% endif %}
+
+<!-- Results Table Panel -->
+<div class="content-panel">
+  <div class="panel-header">
+    <div class="panel-title-wrap">
+      <span class="panel-title">Member Registry Results</span>
+      <span class="panel-subtitle">
+        &bull; Showing {{ members|length }} of {{ total }} records {% if query %}for query "<strong>{{ query }}</strong>"{% endif %}
+      </span>
+    </div>
+
+    {% if total_pages > 1 %}
+    <div class="pagination-controls">
+      {% if page > 1 %}
+      <a href="/search?q={{ query }}&page={{ page - 1 }}" class="pagination-btn">&laquo; Previous</a>
+      {% endif %}
+      <span class="pagination-current">Page {{ page }} of {{ total_pages }}</span>
+      {% if page < total_pages %}
+      <a href="/search?q={{ query }}&page={{ page + 1 }}" class="pagination-btn">Next &raquo;</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="table-responsive">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Member ID</th>
+          <th>Full Name</th>
+          <th>Date of Birth</th>
+          <th>Gender</th>
+          <th>Location</th>
+          <th>Coverage Status</th>
+          <th style="text-align: right;">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for m in members %}
+        <tr>
+          <td><code class="code-id">{{ m.member_id }}</code></td>
+          <td class="cell-primary">{{ m.first_name }} {{ m.last_name }}</td>
+          <td>{{ m.date_of_birth }}</td>
+          <td>{{ m.gender }}</td>
+          <td>{{ m.city }}, {{ m.state }}</td>
+          <td>
+            {% if not m.death_date %}
+            <span class="badge badge-active">Active</span>
+            {% else %}
+            <span class="badge badge-denied">Deceased</span>
+            {% endif %}
+          </td>
+          <td style="text-align: right;">
+            <a href="/member/{{ m.member_id }}" class="btn-secondary btn-sm">
+              Open 360° Profile &rarr;
+            </a>
+          </td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="7" class="empty-records-cell">
+            <div class="empty-state-icon">📋</div>
+            <div>No member records matched your search query.</div>
+            <div style="font-size: 0.775rem; margin-top: 0.35rem;">Try searching by partial name, state, or ID prefix.</div>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  {% if total_pages > 1 %}
+  <div class="pagination-container">
+    <div>
+      Showing page {{ page }} of {{ total_pages }} ({{ total }} total members)
+    </div>
+    <div class="pagination-controls">
+      {% if page > 1 %}
+      <a href="/search?q={{ query }}&page={{ page - 1 }}" class="pagination-btn">&laquo; Previous</a>
+      {% endif %}
+      <span class="pagination-current">Page {{ page }} of {{ total_pages }}</span>
+      {% if page < total_pages %}
+      <a href="/search?q={{ query }}&page={{ page + 1 }}" class="pagination-btn">Next &raquo;</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

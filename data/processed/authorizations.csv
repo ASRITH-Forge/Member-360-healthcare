@@ -1,0 +1,1201 @@
+authorization_id,member_id,service,request_date,status,decision_date,source,notes
+AUTH10001,M00315,Medication Reconciliation (procedure),2026-03-02,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10002,M00885,Hearing examination (procedure),2026-06-03,Approved,2026-06-06,Synthetic,Prior authorization for Hearing examination (procedure) has been approved.
+AUTH10003,M00725,Hepatitis C antibody test,2026-07-17,Approved,2026-07-26,Synthetic,Prior authorization for Hepatitis C antibody test has been approved.
+AUTH10004,M00983,Urine culture,2026-07-21,Approved,2026-07-22,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH10005,M00821,Hemoglobin / Hematocrit / Platelet count,2026-08-05,Pending,,Synthetic,Prior authorization request for Hemoglobin / Hematocrit / Platelet count is awaiting review.
+AUTH10006,M00610,Evaluation of uterine fundal height,2026-06-14,Approved,2026-06-15,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10007,M00944,CT Scan,2026-03-22,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10008,M00378,Renal dialysis (procedure),2026-02-27,Approved,2026-03-06,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10009,M00400,Medication Reconciliation (procedure),2026-06-17,Approved,2026-06-22,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10010,M00484,CT Scan,2026-08-11,Approved,2026-08-14,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10011,M00399,Medication Reconciliation (procedure),2026-02-15,Approved,2026-02-20,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10012,M00182,Urine screening test for diabetes,2026-07-04,Approved,2026-07-17,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10013,M00670,CT Scan,2026-05-18,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10014,M00626,Medication Reconciliation (procedure),2026-05-07,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10015,M00014,Depression screening,2026-05-16,Approved,2026-05-29,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH10016,M00034,Medication Reconciliation (procedure),2026-08-01,Approved,2026-08-10,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10017,M01001,Renal dialysis (procedure),2026-07-12,Cancelled,2026-07-19,Synthetic,Prior authorization for Renal dialysis (procedure) was cancelled.
+AUTH10018,M00213,Evaluation of uterine fundal height,2026-07-23,Approved,2026-08-06,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10019,M00986,Evaluation of uterine fundal height,2026-03-05,Approved,2026-03-19,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10020,M01089,Medication Reconciliation (procedure),2026-05-12,Approved,2026-05-24,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10021,M00065,CT Scan,2026-07-26,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10022,M00103,Evaluation of uterine fundal height,2026-06-15,Approved,2026-06-17,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10023,M00843,Medication Reconciliation (procedure),2026-06-14,Denied,2026-06-21,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10024,M00051,CT Scan,2026-06-02,Approved,2026-06-16,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10025,M01001,Renal dialysis (procedure),2026-05-11,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10026,M00204,Counseling for termination of pregnancy,2026-05-14,Approved,2026-05-19,Synthetic,Prior authorization for Counseling for termination of pregnancy has been approved.
+AUTH10027,M01078,Sputum examination (procedure),2026-02-14,Denied,2026-02-25,Synthetic,Prior authorization for Sputum examination (procedure) was not approved.
+AUTH10028,M00555,Medication Reconciliation (procedure),2026-07-25,Approved,2026-07-28,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10029,M00535,Physical examination,2026-03-29,Approved,2026-04-01,Synthetic,Prior authorization for Physical examination has been approved.
+AUTH10030,M00502,Subcutaneous immunotherapy,2026-04-16,Approved,2026-04-27,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10031,M01001,Renal dialysis (procedure),2026-02-17,Approved,2026-02-28,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10032,M01088,Medication Reconciliation (procedure),2026-05-21,Approved,2026-06-03,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10033,M00378,Renal dialysis (procedure),2026-07-29,Approved,2026-07-30,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10034,M00407,Physical examination of mother,2026-05-24,Approved,2026-05-26,Synthetic,Prior authorization for Physical examination of mother has been approved.
+AUTH10035,M01041,CT Scan,2026-06-19,Denied,2026-06-29,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10036,M01001,Renal dialysis (procedure),2026-05-24,Approved,2026-06-01,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10037,M00172,Subcutaneous immunotherapy,2026-05-03,Denied,2026-05-14,Synthetic,Prior authorization for Subcutaneous immunotherapy was not approved.
+AUTH10038,M00944,CT Scan,2026-04-17,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10039,M01138,Depression screening,2026-07-08,Approved,2026-07-17,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH10040,M01093,Spirometry (procedure),2026-03-28,Approved,2026-04-07,Synthetic,Prior authorization for Spirometry (procedure) has been approved.
+AUTH10041,M00521,Medication Reconciliation (procedure),2026-04-25,Denied,2026-05-02,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10042,M00394,Chlamydia antigen test,2026-05-12,Approved,2026-05-15,Synthetic,Prior authorization for Chlamydia antigen test has been approved.
+AUTH10043,M00762,Streptococcus pneumoniae group B antigen test,2026-04-04,Approved,2026-04-17,Synthetic,Prior authorization for Streptococcus pneumoniae group B antigen test has been approved.
+AUTH10044,M00516,Medication Reconciliation (procedure),2026-07-31,Denied,2026-08-03,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10045,M01001,Renal dialysis (procedure),2026-03-05,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10046,M00768,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-02-19,Approved,2026-02-21,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH10047,M00334,Auscultation of the fetal heart,2026-05-06,Approved,2026-05-14,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10048,M00971,CT Scan,2026-03-30,Approved,2026-04-08,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10049,M00725,Ultrasound scan for fetal viability,2026-08-10,Approved,2026-08-12,Synthetic,Prior authorization for Ultrasound scan for fetal viability has been approved.
+AUTH10050,M00103,Human immunodeficiency virus antigen test,2026-02-19,Denied,2026-03-04,Synthetic,Prior authorization for Human immunodeficiency virus antigen test was not approved.
+AUTH10051,M00885,Hearing examination (procedure),2026-06-05,Approved,2026-06-11,Synthetic,Prior authorization for Hearing examination (procedure) has been approved.
+AUTH10052,M00186,Physical examination following birth,2026-07-15,Approved,2026-07-18,Synthetic,Prior authorization for Physical examination following birth has been approved.
+AUTH10053,M00769,Evaluation of uterine fundal height,2026-04-18,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10054,M00610,Evaluation of uterine fundal height,2026-06-06,Cancelled,2026-06-19,Synthetic,Prior authorization for Evaluation of uterine fundal height was cancelled.
+AUTH10055,M01030,Medication Reconciliation (procedure),2026-06-28,Approved,2026-06-30,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10056,M00979,Childbirth,2026-03-05,Approved,2026-03-16,Synthetic,Prior authorization for Childbirth has been approved.
+AUTH10057,M00171,Medication Reconciliation (procedure),2026-04-05,Approved,2026-04-08,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10058,M00739,Renal dialysis (procedure),2026-05-09,Approved,2026-05-18,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10059,M00528,Evaluation of uterine fundal height,2026-03-30,Denied,2026-04-09,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10060,M00536,Hemoglobin / Hematocrit / Platelet count,2026-05-22,Approved,2026-05-24,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH10061,M01001,Renal dialysis (procedure),2026-05-12,Denied,2026-05-26,Synthetic,Prior authorization for Renal dialysis (procedure) was not approved.
+AUTH10062,M00110,Ultrasound scan for fetal viability,2026-05-26,Approved,2026-05-30,Synthetic,Prior authorization for Ultrasound scan for fetal viability has been approved.
+AUTH10063,M00448,Removal of intrauterine device,2026-03-20,Denied,2026-03-22,Synthetic,Prior authorization for Removal of intrauterine device was not approved.
+AUTH10064,M00858,Medication Reconciliation (procedure),2026-04-10,Approved,2026-04-23,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10065,M00812,Urine screening for glucose,2026-03-29,Approved,2026-04-01,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH10066,M00364,Alpha-fetoprotein test,2026-02-25,Approved,2026-03-06,Synthetic,Prior authorization for Alpha-fetoprotein test has been approved.
+AUTH10067,M00207,Radiation therapy care (regime/therapy),2026-07-01,Approved,2026-07-15,Synthetic,Prior authorization for Radiation therapy care (regime/therapy) has been approved.
+AUTH10068,M00665,Skin test for tuberculosis,2026-03-10,Approved,2026-03-14,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10069,M00739,Renal dialysis (procedure),2026-03-27,Approved,2026-04-08,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10070,M00550,Hemoglobin / Hematocrit / Platelet count,2026-06-22,Approved,2026-06-29,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH10071,M00560,Cytopathology procedure  preparation of smear  genital source,2026-02-22,Approved,2026-03-02,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source has been approved.
+AUTH10072,M00183,Skin test for tuberculosis,2026-04-02,Approved,2026-04-06,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10073,M01079,Colonoscopy,2026-06-16,Pending,,Synthetic,Prior authorization request for Colonoscopy is awaiting review.
+AUTH10074,M00020,CT Scan,2026-08-07,Approved,2026-08-11,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10075,M01115,Cytopathology procedure  preparation of smear  genital source,2026-03-15,Approved,2026-03-17,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source has been approved.
+AUTH10076,M00589,Evaluation of uterine fundal height,2026-03-04,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10077,M00614,Allergy screening test,2026-07-26,Denied,2026-08-09,Synthetic,Prior authorization for Allergy screening test was not approved.
+AUTH10078,M00081,Chemotherapy (procedure),2026-05-20,Pending,,Synthetic,Prior authorization request for Chemotherapy (procedure) is awaiting review.
+AUTH10079,M00137,Medication Reconciliation (procedure),2026-06-13,Approved,2026-06-21,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10080,M01115,Skin test for tuberculosis,2026-06-19,Approved,2026-07-01,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10081,M00439,Auscultation of the fetal heart,2026-03-19,Approved,2026-03-23,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10082,M00186,Auscultation of the fetal heart,2026-04-13,Approved,2026-04-17,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10083,M00983,Evaluation of uterine fundal height,2026-07-19,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10084,M00944,Medication Reconciliation (procedure),2026-04-24,Approved,2026-05-01,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10085,M00369,CT Scan,2026-04-15,Denied,2026-04-16,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10086,M00157,Subcutaneous immunotherapy,2026-02-21,Approved,2026-03-04,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10087,M00103,Blood typing  RH typing,2026-07-18,Pending,,Synthetic,Prior authorization request for Blood typing  RH typing is awaiting review.
+AUTH10088,M00271,Urine screening test for diabetes,2026-05-18,Approved,2026-05-20,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10089,M01030,CT Scan,2026-06-10,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10090,M01047,Biopsy of prostate,2026-03-28,Approved,2026-04-04,Synthetic,Prior authorization for Biopsy of prostate has been approved.
+AUTH10091,M00637,Auscultation of the fetal heart,2026-06-27,Approved,2026-07-01,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10092,M00739,Renal dialysis (procedure),2026-07-24,Approved,2026-08-07,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10093,M01138,Evaluation of uterine fundal height,2026-03-25,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10094,M01041,Alpha-fetoprotein test,2026-02-27,Cancelled,2026-03-13,Synthetic,Prior authorization for Alpha-fetoprotein test was cancelled.
+AUTH10095,M00963,Sputum examination (procedure),2026-08-09,Cancelled,2026-08-22,Synthetic,Prior authorization for Sputum examination (procedure) was cancelled.
+AUTH10096,M00549,Evaluation of uterine fundal height,2026-06-13,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10097,M00013,Auscultation of the fetal heart,2026-04-10,Approved,2026-04-24,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10098,M00177,Standard pregnancy test,2026-05-02,Denied,2026-05-05,Synthetic,Prior authorization for Standard pregnancy test was not approved.
+AUTH10099,M01006,Subcutaneous immunotherapy,2026-05-07,Pending,,Synthetic,Prior authorization request for Subcutaneous immunotherapy is awaiting review.
+AUTH10100,M00944,CT Scan,2026-05-05,Approved,2026-05-18,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10101,M00781,Echocardiography (procedure),2026-04-18,Approved,2026-04-30,Synthetic,Prior authorization for Echocardiography (procedure) has been approved.
+AUTH10102,M00852,Auscultation of the fetal heart,2026-03-23,Approved,2026-03-31,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10103,M00353,Echocardiography (procedure),2026-07-04,Pending,,Synthetic,Prior authorization request for Echocardiography (procedure) is awaiting review.
+AUTH10104,M00637,Subcutaneous immunotherapy,2026-06-18,Cancelled,2026-06-28,Synthetic,Prior authorization for Subcutaneous immunotherapy was cancelled.
+AUTH10105,M00210,Urine protein test,2026-03-27,Pending,,Synthetic,Prior authorization request for Urine protein test is awaiting review.
+AUTH10106,M00744,Rubella screening,2026-05-24,Pending,,Synthetic,Prior authorization request for Rubella screening is awaiting review.
+AUTH10107,M00426,Sputum examination (procedure),2026-03-16,Approved,2026-03-30,Synthetic,Prior authorization for Sputum examination (procedure) has been approved.
+AUTH10108,M01115,Evaluation of uterine fundal height,2026-03-30,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10109,M00739,Renal dialysis (procedure),2026-04-04,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10110,M00791,CT Scan,2026-06-26,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10111,M00773,Medication Reconciliation (procedure),2026-07-26,Approved,2026-07-30,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10112,M00062,Medication Reconciliation (procedure),2026-05-01,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10113,M00534,Depression screening,2026-03-20,Approved,2026-03-30,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH10114,M00822,Combined chemotherapy and radiation therapy (procedure),2026-08-02,Approved,2026-08-09,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10115,M00813,Auscultation of the fetal heart,2026-02-25,Approved,2026-03-06,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10116,M01030,Standard pregnancy test,2026-05-24,Denied,2026-05-28,Synthetic,Prior authorization for Standard pregnancy test was not approved.
+AUTH10117,M00137,Hearing examination (procedure),2026-02-22,Approved,2026-02-26,Synthetic,Prior authorization for Hearing examination (procedure) has been approved.
+AUTH10118,M00855,Depression screening,2026-06-06,Approved,2026-06-17,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH10119,M01001,Medication Reconciliation (procedure),2026-02-28,Approved,2026-03-06,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10120,M00013,Alpha-fetoprotein test,2026-07-25,Pending,,Synthetic,Prior authorization request for Alpha-fetoprotein test is awaiting review.
+AUTH10121,M00854,Medication Reconciliation (procedure),2026-03-06,Cancelled,2026-03-08,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH10122,M00039,Standard pregnancy test,2026-07-25,Approved,2026-08-03,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10123,M00737,CT Scan,2026-06-06,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10124,M00458,Plain chest X-ray,2026-05-15,Denied,2026-05-19,Synthetic,Prior authorization for Plain chest X-ray was not approved.
+AUTH10125,M00068,CT Scan,2026-05-10,Approved,2026-05-18,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10126,M00369,Ultrasound scan for fetal viability,2026-03-26,Approved,2026-04-05,Synthetic,Prior authorization for Ultrasound scan for fetal viability has been approved.
+AUTH10127,M00588,Medication Reconciliation (procedure),2026-02-26,Approved,2026-03-09,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10128,M00682,Auscultation of the fetal heart,2026-03-24,Approved,2026-04-04,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10129,M00227,Medication Reconciliation (procedure),2026-07-17,Denied,2026-07-20,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10130,M00213,Human immunodeficiency virus antigen test,2026-06-06,Pending,,Synthetic,Prior authorization request for Human immunodeficiency virus antigen test is awaiting review.
+AUTH10131,M00945,Transthoracic three dimensional ultrasonography of heart (procedure),2026-07-16,Approved,2026-07-19,Synthetic,Prior authorization for Transthoracic three dimensional ultrasonography of heart (procedure) has been approved.
+AUTH10132,M00343,Hepatitis B Surface Antigen Measurement,2026-06-04,Approved,2026-06-08,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10133,M00617,Evaluation of uterine fundal height,2026-05-17,Approved,2026-05-28,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10134,M00448,Auscultation of the fetal heart,2026-06-06,Approved,2026-06-11,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10135,M01138,Depression screening,2026-07-30,Pending,,Synthetic,Prior authorization request for Depression screening is awaiting review.
+AUTH10136,M00768,Medication Reconciliation (procedure),2026-04-26,Approved,2026-04-27,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10137,M00739,Renal dialysis (procedure),2026-08-12,Approved,2026-08-15,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10138,M00545,Auscultation of the fetal heart,2026-03-02,Cancelled,2026-03-05,Synthetic,Prior authorization for Auscultation of the fetal heart was cancelled.
+AUTH10139,M00865,Suture open wound,2026-04-21,Approved,2026-04-28,Synthetic,Prior authorization for Suture open wound has been approved.
+AUTH10140,M01141,CT Scan,2026-03-22,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10141,M00266,Medication Reconciliation (procedure),2026-07-24,Denied,2026-08-05,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10142,M00600,Evaluation of uterine fundal height,2026-07-05,Approved,2026-07-19,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10143,M00535,Standard pregnancy test,2026-05-10,Approved,2026-05-13,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10144,M00227,Evaluation of uterine fundal height,2026-04-24,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10145,M00354,Medication Reconciliation (procedure),2026-05-26,Approved,2026-06-08,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10146,M00236,Medication Reconciliation (procedure),2026-08-02,Denied,2026-08-06,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10147,M00986,Auscultation of the fetal heart,2026-02-19,Approved,2026-02-21,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10148,M01023,Evaluation of uterine fundal height,2026-05-14,Approved,2026-05-28,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10149,M00290,CT Scan,2026-04-30,Cancelled,2026-05-12,Synthetic,Prior authorization for CT Scan was cancelled.
+AUTH10150,M00665,CT Scan,2026-07-04,Denied,2026-07-08,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10151,M01001,Renal dialysis (procedure),2026-07-02,Cancelled,2026-07-15,Synthetic,Prior authorization for Renal dialysis (procedure) was cancelled.
+AUTH10152,M01001,Renal dialysis (procedure),2026-06-28,Denied,2026-06-29,Synthetic,Prior authorization for Renal dialysis (procedure) was not approved.
+AUTH10153,M00944,CT Scan,2026-06-28,Approved,2026-07-04,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10154,M01010,Urine protein test,2026-04-29,Approved,2026-05-13,Synthetic,Prior authorization for Urine protein test has been approved.
+AUTH10155,M00369,Evaluation of uterine fundal height,2026-06-10,Approved,2026-06-23,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10156,M01046,Combined chemotherapy and radiation therapy (procedure),2026-02-14,Pending,,Synthetic,Prior authorization request for Combined chemotherapy and radiation therapy (procedure) is awaiting review.
+AUTH10157,M00852,Measurement of Varicella-zoster virus antibody,2026-08-03,Denied,2026-08-07,Synthetic,Prior authorization for Measurement of Varicella-zoster virus antibody was not approved.
+AUTH10158,M00855,Physical examination of mother,2026-06-22,Approved,2026-06-30,Synthetic,Prior authorization for Physical examination of mother has been approved.
+AUTH10159,M00150,Physical examination of mother,2026-05-15,Approved,2026-05-28,Synthetic,Prior authorization for Physical examination of mother has been approved.
+AUTH10160,M00739,Renal dialysis (procedure),2026-06-15,Approved,2026-06-26,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10161,M00271,Cytopathology procedure  preparation of smear  genital source,2026-06-24,Approved,2026-06-29,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source has been approved.
+AUTH10162,M01001,Renal dialysis (procedure),2026-07-26,Cancelled,2026-07-31,Synthetic,Prior authorization for Renal dialysis (procedure) was cancelled.
+AUTH10163,M00132,Combined chemotherapy and radiation therapy (procedure),2026-05-15,Approved,2026-05-22,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10164,M01016,Cytopathology procedure  preparation of smear  genital source,2026-02-20,Cancelled,2026-03-01,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source was cancelled.
+AUTH10165,M01001,Renal dialysis (procedure),2026-05-20,Denied,2026-05-22,Synthetic,Prior authorization for Renal dialysis (procedure) was not approved.
+AUTH10166,M00324,Vaccination for diphtheria  pertussis  and tetanus,2026-06-07,Pending,,Synthetic,Prior authorization request for Vaccination for diphtheria  pertussis  and tetanus is awaiting review.
+AUTH10167,M00324,Streptococcus pneumoniae group B antigen test,2026-06-06,Pending,,Synthetic,Prior authorization request for Streptococcus pneumoniae group B antigen test is awaiting review.
+AUTH10168,M00665,Evaluation of uterine fundal height,2026-03-13,Approved,2026-03-25,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10169,M00271,Hepatitis B Surface Antigen Measurement,2026-05-24,Approved,2026-06-02,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10170,M01164,Spirometry (procedure),2026-07-14,Approved,2026-07-24,Synthetic,Prior authorization for Spirometry (procedure) has been approved.
+AUTH10171,M00439,Fetal anatomy study,2026-06-25,Approved,2026-07-07,Synthetic,Prior authorization for Fetal anatomy study has been approved.
+AUTH10172,M00537,Evaluation of uterine fundal height,2026-04-23,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10173,M00150,Evaluation of uterine fundal height,2026-03-28,Approved,2026-04-09,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10174,M01146,CT Scan,2026-02-22,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10175,M00549,Hepatitis C antibody test,2026-04-24,Pending,,Synthetic,Prior authorization request for Hepatitis C antibody test is awaiting review.
+AUTH10176,M00739,Renal dialysis (procedure),2026-02-23,Denied,2026-03-05,Synthetic,Prior authorization for Renal dialysis (procedure) was not approved.
+AUTH10177,M01138,Alpha-fetoprotein test,2026-05-24,Approved,2026-05-26,Synthetic,Prior authorization for Alpha-fetoprotein test has been approved.
+AUTH10178,M00780,Throat culture (procedure),2026-05-28,Approved,2026-06-08,Synthetic,Prior authorization for Throat culture (procedure) has been approved.
+AUTH10179,M00324,Evaluation of uterine fundal height,2026-04-30,Approved,2026-05-12,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10180,M00948,Cognitive and behavioral therapy,2026-05-29,Approved,2026-06-02,Synthetic,Prior authorization for Cognitive and behavioral therapy has been approved.
+AUTH10181,M00725,Auscultation of the fetal heart,2026-04-27,Approved,2026-05-04,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10182,M01085,Suture open wound,2026-02-20,Approved,2026-02-23,Synthetic,Prior authorization for Suture open wound has been approved.
+AUTH10183,M00344,Medication Reconciliation (procedure),2026-03-08,Approved,2026-03-15,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10184,M01001,Renal dialysis (procedure),2026-03-25,Approved,2026-03-30,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10185,M00759,Medication Reconciliation (procedure),2026-05-31,Approved,2026-06-13,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10186,M00651,Skin test for tuberculosis,2026-03-17,Approved,2026-03-23,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10187,M00108,CT Scan,2026-04-15,Approved,2026-04-26,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10188,M00796,Screening for occult blood in feces (procedure),2026-06-19,Approved,2026-07-02,Synthetic,Prior authorization for Screening for occult blood in feces (procedure) has been approved.
+AUTH10189,M00819,Subcutaneous immunotherapy,2026-06-30,Approved,2026-07-05,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10190,M00085,Medication Reconciliation (procedure),2026-04-03,Approved,2026-04-13,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10191,M01062,Suture open wound,2026-05-19,Pending,,Synthetic,Prior authorization request for Suture open wound is awaiting review.
+AUTH10192,M00329,Spirometry (procedure),2026-06-13,Approved,2026-06-17,Synthetic,Prior authorization for Spirometry (procedure) has been approved.
+AUTH10193,M00822,Hearing examination (procedure),2026-06-23,Pending,,Synthetic,Prior authorization request for Hearing examination (procedure) is awaiting review.
+AUTH10194,M00026,Human immunodeficiency virus antigen test,2026-08-01,Approved,2026-08-09,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH10195,M01001,Renal dialysis (procedure),2026-03-09,Approved,2026-03-11,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10196,M00316,CT Scan,2026-04-18,Approved,2026-04-29,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10197,M00924,Evaluation of uterine fundal height,2026-03-18,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10198,M00534,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-02-15,Approved,2026-02-22,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH10199,M00467,CT Scan,2026-06-11,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10200,M00237,Colonoscopy,2026-02-17,Pending,,Synthetic,Prior authorization request for Colonoscopy is awaiting review.
+AUTH10201,M00364,Human immunodeficiency virus antigen test,2026-07-16,Approved,2026-07-20,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH10202,M00924,Urine culture,2026-06-28,Approved,2026-07-10,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH10203,M01169,Manual pelvic examination (procedure),2026-04-02,Approved,2026-04-11,Synthetic,Prior authorization for Manual pelvic examination (procedure) has been approved.
+AUTH10204,M00942,Colonoscopy,2026-06-10,Denied,2026-06-12,Synthetic,Prior authorization for Colonoscopy was not approved.
+AUTH10205,M01001,Renal dialysis (procedure),2026-04-18,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10206,M00524,Chlamydia antigen test,2026-04-16,Approved,2026-04-25,Synthetic,Prior authorization for Chlamydia antigen test has been approved.
+AUTH10207,M01121,Human immunodeficiency virus antigen test,2026-03-13,Approved,2026-03-26,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH10208,M00093,CT Scan,2026-04-21,Approved,2026-05-03,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10209,M01078,Urine screening test for diabetes,2026-04-05,Approved,2026-04-14,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10210,M00320,Catheter ablation of tissue of heart,2026-04-20,Denied,2026-05-02,Synthetic,Prior authorization for Catheter ablation of tissue of heart was not approved.
+AUTH10211,M00039,Standard pregnancy test,2026-04-13,Approved,2026-04-26,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10212,M00156,Brief general examination (procedure),2026-06-10,Approved,2026-06-15,Synthetic,Prior authorization for Brief general examination (procedure) has been approved.
+AUTH10213,M01047,Combined chemotherapy and radiation therapy (procedure),2026-04-01,Approved,2026-04-05,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10214,M01119,Medication Reconciliation (procedure),2026-06-03,Approved,2026-06-15,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10215,M01010,CT Scan,2026-05-31,Approved,2026-06-06,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10216,M00069,Auscultation of the fetal heart,2026-05-23,Denied,2026-05-25,Synthetic,Prior authorization for Auscultation of the fetal heart was not approved.
+AUTH10217,M00739,Renal dialysis (procedure),2026-07-08,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10218,M00672,Combined chemotherapy and radiation therapy (procedure),2026-05-06,Approved,2026-05-18,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10219,M01119,Medication Reconciliation (procedure),2026-06-19,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10220,M01001,Renal dialysis (procedure),2026-04-30,Approved,2026-05-08,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10221,M00288,Standard pregnancy test,2026-04-28,Pending,,Synthetic,Prior authorization request for Standard pregnancy test is awaiting review.
+AUTH10222,M00013,Evaluation of uterine fundal height,2026-04-27,Approved,2026-05-10,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10223,M00762,CT Scan,2026-03-16,Denied,2026-03-17,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10224,M00751,Manual pelvic examination (procedure),2026-03-18,Approved,2026-03-19,Synthetic,Prior authorization for Manual pelvic examination (procedure) has been approved.
+AUTH10225,M00801,Throat culture (procedure),2026-05-14,Approved,2026-05-21,Synthetic,Prior authorization for Throat culture (procedure) has been approved.
+AUTH10226,M00395,Evaluation of uterine fundal height,2026-04-27,Approved,2026-05-09,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10227,M00494,CT Scan,2026-03-26,Approved,2026-03-30,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10228,M00238,Auscultation of the fetal heart,2026-04-10,Approved,2026-04-17,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10229,M00224,Medication Reconciliation (procedure),2026-04-10,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10230,M00378,CT Scan,2026-05-18,Approved,2026-05-31,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10231,M00128,CT Scan,2026-05-01,Approved,2026-05-15,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10232,M00407,Rubella screening,2026-04-15,Denied,2026-04-25,Synthetic,Prior authorization for Rubella screening was not approved.
+AUTH10233,M01093,Spirometry (procedure),2026-03-29,Pending,,Synthetic,Prior authorization request for Spirometry (procedure) is awaiting review.
+AUTH10234,M00378,Renal dialysis (procedure),2026-05-04,Approved,2026-05-15,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10235,M00912,Medication Reconciliation (procedure),2026-08-06,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10236,M01023,Urine protein test,2026-04-25,Pending,,Synthetic,Prior authorization request for Urine protein test is awaiting review.
+AUTH10237,M01141,Auscultation of the fetal heart,2026-04-16,Pending,,Synthetic,Prior authorization request for Auscultation of the fetal heart is awaiting review.
+AUTH10238,M00474,Standard pregnancy test,2026-06-07,Approved,2026-06-11,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10239,M00369,Urine culture,2026-04-18,Approved,2026-05-01,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH10240,M00772,Epidural anesthesia,2026-05-07,Approved,2026-05-21,Synthetic,Prior authorization for Epidural anesthesia has been approved.
+AUTH10241,M00455,Subcutaneous immunotherapy,2026-04-27,Approved,2026-04-29,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10242,M00711,CT Scan,2026-04-14,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10243,M00375,Medication Reconciliation (procedure),2026-03-27,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10244,M00461,Magnetic resonance imaging for measurement of brain volume (procedure),2026-05-15,Approved,2026-05-17,Synthetic,Prior authorization for Magnetic resonance imaging for measurement of brain volume (procedure) has been approved.
+AUTH10245,M00324,Evaluation of uterine fundal height,2026-02-27,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10246,M00831,Auscultation of the fetal heart,2026-08-05,Denied,2026-08-09,Synthetic,Prior authorization for Auscultation of the fetal heart was not approved.
+AUTH10247,M00216,Medication Reconciliation (procedure),2026-08-07,Approved,2026-08-11,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10248,M00448,Evaluation of uterine fundal height,2026-07-11,Approved,2026-07-13,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10249,M00456,CT Scan,2026-03-21,Denied,2026-03-29,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10250,M00594,Human immunodeficiency virus antigen test,2026-02-14,Approved,2026-02-20,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH10251,M00098,Subcutaneous immunotherapy,2026-07-01,Approved,2026-07-13,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10252,M00318,Medication Reconciliation (procedure),2026-07-14,Approved,2026-07-17,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10253,M00629,Skin test for tuberculosis,2026-05-25,Pending,,Synthetic,Prior authorization request for Skin test for tuberculosis is awaiting review.
+AUTH10254,M01021,Auscultation of the fetal heart,2026-08-06,Denied,2026-08-16,Synthetic,Prior authorization for Auscultation of the fetal heart was not approved.
+AUTH10255,M00766,Spirometry (procedure),2026-02-20,Denied,2026-02-27,Synthetic,Prior authorization for Spirometry (procedure) was not approved.
+AUTH10256,M00183,Hepatitis C antibody test,2026-05-03,Denied,2026-05-07,Synthetic,Prior authorization for Hepatitis C antibody test was not approved.
+AUTH10257,M00720,Urine protein test,2026-07-24,Approved,2026-08-07,Synthetic,Prior authorization for Urine protein test has been approved.
+AUTH10258,M00375,Auscultation of the fetal heart,2026-03-05,Approved,2026-03-17,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10259,M00164,Hepatitis B Surface Antigen Measurement,2026-05-27,Denied,2026-06-06,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement was not approved.
+AUTH10260,M00132,Cytopathology procedure  preparation of smear  genital source (procedure),2026-07-13,Approved,2026-07-23,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source (procedure) has been approved.
+AUTH10261,M00978,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-08-02,Approved,2026-08-09,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH10262,M00739,Renal dialysis (procedure),2026-02-24,Approved,2026-03-05,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10263,M01057,Asthma screening,2026-02-28,Approved,2026-03-14,Synthetic,Prior authorization for Asthma screening has been approved.
+AUTH10264,M00014,Hemoglobin / Hematocrit / Platelet count,2026-04-27,Approved,2026-04-29,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH10265,M00272,Medication Reconciliation (procedure),2026-04-24,Cancelled,2026-05-05,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH10266,M00320,CT Scan,2026-04-17,Approved,2026-04-24,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10267,M00534,Medication Reconciliation (procedure),2026-06-28,Approved,2026-07-09,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10268,M00747,Physical examination of mother,2026-06-04,Approved,2026-06-13,Synthetic,Prior authorization for Physical examination of mother has been approved.
+AUTH10269,M00778,Insertion of intrauterine contraceptive device,2026-04-11,Approved,2026-04-25,Synthetic,Prior authorization for Insertion of intrauterine contraceptive device has been approved.
+AUTH10270,M00064,Medication Reconciliation (procedure),2026-03-14,Approved,2026-03-28,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10271,M01047,CT Scan,2026-06-11,Approved,2026-06-13,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10272,M00150,RhD passive immunization,2026-06-02,Denied,2026-06-06,Synthetic,Prior authorization for RhD passive immunization was not approved.
+AUTH10273,M00549,Physical examination following birth,2026-04-16,Approved,2026-04-27,Synthetic,Prior authorization for Physical examination following birth has been approved.
+AUTH10274,M01001,Renal dialysis (procedure),2026-05-07,Approved,2026-05-15,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10275,M00328,Medication Reconciliation (procedure),2026-05-21,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10276,M00948,Cognitive and behavioral therapy,2026-06-19,Approved,2026-06-24,Synthetic,Prior authorization for Cognitive and behavioral therapy has been approved.
+AUTH10277,M00807,Medication Reconciliation (procedure),2026-05-17,Approved,2026-05-27,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10278,M00971,Combined chemotherapy and radiation therapy (procedure),2026-02-14,Denied,2026-02-23,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) was not approved.
+AUTH10279,M00679,Medication Reconciliation (procedure),2026-08-10,Approved,2026-08-14,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10280,M00137,Combined chemotherapy and radiation therapy (procedure),2026-07-22,Approved,2026-07-29,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10281,M00972,Ultrasound scan for fetal viability,2026-04-09,Approved,2026-04-13,Synthetic,Prior authorization for Ultrasound scan for fetal viability has been approved.
+AUTH10282,M00045,Hepatitis B Surface Antigen Measurement,2026-02-17,Approved,2026-03-01,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10283,M01115,Urine culture,2026-04-09,Approved,2026-04-10,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH10284,M00343,Standard pregnancy test,2026-07-20,Approved,2026-07-27,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10285,M00855,Hepatitis C antibody test,2026-02-16,Approved,2026-02-27,Synthetic,Prior authorization for Hepatitis C antibody test has been approved.
+AUTH10286,M01119,Catheter ablation of tissue of heart,2026-03-17,Approved,2026-03-26,Synthetic,Prior authorization for Catheter ablation of tissue of heart has been approved.
+AUTH10287,M00570,Bilateral tubal ligation,2026-03-30,Approved,2026-04-11,Synthetic,Prior authorization for Bilateral tubal ligation has been approved.
+AUTH10288,M01082,Auscultation of the fetal heart,2026-03-25,Approved,2026-04-06,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10289,M00009,Hepatitis C antibody test,2026-04-18,Approved,2026-04-23,Synthetic,Prior authorization for Hepatitis C antibody test has been approved.
+AUTH10290,M01023,Auscultation of the fetal heart,2026-06-14,Pending,,Synthetic,Prior authorization request for Auscultation of the fetal heart is awaiting review.
+AUTH10291,M00186,Human immunodeficiency virus antigen test,2026-06-24,Approved,2026-07-06,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH10292,M00271,Epidural anesthesia,2026-03-28,Cancelled,2026-04-09,Synthetic,Prior authorization for Epidural anesthesia was cancelled.
+AUTH10293,M00972,Evaluation of uterine fundal height,2026-06-26,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10294,M00510,Urine culture,2026-04-11,Approved,2026-04-21,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH10295,M00796,Medication Reconciliation (procedure),2026-03-31,Approved,2026-04-02,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10296,M00719,CT Scan,2026-06-24,Approved,2026-06-30,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10297,M00762,Auscultation of the fetal heart,2026-06-28,Approved,2026-07-10,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10298,M00681,CT Scan,2026-03-29,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10299,M00843,Auscultation of the fetal heart,2026-08-01,Cancelled,2026-08-10,Synthetic,Prior authorization for Auscultation of the fetal heart was cancelled.
+AUTH10300,M00249,Teleradiotherapy procedure (procedure),2026-05-30,Approved,2026-06-02,Synthetic,Prior authorization for Teleradiotherapy procedure (procedure) has been approved.
+AUTH10301,M00471,CT Scan,2026-03-02,Denied,2026-03-10,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10302,M00936,Catheter ablation of tissue of heart,2026-07-17,Denied,2026-07-27,Synthetic,Prior authorization for Catheter ablation of tissue of heart was not approved.
+AUTH10303,M00336,CT Scan,2026-06-01,Approved,2026-06-09,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10304,M00358,Colonoscopy,2026-05-17,Pending,,Synthetic,Prior authorization request for Colonoscopy is awaiting review.
+AUTH10305,M00549,Standard pregnancy test,2026-07-30,Approved,2026-08-13,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10306,M01013,Medication Reconciliation (procedure),2026-04-12,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10307,M00961,Throat culture (procedure),2026-07-27,Approved,2026-07-29,Synthetic,Prior authorization for Throat culture (procedure) has been approved.
+AUTH10308,M00733,Standard pregnancy test,2026-03-18,Approved,2026-03-19,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10309,M00768,Counseling for termination of pregnancy,2026-07-05,Pending,,Synthetic,Prior authorization request for Counseling for termination of pregnancy is awaiting review.
+AUTH10310,M00619,Medication Reconciliation (procedure),2026-03-21,Denied,2026-03-23,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10311,M00920,Medication Reconciliation (procedure),2026-06-10,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10312,M00899,Evaluation of uterine fundal height,2026-04-28,Approved,2026-05-11,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10313,M00455,Subcutaneous immunotherapy,2026-03-07,Approved,2026-03-16,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10314,M00378,Renal dialysis (procedure),2026-05-07,Approved,2026-05-15,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10315,M00370,Medication Reconciliation (procedure),2026-05-28,Denied,2026-06-04,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10316,M00232,Physical examination following birth,2026-05-26,Approved,2026-05-27,Synthetic,Prior authorization for Physical examination following birth has been approved.
+AUTH10317,M00375,Physical examination of mother,2026-03-09,Cancelled,2026-03-11,Synthetic,Prior authorization for Physical examination of mother was cancelled.
+AUTH10318,M00435,CT Scan,2026-06-20,Approved,2026-06-25,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10319,M00732,Mammography (procedure),2026-02-24,Pending,,Synthetic,Prior authorization request for Mammography (procedure) is awaiting review.
+AUTH10320,M00129,Medication Reconciliation (procedure),2026-06-12,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10321,M00812,Allergy screening test,2026-07-24,Pending,,Synthetic,Prior authorization request for Allergy screening test is awaiting review.
+AUTH10322,M00093,Insertion of subcutaneous contraceptive,2026-04-30,Approved,2026-05-10,Synthetic,Prior authorization for Insertion of subcutaneous contraceptive has been approved.
+AUTH10323,M00064,Insertion of biventricular implantable cardioverter defibrillator,2026-04-14,Approved,2026-04-18,Synthetic,Prior authorization for Insertion of biventricular implantable cardioverter defibrillator has been approved.
+AUTH10324,M00234,Evaluation of uterine fundal height,2026-05-31,Approved,2026-06-12,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10325,M00950,Information gathering (procedure),2026-04-18,Pending,,Synthetic,Prior authorization request for Information gathering (procedure) is awaiting review.
+AUTH10326,M00594,Measurement of Varicella-zoster virus antibody,2026-06-14,Denied,2026-06-27,Synthetic,Prior authorization for Measurement of Varicella-zoster virus antibody was not approved.
+AUTH10327,M00378,Renal dialysis (procedure),2026-03-05,Approved,2026-03-18,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10328,M00819,Subcutaneous immunotherapy,2026-06-23,Approved,2026-07-02,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10329,M01001,Renal dialysis (procedure),2026-06-16,Approved,2026-06-21,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10330,M00678,Evaluation of uterine fundal height,2026-07-07,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10331,M00052,Medication Reconciliation (procedure),2026-07-01,Approved,2026-07-11,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10332,M00962,Sputum examination (procedure),2026-03-20,Denied,2026-03-28,Synthetic,Prior authorization for Sputum examination (procedure) was not approved.
+AUTH10333,M00378,CT Scan,2026-07-12,Approved,2026-07-17,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10334,M00778,CT Scan,2026-02-14,Approved,2026-02-19,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10335,M00739,Renal dialysis (procedure),2026-04-06,Approved,2026-04-14,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10336,M00796,Screening for occult blood in feces (procedure),2026-07-23,Approved,2026-07-30,Synthetic,Prior authorization for Screening for occult blood in feces (procedure) has been approved.
+AUTH10337,M00081,Chemotherapy (procedure),2026-05-22,Approved,2026-05-23,Synthetic,Prior authorization for Chemotherapy (procedure) has been approved.
+AUTH10338,M00773,Urine screening test for diabetes,2026-07-20,Approved,2026-07-31,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10339,M01071,Cognitive and behavioral therapy,2026-03-18,Approved,2026-03-19,Synthetic,Prior authorization for Cognitive and behavioral therapy has been approved.
+AUTH10340,M00651,CT Scan,2026-02-21,Approved,2026-03-03,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10341,M01030,Hearing examination (procedure),2026-08-02,Approved,2026-08-05,Synthetic,Prior authorization for Hearing examination (procedure) has been approved.
+AUTH10342,M01031,CT Scan,2026-04-14,Approved,2026-04-22,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10343,M00366,CT Scan,2026-06-02,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10344,M00039,Auscultation of the fetal heart,2026-03-16,Approved,2026-03-30,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10345,M01030,Auscultation of the fetal heart,2026-04-09,Cancelled,2026-04-17,Synthetic,Prior authorization for Auscultation of the fetal heart was cancelled.
+AUTH10346,M00364,CT Scan,2026-05-15,Approved,2026-05-21,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10347,M00365,CT Scan,2026-02-22,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10348,M00025,Urine protein test,2026-07-02,Approved,2026-07-14,Synthetic,Prior authorization for Urine protein test has been approved.
+AUTH10349,M00638,Review of systems (procedure),2026-04-08,Approved,2026-04-15,Synthetic,Prior authorization for Review of systems (procedure) has been approved.
+AUTH10350,M00543,Medication Reconciliation (procedure),2026-03-25,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10351,M00123,Auscultation of the fetal heart,2026-07-21,Approved,2026-07-27,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10352,M00439,Urine culture,2026-07-14,Cancelled,2026-07-21,Synthetic,Prior authorization for Urine culture was cancelled.
+AUTH10353,M00535,Evaluation of uterine fundal height,2026-04-03,Approved,2026-04-04,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10354,M01021,Hemoglobin / Hematocrit / Platelet count,2026-02-25,Denied,2026-03-05,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count was not approved.
+AUTH10355,M00167,CT Scan,2026-04-29,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10356,M00511,Medication Reconciliation (procedure),2026-04-02,Approved,2026-04-15,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10357,M00461,Combined chemotherapy and radiation therapy (procedure),2026-04-07,Approved,2026-04-20,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10358,M00859,Physical examination following birth,2026-07-30,Approved,2026-08-08,Synthetic,Prior authorization for Physical examination following birth has been approved.
+AUTH10359,M00039,Skin test for tuberculosis,2026-07-10,Denied,2026-07-18,Synthetic,Prior authorization for Skin test for tuberculosis was not approved.
+AUTH10360,M00943,CT Scan,2026-02-15,Approved,2026-02-16,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10361,M00800,CT Scan,2026-03-04,Approved,2026-03-08,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10362,M01081,CT Scan,2026-07-03,Approved,2026-07-04,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10363,M00378,Renal dialysis (procedure),2026-03-24,Approved,2026-03-28,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10364,M00378,Catheter ablation of tissue of heart,2026-07-14,Approved,2026-07-16,Synthetic,Prior authorization for Catheter ablation of tissue of heart has been approved.
+AUTH10365,M00378,Renal dialysis (procedure),2026-02-28,Approved,2026-03-08,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10366,M01115,Auscultation of the fetal heart,2026-05-30,Approved,2026-06-04,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10367,M00978,Sputum examination (procedure),2026-04-28,Approved,2026-05-06,Synthetic,Prior authorization for Sputum examination (procedure) has been approved.
+AUTH10368,M00880,Medication Reconciliation (procedure),2026-06-11,Approved,2026-06-14,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10369,M00071,CT Scan,2026-05-06,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10370,M00759,Medication Reconciliation (procedure),2026-03-12,Approved,2026-03-15,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10371,M00773,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-07-26,Approved,2026-08-08,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH10372,M00739,Renal dialysis (procedure),2026-04-28,Approved,2026-05-11,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10373,M00739,Renal dialysis (procedure),2026-04-05,Approved,2026-04-06,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10374,M00378,Renal dialysis (procedure),2026-06-01,Approved,2026-06-15,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10375,M00042,Medication Reconciliation (procedure),2026-03-15,Approved,2026-03-26,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10376,M00936,CT Scan,2026-04-09,Denied,2026-04-17,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10377,M00378,CT Scan,2026-03-28,Approved,2026-04-03,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10378,M00117,Hepatitis B Surface Antigen Measurement,2026-03-24,Approved,2026-03-31,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10379,M00369,Auscultation of the fetal heart,2026-04-18,Denied,2026-05-02,Synthetic,Prior authorization for Auscultation of the fetal heart was not approved.
+AUTH10380,M00651,CT Scan,2026-06-25,Cancelled,2026-06-29,Synthetic,Prior authorization for CT Scan was cancelled.
+AUTH10381,M00103,Urine protein test,2026-03-19,Approved,2026-04-02,Synthetic,Prior authorization for Urine protein test has been approved.
+AUTH10382,M01020,Plain chest X-ray,2026-04-29,Pending,,Synthetic,Prior authorization request for Plain chest X-ray is awaiting review.
+AUTH10383,M01082,Evaluation of uterine fundal height,2026-04-13,Approved,2026-04-26,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10384,M01026,Subcutaneous immunotherapy,2026-05-07,Approved,2026-05-18,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10385,M00739,Renal dialysis (procedure),2026-02-27,Cancelled,2026-03-07,Synthetic,Prior authorization for Renal dialysis (procedure) was cancelled.
+AUTH10386,M00739,Renal dialysis (procedure),2026-08-03,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10387,M00852,RhD passive immunization,2026-03-14,Approved,2026-03-16,Synthetic,Prior authorization for RhD passive immunization has been approved.
+AUTH10388,M00335,Sputum examination (procedure),2026-04-22,Pending,,Synthetic,Prior authorization request for Sputum examination (procedure) is awaiting review.
+AUTH10389,M01001,Renal dialysis (procedure),2026-04-18,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10390,M00378,Renal dialysis (procedure),2026-07-07,Approved,2026-07-18,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10391,M00226,Urine culture,2026-07-04,Pending,,Synthetic,Prior authorization request for Urine culture is awaiting review.
+AUTH10392,M00978,CT Scan,2026-06-06,Approved,2026-06-18,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10393,M00560,Auscultation of the fetal heart,2026-05-03,Approved,2026-05-17,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10394,M00065,Ultrasound scan for fetal viability,2026-05-20,Denied,2026-06-03,Synthetic,Prior authorization for Ultrasound scan for fetal viability was not approved.
+AUTH10395,M00044,Throat culture (procedure),2026-03-29,Approved,2026-04-04,Synthetic,Prior authorization for Throat culture (procedure) has been approved.
+AUTH10396,M00739,Renal dialysis (procedure),2026-03-05,Approved,2026-03-18,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10397,M00232,Evaluation of uterine fundal height,2026-04-10,Denied,2026-04-11,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10398,M01001,Renal dialysis (procedure),2026-03-07,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10399,M00577,Physical exam following abortion,2026-03-04,Approved,2026-03-09,Synthetic,Prior authorization for Physical exam following abortion has been approved.
+AUTH10400,M00637,Medication Reconciliation (procedure),2026-06-15,Approved,2026-06-22,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10401,M01001,Renal dialysis (procedure),2026-07-18,Approved,2026-07-30,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10402,M00599,Auscultation of the fetal heart,2026-07-18,Approved,2026-07-30,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10403,M01142,Medication Reconciliation (procedure),2026-05-28,Denied,2026-05-29,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10404,M01001,Renal dialysis (procedure),2026-05-21,Approved,2026-05-26,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10405,M01032,Urine screening for glucose,2026-05-13,Approved,2026-05-16,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH10406,M00744,Streptococcus pneumoniae group B antigen test,2026-06-11,Approved,2026-06-21,Synthetic,Prior authorization for Streptococcus pneumoniae group B antigen test has been approved.
+AUTH10407,M00948,Cognitive and behavioral therapy,2026-02-19,Approved,2026-02-22,Synthetic,Prior authorization for Cognitive and behavioral therapy has been approved.
+AUTH10408,M01101,Transthoracic three dimensional ultrasonography of heart (procedure),2026-06-29,Pending,,Synthetic,Prior authorization request for Transthoracic three dimensional ultrasonography of heart (procedure) is awaiting review.
+AUTH10409,M00983,Measurement of Varicella-zoster virus antibody,2026-05-07,Approved,2026-05-11,Synthetic,Prior authorization for Measurement of Varicella-zoster virus antibody has been approved.
+AUTH10410,M00338,Subcutaneous immunotherapy,2026-04-07,Denied,2026-04-10,Synthetic,Prior authorization for Subcutaneous immunotherapy was not approved.
+AUTH10411,M00917,Urine protein test,2026-06-14,Approved,2026-06-19,Synthetic,Prior authorization for Urine protein test has been approved.
+AUTH10412,M00183,Urine screening for glucose,2026-04-17,Approved,2026-04-18,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH10413,M00207,Radiation therapy care (regime/therapy),2026-04-15,Denied,2026-04-26,Synthetic,Prior authorization for Radiation therapy care (regime/therapy) was not approved.
+AUTH10414,M00549,CT Scan,2026-03-26,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10415,M00711,CT Scan,2026-04-21,Denied,2026-05-01,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10416,M00289,Medication Reconciliation (procedure),2026-05-28,Approved,2026-06-04,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10417,M01023,Rubella screening,2026-02-17,Approved,2026-03-03,Synthetic,Prior authorization for Rubella screening has been approved.
+AUTH10418,M00378,Renal dialysis (procedure),2026-05-27,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10419,M00186,Evaluation of uterine fundal height,2026-05-06,Denied,2026-05-08,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10420,M00723,Throat culture (procedure),2026-06-13,Approved,2026-06-19,Synthetic,Prior authorization for Throat culture (procedure) has been approved.
+AUTH10421,M00482,CT Scan,2026-03-18,Approved,2026-03-30,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10422,M00065,Skin test for tuberculosis,2026-05-29,Pending,,Synthetic,Prior authorization request for Skin test for tuberculosis is awaiting review.
+AUTH10423,M00027,Medication Reconciliation (procedure),2026-02-25,Approved,2026-02-26,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10424,M00434,Colonoscopy,2026-03-21,Denied,2026-04-03,Synthetic,Prior authorization for Colonoscopy was not approved.
+AUTH10425,M00739,Renal dialysis (procedure),2026-07-31,Denied,2026-08-12,Synthetic,Prior authorization for Renal dialysis (procedure) was not approved.
+AUTH10426,M00494,CT Scan,2026-04-07,Approved,2026-04-12,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10427,M00117,Auscultation of the fetal heart,2026-06-15,Approved,2026-06-21,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10428,M00474,Physical examination following birth,2026-06-17,Approved,2026-06-27,Synthetic,Prior authorization for Physical examination following birth has been approved.
+AUTH10429,M00450,Combined chemotherapy and radiation therapy (procedure),2026-06-09,Approved,2026-06-21,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10430,M00972,Hepatitis B Surface Antigen Measurement,2026-02-25,Approved,2026-02-28,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10431,M00557,Medication Reconciliation (procedure),2026-03-05,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10432,M00357,Bilateral tubal ligation,2026-03-05,Approved,2026-03-10,Synthetic,Prior authorization for Bilateral tubal ligation has been approved.
+AUTH10433,M00020,Evaluation of uterine fundal height,2026-04-22,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10434,M01121,Auscultation of the fetal heart,2026-05-11,Approved,2026-05-13,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10435,M01119,CT Scan,2026-05-29,Approved,2026-06-05,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10436,M00651,Urine screening test for diabetes,2026-06-29,Approved,2026-07-12,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10437,M01001,Renal dialysis (procedure),2026-03-27,Denied,2026-04-02,Synthetic,Prior authorization for Renal dialysis (procedure) was not approved.
+AUTH10438,M00069,Urine culture,2026-03-30,Approved,2026-04-04,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH10439,M00976,Medication Reconciliation (procedure),2026-07-01,Approved,2026-07-15,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10440,M00720,Hemoglobin / Hematocrit / Platelet count,2026-04-11,Cancelled,2026-04-16,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count was cancelled.
+AUTH10441,M00951,Hepatitis B Surface Antigen Measurement,2026-05-18,Approved,2026-05-26,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10442,M00739,Renal dialysis (procedure),2026-07-24,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10443,M00957,Medication Reconciliation (procedure),2026-06-16,Denied,2026-06-28,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10444,M00625,Auscultation of the fetal heart,2026-02-21,Cancelled,2026-03-07,Synthetic,Prior authorization for Auscultation of the fetal heart was cancelled.
+AUTH10445,M00269,RhD passive immunization,2026-03-23,Approved,2026-04-05,Synthetic,Prior authorization for RhD passive immunization has been approved.
+AUTH10446,M00745,Medication Reconciliation (procedure),2026-05-03,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10447,M01023,Streptococcus pneumoniae group B antigen test,2026-03-28,Pending,,Synthetic,Prior authorization request for Streptococcus pneumoniae group B antigen test is awaiting review.
+AUTH10448,M00610,Evaluation of uterine fundal height,2026-05-10,Approved,2026-05-21,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10449,M00725,Chlamydia antigen test,2026-06-06,Approved,2026-06-20,Synthetic,Prior authorization for Chlamydia antigen test has been approved.
+AUTH10450,M01121,Childbirth,2026-03-02,Denied,2026-03-04,Synthetic,Prior authorization for Childbirth was not approved.
+AUTH10451,M00378,Renal dialysis (procedure),2026-02-21,Approved,2026-02-22,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10452,M00944,CT Scan,2026-03-07,Denied,2026-03-16,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10453,M01115,Hepatitis B Surface Antigen Measurement,2026-05-21,Denied,2026-05-25,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement was not approved.
+AUTH10454,M00510,Auscultation of the fetal heart,2026-02-28,Pending,,Synthetic,Prior authorization request for Auscultation of the fetal heart is awaiting review.
+AUTH10455,M00001,Medication Reconciliation (procedure),2026-04-16,Denied,2026-04-21,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10456,M00157,Medication Reconciliation (procedure),2026-02-27,Approved,2026-03-02,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10457,M00924,Evaluation of uterine fundal height,2026-08-01,Denied,2026-08-06,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10458,M00045,Insertion of subcutaneous contraceptive,2026-04-08,Pending,,Synthetic,Prior authorization request for Insertion of subcutaneous contraceptive is awaiting review.
+AUTH10459,M00456,CT Scan,2026-06-13,Denied,2026-06-16,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10460,M00484,CT Scan,2026-05-05,Approved,2026-05-16,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10461,M01023,Chlamydia antigen test,2026-02-15,Denied,2026-02-22,Synthetic,Prior authorization for Chlamydia antigen test was not approved.
+AUTH10462,M00343,Childbirth,2026-03-15,Approved,2026-03-18,Synthetic,Prior authorization for Childbirth has been approved.
+AUTH10463,M00266,Medication Reconciliation (procedure),2026-04-28,Approved,2026-05-12,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10464,M00517,Medication Reconciliation (procedure),2026-04-09,Approved,2026-04-14,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10465,M00714,Subcutaneous immunotherapy,2026-08-04,Approved,2026-08-08,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10466,M00021,Teleradiotherapy procedure (procedure),2026-04-21,Approved,2026-04-25,Synthetic,Prior authorization for Teleradiotherapy procedure (procedure) has been approved.
+AUTH10467,M00794,Blood typing  RH typing,2026-05-12,Pending,,Synthetic,Prior authorization request for Blood typing  RH typing is awaiting review.
+AUTH10468,M00378,Renal dialysis (procedure),2026-02-18,Approved,2026-03-01,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10469,M00943,RhD passive immunization,2026-05-13,Pending,,Synthetic,Prior authorization request for RhD passive immunization is awaiting review.
+AUTH10470,M00978,Cytopathology procedure  preparation of smear  genital source,2026-06-03,Pending,,Synthetic,Prior authorization request for Cytopathology procedure  preparation of smear  genital source is awaiting review.
+AUTH10471,M00528,Auscultation of the fetal heart,2026-07-12,Denied,2026-07-26,Synthetic,Prior authorization for Auscultation of the fetal heart was not approved.
+AUTH10472,M00610,CT Scan,2026-04-18,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10473,M00045,CT Scan,2026-06-19,Approved,2026-06-29,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10474,M00186,Auscultation of the fetal heart,2026-08-07,Pending,,Synthetic,Prior authorization request for Auscultation of the fetal heart is awaiting review.
+AUTH10475,M00577,Counseling for termination of pregnancy,2026-05-19,Approved,2026-05-22,Synthetic,Prior authorization for Counseling for termination of pregnancy has been approved.
+AUTH10476,M01093,Pulmonary rehabilitation (regime/therapy),2026-03-21,Approved,2026-04-04,Synthetic,Prior authorization for Pulmonary rehabilitation (regime/therapy) has been approved.
+AUTH10477,M00510,Evaluation of uterine fundal height,2026-03-24,Approved,2026-03-28,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10478,M00249,Teleradiotherapy procedure (procedure),2026-06-14,Approved,2026-06-17,Synthetic,Prior authorization for Teleradiotherapy procedure (procedure) has been approved.
+AUTH10479,M01141,Urine screening for glucose,2026-03-13,Pending,,Synthetic,Prior authorization request for Urine screening for glucose is awaiting review.
+AUTH10480,M00536,Alpha-fetoprotein test,2026-07-06,Cancelled,2026-07-15,Synthetic,Prior authorization for Alpha-fetoprotein test was cancelled.
+AUTH10481,M00672,Combined chemotherapy and radiation therapy (procedure),2026-06-09,Approved,2026-06-11,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10482,M00039,Streptococcus pneumoniae group B antigen test,2026-02-24,Denied,2026-02-27,Synthetic,Prior authorization for Streptococcus pneumoniae group B antigen test was not approved.
+AUTH10483,M00682,Skin test for tuberculosis,2026-08-09,Approved,2026-08-22,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10484,M00528,Evaluation of uterine fundal height,2026-06-13,Approved,2026-06-14,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10485,M00378,Renal dialysis (procedure),2026-06-29,Approved,2026-07-02,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10486,M00394,Medication Reconciliation (procedure),2026-04-27,Approved,2026-05-09,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10487,M00238,Evaluation of uterine fundal height,2026-07-27,Approved,2026-08-09,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10488,M00637,Urine screening for glucose,2026-05-12,Approved,2026-05-14,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH10489,M00747,Fetal anatomy study,2026-04-19,Approved,2026-04-29,Synthetic,Prior authorization for Fetal anatomy study has been approved.
+AUTH10490,M00974,Urine screening for glucose,2026-08-01,Approved,2026-08-15,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH10491,M01093,Spirometry (procedure),2026-02-25,Approved,2026-03-05,Synthetic,Prior authorization for Spirometry (procedure) has been approved.
+AUTH10492,M00331,Colonoscopy,2026-03-01,Cancelled,2026-03-02,Synthetic,Prior authorization for Colonoscopy was cancelled.
+AUTH10493,M00065,Physical examination of mother,2026-04-12,Approved,2026-04-19,Synthetic,Prior authorization for Physical examination of mother has been approved.
+AUTH10494,M01001,Renal dialysis (procedure),2026-02-18,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10495,M01084,Colonoscopy,2026-04-21,Pending,,Synthetic,Prior authorization request for Colonoscopy is awaiting review.
+AUTH10496,M00813,Auscultation of the fetal heart,2026-07-23,Approved,2026-07-26,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10497,M00772,Fetal anatomy study,2026-07-27,Pending,,Synthetic,Prior authorization request for Fetal anatomy study is awaiting review.
+AUTH10498,M00524,RhD passive immunization,2026-03-06,Approved,2026-03-15,Synthetic,Prior authorization for RhD passive immunization has been approved.
+AUTH10499,M00739,Renal dialysis (procedure),2026-05-21,Approved,2026-05-31,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10500,M00366,Urine protein test,2026-03-30,Approved,2026-04-08,Synthetic,Prior authorization for Urine protein test has been approved.
+AUTH10501,M01164,Spirometry (procedure),2026-03-11,Approved,2026-03-24,Synthetic,Prior authorization for Spirometry (procedure) has been approved.
+AUTH10502,M00177,Evaluation of uterine fundal height,2026-02-14,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10503,M00917,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-02-26,Approved,2026-03-11,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH10504,M00550,Auscultation of the fetal heart,2026-03-24,Approved,2026-03-28,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10505,M00052,Auscultation of the fetal heart,2026-04-24,Approved,2026-04-28,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10506,M00603,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-04-29,Approved,2026-05-07,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH10507,M00944,CT Scan,2026-05-02,Approved,2026-05-04,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10508,M00295,Evaluation of uterine fundal height,2026-05-24,Approved,2026-06-04,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10509,M00532,Colonoscopy,2026-06-08,Approved,2026-06-11,Synthetic,Prior authorization for Colonoscopy has been approved.
+AUTH10510,M00450,Combined chemotherapy and radiation therapy (procedure),2026-02-18,Denied,2026-02-20,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) was not approved.
+AUTH10511,M00772,Hepatitis C antibody test,2026-07-20,Approved,2026-07-22,Synthetic,Prior authorization for Hepatitis C antibody test has been approved.
+AUTH10512,M00995,Subcutaneous immunotherapy,2026-04-24,Pending,,Synthetic,Prior authorization request for Subcutaneous immunotherapy is awaiting review.
+AUTH10513,M00012,Evaluation of uterine fundal height,2026-05-09,Approved,2026-05-18,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10514,M00045,Urine screening for glucose,2026-07-28,Approved,2026-08-06,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH10515,M00796,Medication Reconciliation (procedure),2026-03-22,Approved,2026-03-24,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10516,M00657,Hemoglobin / Hematocrit / Platelet count,2026-04-29,Approved,2026-05-10,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH10517,M01013,Medication Reconciliation (procedure),2026-04-26,Denied,2026-05-08,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10518,M00830,Sputum examination (procedure),2026-07-30,Cancelled,2026-08-09,Synthetic,Prior authorization for Sputum examination (procedure) was cancelled.
+AUTH10519,M00021,CT Scan,2026-05-25,Approved,2026-06-04,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10520,M01077,Auscultation of the fetal heart,2026-04-05,Approved,2026-04-16,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10521,M00766,Medication Reconciliation (procedure),2026-04-11,Approved,2026-04-13,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10522,M00744,Evaluation of uterine fundal height,2026-05-15,Approved,2026-05-21,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10523,M01121,Rubella screening,2026-07-14,Approved,2026-07-24,Synthetic,Prior authorization for Rubella screening has been approved.
+AUTH10524,M00733,Evaluation of uterine fundal height,2026-06-16,Approved,2026-06-30,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10525,M00768,Auscultation of the fetal heart,2026-03-22,Cancelled,2026-04-05,Synthetic,Prior authorization for Auscultation of the fetal heart was cancelled.
+AUTH10526,M00898,Skin test for tuberculosis,2026-03-06,Approved,2026-03-17,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10527,M00995,Subcutaneous immunotherapy,2026-03-23,Pending,,Synthetic,Prior authorization request for Subcutaneous immunotherapy is awaiting review.
+AUTH10528,M00065,Hepatitis B Surface Antigen Measurement,2026-02-25,Approved,2026-03-02,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10529,M00603,Alpha-fetoprotein test,2026-08-05,Pending,,Synthetic,Prior authorization request for Alpha-fetoprotein test is awaiting review.
+AUTH10530,M00682,Auscultation of the fetal heart,2026-02-14,Approved,2026-02-20,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10531,M00944,Catheter ablation of tissue of heart,2026-05-15,Pending,,Synthetic,Prior authorization request for Catheter ablation of tissue of heart is awaiting review.
+AUTH10532,M00378,Renal dialysis (procedure),2026-07-07,Approved,2026-07-14,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10533,M00103,Physical examination,2026-07-26,Pending,,Synthetic,Prior authorization request for Physical examination is awaiting review.
+AUTH10534,M01115,Blood typing  RH typing,2026-03-03,Cancelled,2026-03-05,Synthetic,Prior authorization for Blood typing  RH typing was cancelled.
+AUTH10535,M00497,Evaluation of uterine fundal height,2026-03-30,Approved,2026-04-06,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10536,M00713,Medication Reconciliation (procedure),2026-04-18,Approved,2026-04-24,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10537,M00739,Renal dialysis (procedure),2026-05-25,Approved,2026-06-07,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10538,M01003,Auscultation of the fetal heart,2026-03-20,Approved,2026-03-21,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10539,M00739,Renal dialysis (procedure),2026-07-04,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10540,M01124,CT Scan,2026-03-07,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10541,M01023,Auscultation of the fetal heart,2026-07-23,Approved,2026-08-03,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10542,M00288,Hemoglobin / Hematocrit / Platelet count,2026-04-26,Approved,2026-05-04,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH10543,M00762,Skin test for tuberculosis,2026-04-28,Approved,2026-05-11,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10544,M00739,Renal dialysis (procedure),2026-04-03,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10545,M00752,Medication Reconciliation (procedure),2026-04-24,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10546,M00045,Skin test for tuberculosis,2026-02-20,Approved,2026-02-28,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10547,M00031,CT Scan,2026-03-31,Approved,2026-04-01,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10548,M00550,Standard pregnancy test,2026-06-17,Approved,2026-06-27,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10549,M00528,Auscultation of the fetal heart,2026-07-29,Pending,,Synthetic,Prior authorization request for Auscultation of the fetal heart is awaiting review.
+AUTH10550,M00744,Evaluation of uterine fundal height,2026-05-27,Denied,2026-06-09,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10551,M00608,Colonoscopy,2026-07-08,Approved,2026-07-13,Synthetic,Prior authorization for Colonoscopy has been approved.
+AUTH10552,M01010,Physical examination following birth,2026-05-21,Pending,,Synthetic,Prior authorization request for Physical examination following birth is awaiting review.
+AUTH10553,M00983,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-04-07,Approved,2026-04-10,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH10554,M00936,Medication Reconciliation (procedure),2026-07-10,Approved,2026-07-22,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10555,M00378,Renal dialysis (procedure),2026-06-15,Approved,2026-06-29,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10556,M01032,Evaluation of uterine fundal height,2026-02-22,Approved,2026-02-24,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10557,M00944,CT Scan,2026-05-03,Denied,2026-05-04,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10558,M01141,Chlamydia antigen test,2026-04-23,Pending,,Synthetic,Prior authorization request for Chlamydia antigen test is awaiting review.
+AUTH10559,M00288,Brief general examination (procedure),2026-07-24,Denied,2026-08-03,Synthetic,Prior authorization for Brief general examination (procedure) was not approved.
+AUTH10560,M00697,Subcutaneous immunotherapy,2026-04-25,Approved,2026-05-07,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10561,M01003,Cytopathology procedure  preparation of smear  genital source,2026-03-02,Approved,2026-03-04,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source has been approved.
+AUTH10562,M00063,Medication Reconciliation (procedure),2026-05-01,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10563,M01103,Medication Reconciliation (procedure),2026-05-21,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10564,M00772,Childbirth,2026-03-07,Approved,2026-03-19,Synthetic,Prior authorization for Childbirth has been approved.
+AUTH10565,M00536,Urine screening test for diabetes,2026-05-12,Pending,,Synthetic,Prior authorization request for Urine screening test for diabetes is awaiting review.
+AUTH10566,M00027,Subcutaneous immunotherapy,2026-07-16,Approved,2026-07-26,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10567,M01001,Renal dialysis (procedure),2026-05-02,Approved,2026-05-09,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10568,M00469,Insertion of subcutaneous contraceptive,2026-05-25,Approved,2026-05-29,Synthetic,Prior authorization for Insertion of subcutaneous contraceptive has been approved.
+AUTH10569,M00665,Evaluation of uterine fundal height,2026-05-19,Approved,2026-05-21,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10570,M00222,Medication Reconciliation (procedure),2026-04-04,Approved,2026-04-13,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10571,M00378,Renal dialysis (procedure),2026-04-04,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10572,M00226,Evaluation of uterine fundal height,2026-05-15,Approved,2026-05-29,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10573,M00378,Renal dialysis (procedure),2026-02-28,Approved,2026-03-04,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10574,M01146,CT Scan,2026-07-17,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10575,M00778,Urine screening for glucose,2026-06-23,Pending,,Synthetic,Prior authorization request for Urine screening for glucose is awaiting review.
+AUTH10576,M00521,CT Scan,2026-07-04,Approved,2026-07-15,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10577,M00039,Auscultation of the fetal heart,2026-07-24,Pending,,Synthetic,Prior authorization request for Auscultation of the fetal heart is awaiting review.
+AUTH10578,M01032,CT Scan,2026-03-05,Approved,2026-03-18,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10579,M00025,Alpha-fetoprotein test,2026-03-21,Approved,2026-03-29,Synthetic,Prior authorization for Alpha-fetoprotein test has been approved.
+AUTH10580,M00822,Hearing examination (procedure),2026-02-19,Denied,2026-03-01,Synthetic,Prior authorization for Hearing examination (procedure) was not approved.
+AUTH10581,M00093,Physical examination following birth,2026-03-01,Approved,2026-03-11,Synthetic,Prior authorization for Physical examination following birth has been approved.
+AUTH10582,M00625,Fetal anatomy study,2026-05-22,Denied,2026-06-02,Synthetic,Prior authorization for Fetal anatomy study was not approved.
+AUTH10583,M00098,Subcutaneous immunotherapy,2026-05-24,Pending,,Synthetic,Prior authorization request for Subcutaneous immunotherapy is awaiting review.
+AUTH10584,M00129,Medication Reconciliation (procedure),2026-07-26,Approved,2026-08-06,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10585,M00497,Measurement of Varicella-zoster virus antibody,2026-05-27,Approved,2026-06-06,Synthetic,Prior authorization for Measurement of Varicella-zoster virus antibody has been approved.
+AUTH10586,M00335,Medication Reconciliation (procedure),2026-07-29,Approved,2026-07-31,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10587,M01082,Auscultation of the fetal heart,2026-05-25,Approved,2026-05-26,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10588,M00575,Blood typing  RH typing,2026-07-29,Approved,2026-08-03,Synthetic,Prior authorization for Blood typing  RH typing has been approved.
+AUTH10589,M00778,Rubella screening,2026-07-24,Approved,2026-08-07,Synthetic,Prior authorization for Rubella screening has been approved.
+AUTH10590,M00949,Medication Reconciliation (procedure),2026-07-20,Approved,2026-07-29,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10591,M00829,Auscultation of the fetal heart,2026-05-06,Approved,2026-05-15,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10592,M00651,Childbirth,2026-08-02,Approved,2026-08-15,Synthetic,Prior authorization for Childbirth has been approved.
+AUTH10593,M00545,Auscultation of the fetal heart,2026-03-19,Approved,2026-03-25,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10594,M00969,Medication Reconciliation (procedure),2026-03-11,Approved,2026-03-14,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10595,M01046,Combined chemotherapy and radiation therapy (procedure),2026-07-28,Approved,2026-08-10,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10596,M01121,Human immunodeficiency virus antigen test,2026-05-17,Cancelled,2026-05-19,Synthetic,Prior authorization for Human immunodeficiency virus antigen test was cancelled.
+AUTH10597,M00389,Medication Reconciliation (procedure),2026-04-05,Approved,2026-04-06,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10598,M00014,Removal of subcutaneous contraceptive,2026-06-10,Approved,2026-06-18,Synthetic,Prior authorization for Removal of subcutaneous contraceptive has been approved.
+AUTH10599,M00369,Standard pregnancy test,2026-03-31,Approved,2026-04-03,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10600,M00651,Urine culture,2026-05-11,Approved,2026-05-16,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH10601,M00376,Medication Reconciliation (procedure),2026-05-05,Approved,2026-05-11,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10602,M01001,Renal dialysis (procedure),2026-02-20,Approved,2026-03-05,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10603,M01001,Renal dialysis (procedure),2026-03-04,Approved,2026-03-06,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10604,M00719,Medication Reconciliation (procedure),2026-05-20,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10605,M00944,CT Scan,2026-02-20,Approved,2026-02-25,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10606,M00012,Evaluation of uterine fundal height,2026-02-25,Cancelled,2026-03-07,Synthetic,Prior authorization for Evaluation of uterine fundal height was cancelled.
+AUTH10607,M00066,Brief general examination (procedure),2026-07-05,Approved,2026-07-15,Synthetic,Prior authorization for Brief general examination (procedure) has been approved.
+AUTH10608,M00299,Cognitive and behavioral therapy,2026-02-24,Pending,,Synthetic,Prior authorization request for Cognitive and behavioral therapy is awaiting review.
+AUTH10609,M00617,Hepatitis C antibody test,2026-05-15,Approved,2026-05-26,Synthetic,Prior authorization for Hepatitis C antibody test has been approved.
+AUTH10610,M00524,Hepatitis B Surface Antigen Measurement,2026-02-15,Approved,2026-02-18,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10611,M00395,CT Scan,2026-03-13,Approved,2026-03-15,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10612,M00103,Measurement of Varicella-zoster virus antibody,2026-05-25,Approved,2026-06-05,Synthetic,Prior authorization for Measurement of Varicella-zoster virus antibody has been approved.
+AUTH10613,M00944,CT Scan,2026-05-20,Approved,2026-05-31,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10614,M01138,Skin test for tuberculosis,2026-02-14,Approved,2026-02-26,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10615,M00096,Evaluation of uterine fundal height,2026-02-18,Denied,2026-02-20,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10616,M00885,Combined chemotherapy and radiation therapy (procedure),2026-02-28,Approved,2026-03-09,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10617,M01165,Measurement of Varicella-zoster virus antibody,2026-05-12,Pending,,Synthetic,Prior authorization request for Measurement of Varicella-zoster virus antibody is awaiting review.
+AUTH10618,M01136,Insertion of subcutaneous contraceptive,2026-05-25,Pending,,Synthetic,Prior authorization request for Insertion of subcutaneous contraceptive is awaiting review.
+AUTH10619,M00347,Auscultation of the fetal heart,2026-06-19,Approved,2026-07-02,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10620,M00943,Cytopathology procedure  preparation of smear  genital source,2026-04-10,Pending,,Synthetic,Prior authorization request for Cytopathology procedure  preparation of smear  genital source is awaiting review.
+AUTH10621,M01093,Spirometry (procedure),2026-07-08,Pending,,Synthetic,Prior authorization request for Spirometry (procedure) is awaiting review.
+AUTH10622,M01151,Plain chest X-ray (procedure),2026-05-29,Approved,2026-05-31,Synthetic,Prior authorization for Plain chest X-ray (procedure) has been approved.
+AUTH10623,M00898,Urine culture,2026-04-05,Approved,2026-04-19,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH10624,M00026,Hemoglobin / Hematocrit / Platelet count,2026-03-31,Pending,,Synthetic,Prior authorization request for Hemoglobin / Hematocrit / Platelet count is awaiting review.
+AUTH10625,M01127,Evaluation of uterine fundal height,2026-05-18,Denied,2026-05-28,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10626,M00210,Cytopathology procedure  preparation of smear  genital source,2026-07-10,Approved,2026-07-13,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source has been approved.
+AUTH10627,M00885,Combined chemotherapy and radiation therapy (procedure),2026-07-02,Pending,,Synthetic,Prior authorization request for Combined chemotherapy and radiation therapy (procedure) is awaiting review.
+AUTH10628,M01077,Urine culture,2026-02-16,Approved,2026-03-01,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH10629,M00082,Chlamydia antigen test,2026-07-01,Approved,2026-07-02,Synthetic,Prior authorization for Chlamydia antigen test has been approved.
+AUTH10630,M00642,Skin test for tuberculosis,2026-04-29,Approved,2026-05-11,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10631,M00378,Renal dialysis (procedure),2026-06-13,Cancelled,2026-06-23,Synthetic,Prior authorization for Renal dialysis (procedure) was cancelled.
+AUTH10632,M00986,Streptococcus pneumoniae group B antigen test,2026-06-01,Approved,2026-06-14,Synthetic,Prior authorization for Streptococcus pneumoniae group B antigen test has been approved.
+AUTH10633,M01163,CT Scan,2026-04-20,Approved,2026-04-24,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10634,M00118,CT Scan,2026-05-25,Cancelled,2026-06-07,Synthetic,Prior authorization for CT Scan was cancelled.
+AUTH10635,M00651,Hepatitis C antibody test,2026-04-14,Denied,2026-04-18,Synthetic,Prior authorization for Hepatitis C antibody test was not approved.
+AUTH10636,M00325,Subcutaneous immunotherapy,2026-05-10,Approved,2026-05-20,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10637,M00020,Cytopathology procedure  preparation of smear  genital source,2026-04-22,Approved,2026-04-27,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source has been approved.
+AUTH10638,M00714,Upper arm X-ray,2026-05-07,Approved,2026-05-14,Synthetic,Prior authorization for Upper arm X-ray has been approved.
+AUTH10639,M00995,Subcutaneous immunotherapy,2026-07-02,Approved,2026-07-15,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10640,M00536,Physical examination of mother,2026-03-11,Pending,,Synthetic,Prior authorization request for Physical examination of mother is awaiting review.
+AUTH10641,M00972,Insertion of intrauterine contraceptive device,2026-06-09,Pending,,Synthetic,Prior authorization request for Insertion of intrauterine contraceptive device is awaiting review.
+AUTH10642,M00505,CT Scan,2026-04-11,Denied,2026-04-20,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10643,M00739,Renal dialysis (procedure),2026-07-17,Approved,2026-07-26,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10644,M00685,Depression screening,2026-07-12,Approved,2026-07-25,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH10645,M00366,Medication Reconciliation (procedure),2026-07-02,Approved,2026-07-11,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10646,M00324,Depression screening,2026-07-06,Approved,2026-07-08,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH10647,M00108,CT Scan,2026-06-17,Approved,2026-06-23,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10648,M00357,Evaluation of uterine fundal height,2026-08-06,Approved,2026-08-13,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10649,M00506,Peripheral blood smear interpretation,2026-04-06,Approved,2026-04-13,Synthetic,Prior authorization for Peripheral blood smear interpretation has been approved.
+AUTH10650,M00822,CT Scan,2026-07-23,Approved,2026-07-24,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10651,M00852,Evaluation of uterine fundal height,2026-05-23,Denied,2026-06-06,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10652,M00972,Physical exam following abortion,2026-02-27,Approved,2026-03-02,Synthetic,Prior authorization for Physical exam following abortion has been approved.
+AUTH10653,M00378,Renal dialysis (procedure),2026-07-08,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10654,M00626,Colonoscopy,2026-04-14,Approved,2026-04-17,Synthetic,Prior authorization for Colonoscopy has been approved.
+AUTH10655,M01003,Fetal anatomy study,2026-04-14,Approved,2026-04-15,Synthetic,Prior authorization for Fetal anatomy study has been approved.
+AUTH10656,M00451,Medication Reconciliation (procedure),2026-07-23,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10657,M00764,Subcutaneous immunotherapy,2026-06-18,Approved,2026-06-27,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10658,M00796,Medication Reconciliation (procedure),2026-03-10,Approved,2026-03-12,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10659,M00966,CT Scan,2026-05-31,Approved,2026-06-02,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10660,M01030,CT Scan,2026-07-31,Approved,2026-08-11,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10661,M00762,Evaluation of uterine fundal height,2026-03-06,Approved,2026-03-08,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10662,M00186,Evaluation of uterine fundal height,2026-04-07,Approved,2026-04-08,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10663,M00625,Ultrasound scan for fetal viability,2026-03-04,Approved,2026-03-08,Synthetic,Prior authorization for Ultrasound scan for fetal viability has been approved.
+AUTH10664,M01115,Auscultation of the fetal heart,2026-07-07,Approved,2026-07-08,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10665,M00069,Hepatitis B Surface Antigen Measurement,2026-03-08,Approved,2026-03-18,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10666,M00434,CT Scan,2026-04-28,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10667,M00777,CT Scan,2026-02-22,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10668,M00609,Medication Reconciliation (procedure),2026-05-12,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10669,M00739,Renal dialysis (procedure),2026-03-31,Approved,2026-04-13,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10670,M01041,Urine screening test for diabetes,2026-04-05,Approved,2026-04-12,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10671,M00898,CT Scan,2026-04-14,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10672,M01103,Medication Reconciliation (procedure),2026-05-05,Cancelled,2026-05-10,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH10673,M00764,Subcutaneous immunotherapy,2026-08-08,Approved,2026-08-10,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10674,M00600,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-05-16,Approved,2026-05-27,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH10675,M00725,Evaluation of uterine fundal height,2026-03-05,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10676,M00312,Evaluation of uterine fundal height,2026-03-17,Approved,2026-03-23,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10677,M00375,CT Scan,2026-07-09,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10678,M00178,CT Scan,2026-03-26,Approved,2026-04-06,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10679,M00647,Information gathering (procedure),2026-06-29,Approved,2026-07-10,Synthetic,Prior authorization for Information gathering (procedure) has been approved.
+AUTH10680,M00739,Renal dialysis (procedure),2026-04-16,Cancelled,2026-04-24,Synthetic,Prior authorization for Renal dialysis (procedure) was cancelled.
+AUTH10681,M00444,Rubella screening,2026-03-04,Pending,,Synthetic,Prior authorization request for Rubella screening is awaiting review.
+AUTH10682,M00586,Urine culture,2026-07-09,Pending,,Synthetic,Prior authorization request for Urine culture is awaiting review.
+AUTH10683,M00528,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-04-17,Pending,,Synthetic,Prior authorization request for Screening for chromosomal aneuploidy in prenatal amniotic fluid is awaiting review.
+AUTH10684,M00550,Evaluation of uterine fundal height,2026-06-22,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10685,M00739,Renal dialysis (procedure),2026-06-22,Denied,2026-06-28,Synthetic,Prior authorization for Renal dialysis (procedure) was not approved.
+AUTH10686,M00343,Hemoglobin / Hematocrit / Platelet count,2026-05-25,Approved,2026-06-08,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH10687,M01001,Renal dialysis (procedure),2026-03-26,Approved,2026-03-27,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10688,M00357,Evaluation of uterine fundal height,2026-02-28,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10689,M00235,CT Scan,2026-05-13,Denied,2026-05-14,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10690,M00894,Review of systems (procedure),2026-02-26,Approved,2026-02-28,Synthetic,Prior authorization for Review of systems (procedure) has been approved.
+AUTH10691,M00238,Evaluation of uterine fundal height,2026-05-10,Approved,2026-05-17,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10692,M00913,Medication Reconciliation (procedure),2026-04-22,Denied,2026-04-29,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10693,M00378,Renal dialysis (procedure),2026-05-18,Cancelled,2026-05-26,Synthetic,Prior authorization for Renal dialysis (procedure) was cancelled.
+AUTH10694,M00457,Subcutaneous immunotherapy,2026-02-16,Approved,2026-03-01,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10695,M00528,CT Scan,2026-04-02,Approved,2026-04-04,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10696,M01050,Medication Reconciliation (procedure),2026-04-26,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10697,M00018,Medication Reconciliation (procedure),2026-03-11,Cancelled,2026-03-14,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH10698,M00733,Auscultation of the fetal heart,2026-03-26,Approved,2026-03-28,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10699,M00128,Catheter ablation of tissue of heart,2026-07-23,Approved,2026-07-28,Synthetic,Prior authorization for Catheter ablation of tissue of heart has been approved.
+AUTH10700,M00346,Medication Reconciliation (procedure),2026-05-26,Approved,2026-06-07,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10701,M01115,Rubella screening,2026-04-25,Pending,,Synthetic,Prior authorization request for Rubella screening is awaiting review.
+AUTH10702,M00889,Medication Reconciliation (procedure),2026-04-21,Approved,2026-04-22,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10703,M00629,Evaluation of uterine fundal height,2026-05-14,Approved,2026-05-21,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10704,M00536,Cytopathology procedure  preparation of smear  genital source,2026-06-03,Approved,2026-06-16,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source has been approved.
+AUTH10705,M00638,Brief general examination (procedure),2026-07-29,Pending,,Synthetic,Prior authorization request for Brief general examination (procedure) is awaiting review.
+AUTH10706,M01001,Renal dialysis (procedure),2026-03-02,Approved,2026-03-11,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10707,M00213,Urine screening test for diabetes,2026-02-20,Pending,,Synthetic,Prior authorization request for Urine screening test for diabetes is awaiting review.
+AUTH10708,M00096,Streptococcus pneumoniae group B antigen test,2026-08-05,Pending,,Synthetic,Prior authorization request for Streptococcus pneumoniae group B antigen test is awaiting review.
+AUTH10709,M00727,Combined chemotherapy and radiation therapy (procedure),2026-03-10,Approved,2026-03-18,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10710,M00378,Renal dialysis (procedure),2026-08-04,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10711,M00596,Auscultation of the fetal heart,2026-06-13,Approved,2026-06-19,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10712,M00035,Subcutaneous immunotherapy,2026-05-12,Approved,2026-05-22,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10713,M00524,Standard pregnancy test,2026-08-04,Approved,2026-08-15,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10714,M00664,Spirometry (procedure),2026-04-19,Denied,2026-04-25,Synthetic,Prior authorization for Spirometry (procedure) was not approved.
+AUTH10715,M00154,Subcutaneous immunotherapy,2026-04-21,Approved,2026-05-01,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10716,M00013,Cytopathology procedure  preparation of smear  genital source,2026-07-08,Approved,2026-07-15,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source has been approved.
+AUTH10717,M00549,Urine screening test for diabetes,2026-05-24,Approved,2026-05-28,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10718,M00734,Medication Reconciliation (procedure),2026-07-14,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10719,M00732,Mammography (procedure),2026-06-26,Approved,2026-07-03,Synthetic,Prior authorization for Mammography (procedure) has been approved.
+AUTH10720,M00534,Evaluation of uterine fundal height,2026-03-22,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10721,M01141,Auscultation of the fetal heart,2026-06-07,Approved,2026-06-11,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10722,M00821,Urine protein test,2026-03-09,Approved,2026-03-17,Synthetic,Prior authorization for Urine protein test has been approved.
+AUTH10723,M00936,CT Scan,2026-06-22,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10724,M00852,Chlamydia antigen test,2026-07-25,Approved,2026-08-06,Synthetic,Prior authorization for Chlamydia antigen test has been approved.
+AUTH10725,M00186,Depression screening,2026-04-21,Cancelled,2026-05-04,Synthetic,Prior authorization for Depression screening was cancelled.
+AUTH10726,M01115,Urine screening for glucose,2026-02-19,Cancelled,2026-02-25,Synthetic,Prior authorization for Urine screening for glucose was cancelled.
+AUTH10727,M00014,Vaccination for diphtheria  pertussis  and tetanus,2026-02-23,Approved,2026-02-25,Synthetic,Prior authorization for Vaccination for diphtheria  pertussis  and tetanus has been approved.
+AUTH10728,M00378,Renal dialysis (procedure),2026-03-25,Approved,2026-03-30,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10729,M00794,Urine culture,2026-07-03,Approved,2026-07-15,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH10730,M00651,Physical examination following birth,2026-03-02,Pending,,Synthetic,Prior authorization request for Physical examination following birth is awaiting review.
+AUTH10731,M00900,Suture open wound,2026-05-12,Approved,2026-05-14,Synthetic,Prior authorization for Suture open wound has been approved.
+AUTH10732,M00217,Physical exam following abortion,2026-06-22,Approved,2026-06-26,Synthetic,Prior authorization for Physical exam following abortion has been approved.
+AUTH10733,M00576,Rubella screening,2026-04-08,Pending,,Synthetic,Prior authorization request for Rubella screening is awaiting review.
+AUTH10734,M00952,Excision of sentinel lymph node (procedure),2026-03-24,Approved,2026-04-01,Synthetic,Prior authorization for Excision of sentinel lymph node (procedure) has been approved.
+AUTH10735,M00822,Hearing examination (procedure),2026-03-24,Pending,,Synthetic,Prior authorization request for Hearing examination (procedure) is awaiting review.
+AUTH10736,M00457,Subcutaneous immunotherapy,2026-07-21,Pending,,Synthetic,Prior authorization request for Subcutaneous immunotherapy is awaiting review.
+AUTH10737,M00538,Subcutaneous immunotherapy,2026-05-03,Cancelled,2026-05-15,Synthetic,Prior authorization for Subcutaneous immunotherapy was cancelled.
+AUTH10738,M00269,Evaluation of uterine fundal height,2026-04-12,Approved,2026-04-25,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10739,M00720,Ultrasound scan for fetal viability,2026-04-30,Approved,2026-05-02,Synthetic,Prior authorization for Ultrasound scan for fetal viability has been approved.
+AUTH10740,M00484,Medication Reconciliation (procedure),2026-07-11,Cancelled,2026-07-22,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH10741,M00020,Vaccination for diphtheria  pertussis  and tetanus,2026-07-25,Approved,2026-08-05,Synthetic,Prior authorization for Vaccination for diphtheria  pertussis  and tetanus has been approved.
+AUTH10742,M00856,Medication Reconciliation (procedure),2026-04-02,Approved,2026-04-16,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10743,M00668,Medication Reconciliation (procedure),2026-03-24,Approved,2026-03-27,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10744,M00012,CT Scan,2026-07-10,Approved,2026-07-24,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10745,M00781,Combined chemotherapy and radiation therapy (procedure),2026-07-29,Approved,2026-08-07,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10746,M00325,Subcutaneous immunotherapy,2026-07-04,Approved,2026-07-07,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10747,M00739,Renal dialysis (procedure),2026-05-22,Denied,2026-05-26,Synthetic,Prior authorization for Renal dialysis (procedure) was not approved.
+AUTH10748,M01010,Episiotomy,2026-05-16,Denied,2026-05-25,Synthetic,Prior authorization for Episiotomy was not approved.
+AUTH10749,M00812,Allergy screening test,2026-06-01,Approved,2026-06-06,Synthetic,Prior authorization for Allergy screening test has been approved.
+AUTH10750,M00404,Suture open wound,2026-06-23,Approved,2026-07-02,Synthetic,Prior authorization for Suture open wound has been approved.
+AUTH10751,M00144,Medication Reconciliation (procedure),2026-06-03,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10752,M00843,Evaluation of uterine fundal height,2026-05-27,Approved,2026-05-29,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10753,M00594,Episiotomy,2026-04-06,Approved,2026-04-16,Synthetic,Prior authorization for Episiotomy has been approved.
+AUTH10754,M00237,Transthoracic three dimensional ultrasonography of heart (procedure),2026-03-17,Pending,,Synthetic,Prior authorization request for Transthoracic three dimensional ultrasonography of heart (procedure) is awaiting review.
+AUTH10755,M00290,Urine protein test,2026-02-25,Approved,2026-03-07,Synthetic,Prior authorization for Urine protein test has been approved.
+AUTH10756,M00172,Subcutaneous immunotherapy,2026-05-18,Approved,2026-05-28,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10757,M00739,Renal dialysis (procedure),2026-08-02,Approved,2026-08-03,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10758,M00629,Evaluation of uterine fundal height,2026-07-23,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10759,M00796,Colonoscopy,2026-03-01,Approved,2026-03-06,Synthetic,Prior authorization for Colonoscopy has been approved.
+AUTH10760,M00528,Auscultation of the fetal heart,2026-02-27,Approved,2026-03-09,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10761,M01001,Renal dialysis (procedure),2026-04-28,Approved,2026-04-29,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10762,M00943,Evaluation of uterine fundal height,2026-04-07,Denied,2026-04-16,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10763,M00816,Medication Reconciliation (procedure),2026-05-30,Approved,2026-06-04,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10764,M00831,Urine screening test for diabetes,2026-04-11,Approved,2026-04-24,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10765,M00296,Colonoscopy,2026-02-18,Approved,2026-02-26,Synthetic,Prior authorization for Colonoscopy has been approved.
+AUTH10766,M00610,Measurement of Varicella-zoster virus antibody,2026-07-25,Approved,2026-07-28,Synthetic,Prior authorization for Measurement of Varicella-zoster virus antibody has been approved.
+AUTH10767,M00439,Evaluation of uterine fundal height,2026-04-22,Approved,2026-04-30,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10768,M01030,Vaccination for diphtheria  pertussis  and tetanus,2026-06-21,Approved,2026-06-24,Synthetic,Prior authorization for Vaccination for diphtheria  pertussis  and tetanus has been approved.
+AUTH10769,M00013,Evaluation of uterine fundal height,2026-05-24,Denied,2026-05-30,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10770,M00917,Evaluation of uterine fundal height,2026-05-16,Cancelled,2026-05-19,Synthetic,Prior authorization for Evaluation of uterine fundal height was cancelled.
+AUTH10771,M00242,Medication Reconciliation (procedure),2026-05-10,Approved,2026-05-12,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10772,M00884,Rubella screening,2026-05-23,Approved,2026-05-25,Synthetic,Prior authorization for Rubella screening has been approved.
+AUTH10773,M00278,CT Scan,2026-06-05,Approved,2026-06-08,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10774,M01001,Renal dialysis (procedure),2026-07-19,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10775,M00395,Urine protein test,2026-05-06,Denied,2026-05-13,Synthetic,Prior authorization for Urine protein test was not approved.
+AUTH10776,M00128,CT Scan,2026-06-10,Cancelled,2026-06-13,Synthetic,Prior authorization for CT Scan was cancelled.
+AUTH10777,M01145,Suture open wound,2026-05-21,Denied,2026-06-02,Synthetic,Prior authorization for Suture open wound was not approved.
+AUTH10778,M00510,Medication Reconciliation (procedure),2026-05-24,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10779,M00610,Depression screening,2026-07-03,Approved,2026-07-12,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH10780,M00271,Urine screening for glucose,2026-04-15,Approved,2026-04-20,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH10781,M00288,Urine culture,2026-04-07,Pending,,Synthetic,Prior authorization request for Urine culture is awaiting review.
+AUTH10782,M00240,Evaluation of uterine fundal height,2026-05-04,Approved,2026-05-08,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10783,M00310,Hemoglobin / Hematocrit / Platelet count,2026-06-18,Approved,2026-06-19,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH10784,M00744,Auscultation of the fetal heart,2026-07-31,Approved,2026-08-10,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10785,M00739,Renal dialysis (procedure),2026-02-26,Approved,2026-03-03,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10786,M00772,Standard pregnancy test,2026-03-28,Pending,,Synthetic,Prior authorization request for Standard pregnancy test is awaiting review.
+AUTH10787,M00917,Alpha-fetoprotein test,2026-07-16,Approved,2026-07-21,Synthetic,Prior authorization for Alpha-fetoprotein test has been approved.
+AUTH10788,M00971,CT Scan,2026-05-11,Approved,2026-05-17,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10789,M00334,Chlamydia antigen test,2026-08-01,Approved,2026-08-11,Synthetic,Prior authorization for Chlamydia antigen test has been approved.
+AUTH10790,M00422,Physical exam following abortion,2026-03-22,Pending,,Synthetic,Prior authorization request for Physical exam following abortion is awaiting review.
+AUTH10791,M00943,Evaluation of uterine fundal height,2026-03-24,Approved,2026-03-31,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10792,M00549,Physical examination of mother,2026-04-05,Approved,2026-04-14,Synthetic,Prior authorization for Physical examination of mother has been approved.
+AUTH10793,M00320,Plain chest X-ray (procedure),2026-06-02,Approved,2026-06-12,Synthetic,Prior authorization for Plain chest X-ray (procedure) has been approved.
+AUTH10794,M01138,Human immunodeficiency virus antigen test,2026-02-19,Approved,2026-02-22,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH10795,M00885,CT Scan,2026-07-19,Approved,2026-08-01,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10796,M00878,Induced termination of pregnancy,2026-05-18,Approved,2026-05-24,Synthetic,Prior authorization for Induced termination of pregnancy has been approved.
+AUTH10797,M00936,CT Scan,2026-07-07,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10798,M00596,Fetal anatomy study,2026-04-04,Approved,2026-04-05,Synthetic,Prior authorization for Fetal anatomy study has been approved.
+AUTH10799,M00375,Hepatitis B Surface Antigen Measurement,2026-08-01,Pending,,Synthetic,Prior authorization request for Hepatitis B Surface Antigen Measurement is awaiting review.
+AUTH10800,M00338,Subcutaneous immunotherapy,2026-05-19,Approved,2026-05-28,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10801,M00422,Pregnancy termination care,2026-04-18,Pending,,Synthetic,Prior authorization request for Pregnancy termination care is awaiting review.
+AUTH10802,M01023,Auscultation of the fetal heart,2026-04-03,Pending,,Synthetic,Prior authorization request for Auscultation of the fetal heart is awaiting review.
+AUTH10803,M00149,Auscultation of the fetal heart,2026-03-09,Approved,2026-03-16,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10804,M00494,Cytopathology procedure  preparation of smear  genital source,2026-03-08,Approved,2026-03-13,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source has been approved.
+AUTH10805,M00288,Skin test for tuberculosis,2026-03-14,Approved,2026-03-28,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH10806,M00378,Renal dialysis (procedure),2026-04-04,Approved,2026-04-16,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10807,M00317,Epidural anesthesia,2026-03-21,Approved,2026-04-04,Synthetic,Prior authorization for Epidural anesthesia has been approved.
+AUTH10808,M00629,Auscultation of the fetal heart,2026-08-08,Approved,2026-08-19,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10809,M00160,Medication Reconciliation (procedure),2026-07-15,Cancelled,2026-07-25,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH10810,M00995,Subcutaneous immunotherapy,2026-05-26,Approved,2026-06-07,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10811,M00365,CT Scan,2026-02-17,Approved,2026-02-27,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10812,M01078,Vaccination for diphtheria  pertussis  and tetanus,2026-04-13,Approved,2026-04-24,Synthetic,Prior authorization for Vaccination for diphtheria  pertussis  and tetanus has been approved.
+AUTH10813,M00739,Renal dialysis (procedure),2026-03-17,Approved,2026-03-29,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10814,M00453,Medication Reconciliation (procedure),2026-07-30,Approved,2026-08-02,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10815,M00603,Auscultation of the fetal heart,2026-03-31,Approved,2026-04-10,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10816,M00685,Medication Reconciliation (procedure),2026-05-07,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10817,M00325,Subcutaneous immunotherapy,2026-02-19,Approved,2026-03-01,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10818,M00720,Depression screening,2026-02-14,Pending,,Synthetic,Prior authorization request for Depression screening is awaiting review.
+AUTH10819,M00378,Renal dialysis (procedure),2026-08-08,Approved,2026-08-15,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10820,M00123,Evaluation of uterine fundal height,2026-07-05,Approved,2026-07-09,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10821,M00843,Urine protein test,2026-04-29,Approved,2026-05-09,Synthetic,Prior authorization for Urine protein test has been approved.
+AUTH10822,M00269,CT Scan,2026-04-14,Denied,2026-04-26,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10823,M00528,Physical examination following birth,2026-07-28,Approved,2026-08-06,Synthetic,Prior authorization for Physical examination following birth has been approved.
+AUTH10824,M00039,CT Scan,2026-06-20,Approved,2026-07-01,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10825,M00720,Evaluation of uterine fundal height,2026-04-12,Approved,2026-04-18,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10826,M00739,Renal dialysis (procedure),2026-06-29,Approved,2026-07-08,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10827,M00739,Renal dialysis (procedure),2026-05-17,Approved,2026-05-28,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10828,M00375,Human immunodeficiency virus antigen test,2026-02-19,Approved,2026-03-03,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH10829,M01077,Depression screening,2026-06-06,Approved,2026-06-10,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH10830,M00739,Renal dialysis (procedure),2026-06-10,Approved,2026-06-15,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10831,M00288,Auscultation of the fetal heart,2026-06-16,Denied,2026-06-21,Synthetic,Prior authorization for Auscultation of the fetal heart was not approved.
+AUTH10832,M00012,Urine screening for glucose,2026-05-31,Approved,2026-06-12,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH10833,M00562,Evaluation of uterine fundal height,2026-04-09,Approved,2026-04-15,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10834,M00536,Measurement of Varicella-zoster virus antibody,2026-03-22,Denied,2026-04-04,Synthetic,Prior authorization for Measurement of Varicella-zoster virus antibody was not approved.
+AUTH10835,M00172,Subcutaneous immunotherapy,2026-06-03,Approved,2026-06-13,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10836,M00995,Allergy screening test,2026-02-20,Approved,2026-02-27,Synthetic,Prior authorization for Allergy screening test has been approved.
+AUTH10837,M01146,CT Scan,2026-05-16,Cancelled,2026-05-29,Synthetic,Prior authorization for CT Scan was cancelled.
+AUTH10838,M00096,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-07-06,Approved,2026-07-11,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH10839,M00866,Medication Reconciliation (procedure),2026-07-23,Approved,2026-07-31,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10840,M00065,Auscultation of the fetal heart,2026-02-26,Approved,2026-03-06,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10841,M00625,Hepatitis B Surface Antigen Measurement,2026-06-19,Approved,2026-06-28,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10842,M00410,CT Scan,2026-06-04,Denied,2026-06-16,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10843,M01001,Renal dialysis (procedure),2026-06-04,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10844,M01014,Medication Reconciliation (procedure),2026-03-08,Approved,2026-03-12,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10845,M00826,Medication Reconciliation (procedure),2026-06-11,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10846,M00680,Colonoscopy,2026-03-30,Approved,2026-04-03,Synthetic,Prior authorization for Colonoscopy has been approved.
+AUTH10847,M00484,Medication Reconciliation (procedure),2026-07-30,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10848,M00992,Throat culture (procedure),2026-05-20,Approved,2026-05-22,Synthetic,Prior authorization for Throat culture (procedure) has been approved.
+AUTH10849,M00538,Subcutaneous immunotherapy,2026-02-19,Approved,2026-02-20,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10850,M00815,Medication Reconciliation (procedure),2026-03-25,Cancelled,2026-03-28,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH10851,M00784,Depression screening,2026-04-30,Approved,2026-05-08,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH10852,M00145,Medication Reconciliation (procedure),2026-04-12,Approved,2026-04-25,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10853,M00290,Physical examination following birth,2026-05-31,Approved,2026-06-11,Synthetic,Prior authorization for Physical examination following birth has been approved.
+AUTH10854,M01118,Cytopathology procedure  preparation of smear  genital source,2026-07-28,Denied,2026-07-30,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source was not approved.
+AUTH10855,M00853,Hemoglobin / Hematocrit / Platelet count,2026-02-27,Approved,2026-03-08,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH10856,M00739,Renal dialysis (procedure),2026-08-03,Denied,2026-08-06,Synthetic,Prior authorization for Renal dialysis (procedure) was not approved.
+AUTH10857,M01031,Medication Reconciliation (procedure),2026-04-28,Denied,2026-05-01,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10858,M01023,Evaluation of uterine fundal height,2026-08-03,Cancelled,2026-08-10,Synthetic,Prior authorization for Evaluation of uterine fundal height was cancelled.
+AUTH10859,M00907,Throat culture (procedure),2026-04-08,Pending,,Synthetic,Prior authorization request for Throat culture (procedure) is awaiting review.
+AUTH10860,M00269,Skin test for tuberculosis,2026-05-30,Denied,2026-05-31,Synthetic,Prior authorization for Skin test for tuberculosis was not approved.
+AUTH10861,M00177,Blood typing  RH typing,2026-05-28,Approved,2026-05-30,Synthetic,Prior authorization for Blood typing  RH typing has been approved.
+AUTH10862,M00226,CT Scan,2026-05-19,Approved,2026-05-30,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10863,M00733,Auscultation of the fetal heart,2026-03-26,Approved,2026-03-29,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10864,M00739,Renal dialysis (procedure),2026-04-05,Approved,2026-04-09,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10865,M00944,Medication Reconciliation (procedure),2026-07-15,Approved,2026-07-27,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10866,M00514,Sputum examination (procedure),2026-04-17,Approved,2026-04-29,Synthetic,Prior authorization for Sputum examination (procedure) has been approved.
+AUTH10867,M00533,CT Scan,2026-06-26,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10868,M00517,CT Scan,2026-05-18,Approved,2026-05-28,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10869,M01001,Renal dialysis (procedure),2026-02-21,Approved,2026-02-24,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10870,M00589,Medication Reconciliation (procedure),2026-03-09,Denied,2026-03-16,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10871,M00739,Renal dialysis (procedure),2026-04-25,Approved,2026-04-27,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10872,M00518,CT Scan,2026-05-02,Approved,2026-05-05,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10873,M00538,Subcutaneous immunotherapy,2026-07-08,Approved,2026-07-12,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10874,M00170,Review of systems (procedure),2026-08-11,Approved,2026-08-15,Synthetic,Prior authorization for Review of systems (procedure) has been approved.
+AUTH10875,M00534,Blood typing  RH typing,2026-04-20,Approved,2026-04-26,Synthetic,Prior authorization for Blood typing  RH typing has been approved.
+AUTH10876,M00306,Medication Reconciliation (procedure),2026-05-27,Approved,2026-06-06,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10877,M01023,Rubella screening,2026-08-10,Approved,2026-08-16,Synthetic,Prior authorization for Rubella screening has been approved.
+AUTH10878,M00313,Colonoscopy,2026-02-16,Approved,2026-02-27,Synthetic,Prior authorization for Colonoscopy has been approved.
+AUTH10879,M01003,Urine screening test for diabetes,2026-07-13,Approved,2026-07-16,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10880,M00739,Renal dialysis (procedure),2026-05-01,Approved,2026-05-13,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10881,M00461,Combined chemotherapy and radiation therapy (procedure),2026-05-25,Approved,2026-06-05,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10882,M00071,Urine screening test for diabetes,2026-05-29,Approved,2026-06-02,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10883,M00474,Measurement of Varicella-zoster virus antibody,2026-06-17,Cancelled,2026-06-25,Synthetic,Prior authorization for Measurement of Varicella-zoster virus antibody was cancelled.
+AUTH10884,M01001,Renal dialysis (procedure),2026-07-04,Approved,2026-07-14,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10885,M00637,Subcutaneous immunotherapy,2026-05-09,Approved,2026-05-18,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10886,M00912,Allergy screening test,2026-04-14,Approved,2026-04-27,Synthetic,Prior authorization for Allergy screening test has been approved.
+AUTH10887,M00542,Medication Reconciliation (procedure),2026-02-23,Approved,2026-03-08,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10888,M01083,Medication Reconciliation (procedure),2026-06-10,Approved,2026-06-20,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10889,M01165,Urine screening test for diabetes,2026-07-23,Approved,2026-08-01,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10890,M00617,Medication Reconciliation (procedure),2026-05-12,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10891,M00760,Colonoscopy,2026-03-21,Pending,,Synthetic,Prior authorization request for Colonoscopy is awaiting review.
+AUTH10892,M00587,Subcutaneous immunotherapy,2026-03-25,Denied,2026-03-29,Synthetic,Prior authorization for Subcutaneous immunotherapy was not approved.
+AUTH10893,M00725,Urine screening test for diabetes,2026-03-19,Approved,2026-03-22,Synthetic,Prior authorization for Urine screening test for diabetes has been approved.
+AUTH10894,M00278,CT Scan,2026-05-21,Denied,2026-05-29,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10895,M00575,Auscultation of the fetal heart,2026-07-14,Approved,2026-07-26,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10896,M00769,CT Scan,2026-03-16,Approved,2026-03-25,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10897,M01115,Auscultation of the fetal heart,2026-04-20,Approved,2026-04-28,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10898,M01138,Streptococcus pneumoniae group B antigen test,2026-07-10,Approved,2026-07-18,Synthetic,Prior authorization for Streptococcus pneumoniae group B antigen test has been approved.
+AUTH10899,M00229,CT Scan,2026-03-21,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10900,M00210,Human immunodeficiency virus antigen test,2026-04-16,Approved,2026-04-21,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH10901,M00951,Hepatitis C antibody test,2026-08-07,Approved,2026-08-21,Synthetic,Prior authorization for Hepatitis C antibody test has been approved.
+AUTH10902,M00698,CT Scan,2026-08-12,Approved,2026-08-22,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10903,M01121,Vaccination for diphtheria  pertussis  and tetanus,2026-07-25,Pending,,Synthetic,Prior authorization request for Vaccination for diphtheria  pertussis  and tetanus is awaiting review.
+AUTH10904,M00108,Urine screening for glucose,2026-05-16,Approved,2026-05-25,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH10905,M00924,Hepatitis C antibody test,2026-07-28,Denied,2026-07-30,Synthetic,Prior authorization for Hepatitis C antibody test was not approved.
+AUTH10906,M00071,Ultrasound scan for fetal viability,2026-04-14,Pending,,Synthetic,Prior authorization request for Ultrasound scan for fetal viability is awaiting review.
+AUTH10907,M00924,Hepatitis B Surface Antigen Measurement,2026-04-30,Pending,,Synthetic,Prior authorization request for Hepatitis B Surface Antigen Measurement is awaiting review.
+AUTH10908,M00843,Auscultation of the fetal heart,2026-07-09,Approved,2026-07-21,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10909,M01001,Renal dialysis (procedure),2026-02-28,Cancelled,2026-03-06,Synthetic,Prior authorization for Renal dialysis (procedure) was cancelled.
+AUTH10910,M01001,Renal dialysis (procedure),2026-05-07,Approved,2026-05-14,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10911,M00574,Catheter ablation of tissue of heart,2026-05-08,Pending,,Synthetic,Prior authorization request for Catheter ablation of tissue of heart is awaiting review.
+AUTH10912,M00951,Urine culture,2026-02-24,Denied,2026-02-27,Synthetic,Prior authorization for Urine culture was not approved.
+AUTH10913,M00550,Ultrasound scan for fetal viability,2026-02-26,Denied,2026-02-28,Synthetic,Prior authorization for Ultrasound scan for fetal viability was not approved.
+AUTH10914,M01023,Physical examination following birth,2026-06-28,Cancelled,2026-07-05,Synthetic,Prior authorization for Physical examination following birth was cancelled.
+AUTH10915,M00118,CT Scan,2026-03-30,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH10916,M00697,CT Scan,2026-06-16,Approved,2026-06-29,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10917,M00930,Medication Reconciliation (procedure),2026-08-07,Cancelled,2026-08-15,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH10918,M00588,Medication Reconciliation (procedure),2026-02-21,Approved,2026-02-28,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10919,M00744,Auscultation of the fetal heart,2026-03-29,Approved,2026-04-02,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10920,M00407,Standard pregnancy test,2026-06-10,Approved,2026-06-13,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10921,M00610,Evaluation of uterine fundal height,2026-06-03,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10922,M00377,Medication Reconciliation (procedure),2026-07-15,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10923,M00579,Surgical Procedure,2026-02-24,Approved,2026-03-09,Synthetic,Prior authorization for Surgical Procedure has been approved.
+AUTH10924,M01026,Subcutaneous immunotherapy,2026-08-08,Approved,2026-08-10,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10925,M00983,Hemoglobin / Hematocrit / Platelet count,2026-07-18,Approved,2026-07-26,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH10926,M01068,Transthoracic echocardiography,2026-03-12,Approved,2026-03-26,Synthetic,Prior authorization for Transthoracic echocardiography has been approved.
+AUTH10927,M00312,Auscultation of the fetal heart,2026-07-31,Approved,2026-08-01,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10928,M00739,Renal dialysis (procedure),2026-05-02,Approved,2026-05-11,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH10929,M00303,Medication Reconciliation (procedure),2026-06-18,Approved,2026-07-01,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10930,M00039,Childbirth,2026-07-29,Pending,,Synthetic,Prior authorization request for Childbirth is awaiting review.
+AUTH10931,M00232,Hepatitis C antibody test,2026-05-30,Approved,2026-06-11,Synthetic,Prior authorization for Hepatitis C antibody test has been approved.
+AUTH10932,M00406,Medication Reconciliation (procedure),2026-03-18,Approved,2026-03-28,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10933,M01082,Standard pregnancy test,2026-02-21,Approved,2026-02-25,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10934,M00885,CT Scan,2026-05-27,Denied,2026-06-07,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10935,M00450,CT Scan,2026-04-01,Approved,2026-04-06,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10936,M01082,Physical examination of mother,2026-06-03,Pending,,Synthetic,Prior authorization request for Physical examination of mother is awaiting review.
+AUTH10937,M00589,Evaluation of uterine fundal height,2026-03-14,Denied,2026-03-17,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10938,M00936,CT Scan,2026-03-05,Approved,2026-03-14,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10939,M01001,Renal dialysis (procedure),2026-04-08,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10940,M00103,Evaluation of uterine fundal height,2026-05-16,Denied,2026-05-27,Synthetic,Prior authorization for Evaluation of uterine fundal height was not approved.
+AUTH10941,M00183,Evaluation of uterine fundal height,2026-05-07,Approved,2026-05-13,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10942,M00383,Pulmonary rehabilitation (regime/therapy),2026-02-15,Approved,2026-02-18,Synthetic,Prior authorization for Pulmonary rehabilitation (regime/therapy) has been approved.
+AUTH10943,M01118,Urine screening for glucose,2026-05-28,Approved,2026-06-10,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH10944,M00825,Medication Reconciliation (procedure),2026-03-28,Approved,2026-04-11,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10945,M00809,Combined chemotherapy and radiation therapy (procedure),2026-06-16,Approved,2026-06-28,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH10946,M00527,Medication Reconciliation (procedure),2026-07-07,Approved,2026-07-08,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10947,M00052,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-03-22,Approved,2026-03-29,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH10948,M00917,Hepatitis C antibody test,2026-03-23,Approved,2026-03-30,Synthetic,Prior authorization for Hepatitis C antibody test has been approved.
+AUTH10949,M00103,Auscultation of the fetal heart,2026-06-11,Approved,2026-06-17,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10950,M00096,Ultrasound scan for fetal viability,2026-02-28,Pending,,Synthetic,Prior authorization request for Ultrasound scan for fetal viability is awaiting review.
+AUTH10951,M00567,CT Scan,2026-04-19,Approved,2026-04-21,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10952,M00720,CT Scan,2026-03-28,Approved,2026-04-01,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10953,M00437,Plain chest X-ray (procedure),2026-07-30,Approved,2026-08-10,Synthetic,Prior authorization for Plain chest X-ray (procedure) has been approved.
+AUTH10954,M00854,CT Scan,2026-03-11,Approved,2026-03-25,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10955,M00117,Depression screening,2026-07-25,Pending,,Synthetic,Prior authorization request for Depression screening is awaiting review.
+AUTH10956,M01093,Pulmonary rehabilitation (regime/therapy),2026-03-15,Approved,2026-03-24,Synthetic,Prior authorization for Pulmonary rehabilitation (regime/therapy) has been approved.
+AUTH10957,M00117,Auscultation of the fetal heart,2026-06-18,Approved,2026-07-02,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH10958,M00474,Induced termination of pregnancy,2026-05-19,Approved,2026-05-20,Synthetic,Prior authorization for Induced termination of pregnancy has been approved.
+AUTH10959,M00912,Medication Reconciliation (procedure),2026-06-19,Denied,2026-07-01,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10960,M00855,Physical exam following abortion,2026-07-13,Approved,2026-07-26,Synthetic,Prior authorization for Physical exam following abortion has been approved.
+AUTH10961,M00876,Medication Reconciliation (procedure),2026-04-12,Denied,2026-04-24,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH10962,M01169,Mammography (procedure),2026-03-11,Approved,2026-03-18,Synthetic,Prior authorization for Mammography (procedure) has been approved.
+AUTH10963,M00226,Information gathering (procedure),2026-06-12,Approved,2026-06-25,Synthetic,Prior authorization for Information gathering (procedure) has been approved.
+AUTH10964,M00856,CT Scan,2026-06-01,Approved,2026-06-10,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10965,M00600,Evaluation of uterine fundal height,2026-02-27,Approved,2026-03-04,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10966,M00186,Streptococcus pneumoniae group B antigen test,2026-05-12,Approved,2026-05-20,Synthetic,Prior authorization for Streptococcus pneumoniae group B antigen test has been approved.
+AUTH10967,M00270,Medication Reconciliation (procedure),2026-04-15,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH10968,M00069,Ultrasound scan for fetal viability,2026-04-14,Approved,2026-04-20,Synthetic,Prior authorization for Ultrasound scan for fetal viability has been approved.
+AUTH10969,M00821,Biopsy of breast (procedure),2026-06-21,Approved,2026-06-28,Synthetic,Prior authorization for Biopsy of breast (procedure) has been approved.
+AUTH10970,M01030,Hearing examination (procedure),2026-08-01,Approved,2026-08-05,Synthetic,Prior authorization for Hearing examination (procedure) has been approved.
+AUTH10971,M01001,Renal dialysis (procedure),2026-07-06,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH10972,M00778,Vaccination for diphtheria  pertussis  and tetanus,2026-03-24,Denied,2026-04-03,Synthetic,Prior authorization for Vaccination for diphtheria  pertussis  and tetanus was not approved.
+AUTH10973,M00843,Human immunodeficiency virus antigen test,2026-04-28,Approved,2026-05-02,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH10974,M00644,Standard pregnancy test,2026-05-20,Approved,2026-05-30,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH10975,M00906,Radiation oncology AND/OR radiotherapy (procedure),2026-06-11,Approved,2026-06-22,Synthetic,Prior authorization for Radiation oncology AND/OR radiotherapy (procedure) has been approved.
+AUTH10976,M00065,Evaluation of uterine fundal height,2026-02-18,Approved,2026-03-03,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10977,M01067,Medication Reconciliation (procedure),2026-04-09,Cancelled,2026-04-20,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH10978,M00781,Hearing examination (procedure),2026-04-09,Approved,2026-04-21,Synthetic,Prior authorization for Hearing examination (procedure) has been approved.
+AUTH10979,M00288,Evaluation of uterine fundal height,2026-05-14,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH10980,M00665,Evaluation of uterine fundal height,2026-03-26,Approved,2026-04-04,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10981,M00944,CT Scan,2026-03-01,Cancelled,2026-03-10,Synthetic,Prior authorization for CT Scan was cancelled.
+AUTH10982,M00325,Cognitive and behavioral therapy,2026-08-04,Approved,2026-08-06,Synthetic,Prior authorization for Cognitive and behavioral therapy has been approved.
+AUTH10983,M00859,Skin test for tuberculosis,2026-02-22,Pending,,Synthetic,Prior authorization request for Skin test for tuberculosis is awaiting review.
+AUTH10984,M00874,Medication Reconciliation (procedure),2026-08-11,Approved,2026-08-25,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10985,M00190,Medication Reconciliation (procedure),2026-03-04,Approved,2026-03-16,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10986,M00874,Childbirth,2026-07-05,Pending,,Synthetic,Prior authorization request for Childbirth is awaiting review.
+AUTH10987,M00764,Subcutaneous immunotherapy,2026-04-05,Approved,2026-04-06,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH10988,M00146,Medication Reconciliation (procedure),2026-03-07,Approved,2026-03-17,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10989,M00048,Throat culture (procedure),2026-04-11,Approved,2026-04-12,Synthetic,Prior authorization for Throat culture (procedure) has been approved.
+AUTH10990,M00978,Streptococcus pneumoniae group B antigen test,2026-08-11,Approved,2026-08-18,Synthetic,Prior authorization for Streptococcus pneumoniae group B antigen test has been approved.
+AUTH10991,M00951,Rubella screening,2026-08-09,Pending,,Synthetic,Prior authorization request for Rubella screening is awaiting review.
+AUTH10992,M00979,Hepatitis B Surface Antigen Measurement,2026-06-03,Approved,2026-06-08,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH10993,M01006,Human immunodeficiency virus antigen test,2026-08-08,Approved,2026-08-20,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH10994,M00334,CT Scan,2026-02-21,Approved,2026-02-24,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH10995,M00747,CT Scan,2026-07-16,Denied,2026-07-25,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH10996,M01023,Evaluation of uterine fundal height,2026-07-05,Approved,2026-07-15,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10997,M01164,Medication Reconciliation (procedure),2026-03-31,Approved,2026-04-06,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH10998,M00324,Evaluation of uterine fundal height,2026-06-05,Approved,2026-06-07,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH10999,M01057,CT Scan,2026-05-09,Cancelled,2026-05-17,Synthetic,Prior authorization for CT Scan was cancelled.
+AUTH11000,M00899,Standard pregnancy test,2026-03-21,Approved,2026-04-02,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH11001,M00111,Removal of subcutaneous contraceptive,2026-06-16,Approved,2026-06-30,Synthetic,Prior authorization for Removal of subcutaneous contraceptive has been approved.
+AUTH11002,M00271,Chlamydia antigen test,2026-07-23,Approved,2026-08-06,Synthetic,Prior authorization for Chlamydia antigen test has been approved.
+AUTH11003,M00541,Medication Reconciliation (procedure),2026-02-27,Approved,2026-03-01,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11004,M00448,Human immunodeficiency virus antigen test,2026-05-01,Approved,2026-05-10,Synthetic,Prior authorization for Human immunodeficiency virus antigen test has been approved.
+AUTH11005,M00129,Medication Reconciliation (procedure),2026-04-13,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH11006,M01001,Renal dialysis (procedure),2026-08-10,Approved,2026-08-12,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11007,M00407,Auscultation of the fetal heart,2026-04-07,Approved,2026-04-18,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH11008,M00324,Evaluation of uterine fundal height,2026-05-20,Approved,2026-06-03,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH11009,M00739,Renal dialysis (procedure),2026-07-19,Denied,2026-07-20,Synthetic,Prior authorization for Renal dialysis (procedure) was not approved.
+AUTH11010,M00773,CT Scan,2026-06-15,Approved,2026-06-29,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11011,M01035,Medication Reconciliation (procedure),2026-02-16,Denied,2026-02-24,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH11012,M00283,Subcutaneous immunotherapy,2026-06-04,Pending,,Synthetic,Prior authorization request for Subcutaneous immunotherapy is awaiting review.
+AUTH11013,M00768,Auscultation of the fetal heart,2026-07-24,Approved,2026-07-29,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH11014,M00625,Evaluation of uterine fundal height,2026-03-26,Approved,2026-03-27,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH11015,M00727,Combined chemotherapy and radiation therapy (procedure),2026-06-28,Denied,2026-07-04,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) was not approved.
+AUTH11016,M00524,Human immunodeficiency virus antigen test,2026-08-08,Cancelled,2026-08-18,Synthetic,Prior authorization for Human immunodeficiency virus antigen test was cancelled.
+AUTH11017,M00213,Skin test for tuberculosis,2026-07-07,Approved,2026-07-19,Synthetic,Prior authorization for Skin test for tuberculosis has been approved.
+AUTH11018,M00110,Removal of intrauterine device,2026-05-03,Denied,2026-05-08,Synthetic,Prior authorization for Removal of intrauterine device was not approved.
+AUTH11019,M00739,Renal dialysis (procedure),2026-07-02,Approved,2026-07-12,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11020,M00250,Plain chest X-ray (procedure),2026-05-05,Approved,2026-05-14,Synthetic,Prior authorization for Plain chest X-ray (procedure) has been approved.
+AUTH11021,M00944,CT Scan,2026-05-20,Approved,2026-06-01,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11022,M00574,CT Scan,2026-07-08,Approved,2026-07-20,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11023,M01023,Evaluation of uterine fundal height,2026-07-23,Approved,2026-07-29,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH11024,M00944,CT Scan,2026-07-30,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH11025,M01103,Medication Reconciliation (procedure),2026-06-14,Approved,2026-06-20,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11026,M00869,Medication Reconciliation (procedure),2026-03-11,Approved,2026-03-21,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11027,M00027,Medication Reconciliation (procedure),2026-05-03,Cancelled,2026-05-09,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH11028,M00781,Combined chemotherapy and radiation therapy (procedure),2026-08-05,Approved,2026-08-18,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH11029,M01001,Renal dialysis (procedure),2026-04-19,Approved,2026-04-25,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11030,M00043,Suture open wound,2026-03-24,Denied,2026-03-31,Synthetic,Prior authorization for Suture open wound was not approved.
+AUTH11031,M00534,Urine culture,2026-06-26,Approved,2026-07-07,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH11032,M00110,Vaccination for diphtheria  pertussis  and tetanus,2026-05-07,Pending,,Synthetic,Prior authorization request for Vaccination for diphtheria  pertussis  and tetanus is awaiting review.
+AUTH11033,M00025,Vaccination for diphtheria  pertussis  and tetanus,2026-03-07,Approved,2026-03-11,Synthetic,Prior authorization for Vaccination for diphtheria  pertussis  and tetanus has been approved.
+AUTH11034,M00167,Standard pregnancy test,2026-07-25,Pending,,Synthetic,Prior authorization request for Standard pregnancy test is awaiting review.
+AUTH11035,M00422,CT Scan,2026-07-04,Approved,2026-07-17,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11036,M00290,Evaluation of uterine fundal height,2026-03-03,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH11037,M00567,Evaluation of uterine fundal height,2026-05-05,Approved,2026-05-07,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH11038,M00404,CT Scan,2026-07-20,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH11039,M01141,Hemoglobin / Hematocrit / Platelet count,2026-05-26,Approved,2026-06-08,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH11040,M00164,Auscultation of the fetal heart,2026-06-04,Pending,,Synthetic,Prior authorization request for Auscultation of the fetal heart is awaiting review.
+AUTH11041,M00534,Hemoglobin / Hematocrit / Platelet count,2026-07-21,Pending,,Synthetic,Prior authorization request for Hemoglobin / Hematocrit / Platelet count is awaiting review.
+AUTH11042,M00536,Hemoglobin / Hematocrit / Platelet count,2026-04-20,Approved,2026-04-29,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH11043,M01101,Transthoracic echocardiography,2026-04-30,Pending,,Synthetic,Prior authorization request for Transthoracic echocardiography is awaiting review.
+AUTH11044,M00197,Medication Reconciliation (procedure),2026-07-21,Approved,2026-07-23,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11045,M00091,CT Scan,2026-03-13,Approved,2026-03-19,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11046,M00027,Subcutaneous immunotherapy,2026-05-06,Pending,,Synthetic,Prior authorization request for Subcutaneous immunotherapy is awaiting review.
+AUTH11047,M00724,Medication Reconciliation (procedure),2026-04-29,Approved,2026-05-01,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11048,M00868,Auscultation of the fetal heart,2026-03-22,Denied,2026-03-26,Synthetic,Prior authorization for Auscultation of the fetal heart was not approved.
+AUTH11049,M00725,Auscultation of the fetal heart,2026-03-19,Approved,2026-03-30,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH11050,M00290,Cytopathology procedure  preparation of smear  genital source,2026-05-07,Pending,,Synthetic,Prior authorization request for Cytopathology procedure  preparation of smear  genital source is awaiting review.
+AUTH11051,M00439,Physical examination,2026-06-05,Approved,2026-06-13,Synthetic,Prior authorization for Physical examination has been approved.
+AUTH11052,M00440,Chemotherapy (procedure),2026-07-06,Pending,,Synthetic,Prior authorization request for Chemotherapy (procedure) is awaiting review.
+AUTH11053,M00343,CT Scan,2026-04-23,Approved,2026-04-28,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11054,M00390,Medication Reconciliation (procedure),2026-04-11,Approved,2026-04-17,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11055,M00574,Medication Reconciliation (procedure),2026-06-09,Denied,2026-06-21,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH11056,M00589,Childbirth,2026-03-05,Approved,2026-03-15,Synthetic,Prior authorization for Childbirth has been approved.
+AUTH11057,M00951,Depression screening,2026-06-23,Approved,2026-06-26,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH11058,M01157,Referral to hypertension clinic,2026-05-27,Pending,,Synthetic,Prior authorization request for Referral to hypertension clinic is awaiting review.
+AUTH11059,M01001,Renal dialysis (procedure),2026-05-03,Approved,2026-05-13,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11060,M00924,Urine culture,2026-05-07,Approved,2026-05-13,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH11061,M00859,CT Scan,2026-04-22,Approved,2026-05-06,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11062,M00343,Hemoglobin / Hematocrit / Platelet count,2026-02-27,Cancelled,2026-03-02,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count was cancelled.
+AUTH11063,M00213,Hemoglobin / Hematocrit / Platelet count,2026-05-28,Approved,2026-06-09,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH11064,M00638,Medication Reconciliation (procedure),2026-06-22,Approved,2026-06-25,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11065,M01074,Medication Reconciliation (procedure),2026-05-03,Cancelled,2026-05-08,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH11066,M00878,Depression screening,2026-02-16,Approved,2026-02-26,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH11067,M00739,Renal dialysis (procedure),2026-06-11,Approved,2026-06-16,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11068,M01001,Renal dialysis (procedure),2026-05-04,Approved,2026-05-14,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11069,M01093,Medication Reconciliation (procedure),2026-06-22,Approved,2026-07-01,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11070,M00917,Standard pregnancy test,2026-06-27,Approved,2026-07-06,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH11071,M00794,Evaluation of uterine fundal height,2026-08-06,Cancelled,2026-08-14,Synthetic,Prior authorization for Evaluation of uterine fundal height was cancelled.
+AUTH11072,M00821,Medication Reconciliation (procedure),2026-06-20,Approved,2026-06-25,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11073,M01037,Evaluation of uterine fundal height,2026-02-16,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH11074,M00290,Rubella screening,2026-04-30,Approved,2026-05-03,Synthetic,Prior authorization for Rubella screening has been approved.
+AUTH11075,M01001,Renal dialysis (procedure),2026-03-03,Approved,2026-03-08,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11076,M00324,Childbirth,2026-02-25,Pending,,Synthetic,Prior authorization request for Childbirth is awaiting review.
+AUTH11077,M00878,Physical examination following birth,2026-04-26,Approved,2026-04-28,Synthetic,Prior authorization for Physical examination following birth has been approved.
+AUTH11078,M01001,Renal dialysis (procedure),2026-04-20,Cancelled,2026-04-28,Synthetic,Prior authorization for Renal dialysis (procedure) was cancelled.
+AUTH11079,M00213,Throat culture (procedure),2026-03-16,Approved,2026-03-25,Synthetic,Prior authorization for Throat culture (procedure) has been approved.
+AUTH11080,M01006,Streptococcus pneumoniae group B antigen test,2026-02-16,Approved,2026-02-17,Synthetic,Prior authorization for Streptococcus pneumoniae group B antigen test has been approved.
+AUTH11081,M00185,Spirometry (procedure),2026-05-12,Approved,2026-05-25,Synthetic,Prior authorization for Spirometry (procedure) has been approved.
+AUTH11082,M00378,Renal dialysis (procedure),2026-03-28,Approved,2026-03-30,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11083,M00502,Subcutaneous immunotherapy,2026-07-16,Approved,2026-07-27,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH11084,M00751,Manual pelvic examination (procedure),2026-02-23,Approved,2026-03-06,Synthetic,Prior authorization for Manual pelvic examination (procedure) has been approved.
+AUTH11085,M01127,CT Scan,2026-03-09,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH11086,M00528,Hemoglobin / Hematocrit / Platelet count,2026-02-28,Approved,2026-03-07,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH11087,M00784,CT Scan,2026-05-20,Cancelled,2026-05-27,Synthetic,Prior authorization for CT Scan was cancelled.
+AUTH11088,M00697,Subcutaneous immunotherapy,2026-07-16,Pending,,Synthetic,Prior authorization request for Subcutaneous immunotherapy is awaiting review.
+AUTH11089,M00781,Combined chemotherapy and radiation therapy (procedure),2026-06-07,Approved,2026-06-19,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH11090,M00456,Medication Reconciliation (procedure),2026-04-02,Approved,2026-04-14,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11091,M00739,Renal dialysis (procedure),2026-03-18,Approved,2026-03-24,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11092,M00378,Renal dialysis (procedure),2026-05-04,Approved,2026-05-15,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11093,M00271,Auscultation of the fetal heart,2026-03-15,Approved,2026-03-18,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH11094,M01115,Auscultation of the fetal heart,2026-05-16,Cancelled,2026-05-24,Synthetic,Prior authorization for Auscultation of the fetal heart was cancelled.
+AUTH11095,M01124,Plain chest X-ray (procedure),2026-07-17,Approved,2026-07-19,Synthetic,Prior authorization for Plain chest X-ray (procedure) has been approved.
+AUTH11096,M00137,Combined chemotherapy and radiation therapy (procedure),2026-07-14,Approved,2026-07-26,Synthetic,Prior authorization for Combined chemotherapy and radiation therapy (procedure) has been approved.
+AUTH11097,M01016,CT Scan,2026-07-07,Approved,2026-07-13,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11098,M01001,Renal dialysis (procedure),2026-04-18,Approved,2026-04-27,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11099,M00738,CT Scan,2026-04-11,Approved,2026-04-13,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11100,M00672,CT Scan,2026-04-22,Approved,2026-04-30,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11101,M00290,Measurement of Varicella-zoster virus antibody,2026-05-23,Pending,,Synthetic,Prior authorization request for Measurement of Varicella-zoster virus antibody is awaiting review.
+AUTH11102,M00878,Hepatitis B Surface Antigen Measurement,2026-08-01,Approved,2026-08-03,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH11103,M00394,Depression screening,2026-08-07,Approved,2026-08-18,Synthetic,Prior authorization for Depression screening has been approved.
+AUTH11104,M00801,Medication Reconciliation (procedure),2026-07-16,Approved,2026-07-19,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11105,M00629,Ultrasound scan for fetal viability,2026-06-11,Approved,2026-06-20,Synthetic,Prior authorization for Ultrasound scan for fetal viability has been approved.
+AUTH11106,M00378,Renal dialysis (procedure),2026-07-03,Approved,2026-07-10,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11107,M00979,CT Scan,2026-04-16,Approved,2026-04-23,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11108,M00853,Medication Reconciliation (procedure),2026-03-04,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH11109,M01010,CT Scan,2026-03-02,Approved,2026-03-09,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11110,M00081,Medication Reconciliation (procedure),2026-08-05,Approved,2026-08-09,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11111,M01010,CT Scan,2026-04-19,Approved,2026-04-26,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11112,M00943,CT Scan,2026-08-11,Approved,2026-08-15,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11113,M01001,Renal dialysis (procedure),2026-06-02,Approved,2026-06-15,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11114,M00378,Renal dialysis (procedure),2026-07-27,Approved,2026-08-09,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11115,M00550,Evaluation of uterine fundal height,2026-03-28,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH11116,M00378,Renal dialysis (procedure),2026-05-21,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH11117,M01030,CT Scan,2026-07-14,Approved,2026-07-28,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11118,M00742,Medication Reconciliation (procedure),2026-04-09,Approved,2026-04-20,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11119,M01142,Manual pelvic examination (procedure),2026-05-24,Approved,2026-06-03,Synthetic,Prior authorization for Manual pelvic examination (procedure) has been approved.
+AUTH11120,M00215,Medication Reconciliation (procedure),2026-05-04,Approved,2026-05-10,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11121,M00794,Alpha-fetoprotein test,2026-05-14,Approved,2026-05-24,Synthetic,Prior authorization for Alpha-fetoprotein test has been approved.
+AUTH11122,M01138,Alpha-fetoprotein test,2026-06-29,Approved,2026-07-11,Synthetic,Prior authorization for Alpha-fetoprotein test has been approved.
+AUTH11123,M00978,Chlamydia antigen test,2026-05-28,Denied,2026-06-07,Synthetic,Prior authorization for Chlamydia antigen test was not approved.
+AUTH11124,M01136,Medication Reconciliation (procedure),2026-07-22,Approved,2026-07-28,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11125,M00955,CT Scan,2026-07-13,Approved,2026-07-15,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11126,M00720,Ultrasound scan for fetal viability,2026-06-27,Approved,2026-06-30,Synthetic,Prior authorization for Ultrasound scan for fetal viability has been approved.
+AUTH11127,M00278,CT Scan,2026-04-04,Approved,2026-04-14,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11128,M00674,CT Scan,2026-07-08,Approved,2026-07-15,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11129,M00031,Hepatitis B Surface Antigen Measurement,2026-06-26,Approved,2026-07-05,Synthetic,Prior authorization for Hepatitis B Surface Antigen Measurement has been approved.
+AUTH11130,M01043,Medication Reconciliation (procedure),2026-02-16,Denied,2026-02-19,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH11131,M00324,Rubella screening,2026-03-23,Pending,,Synthetic,Prior authorization request for Rubella screening is awaiting review.
+AUTH11132,M00884,Alpha-fetoprotein test,2026-05-31,Pending,,Synthetic,Prior authorization request for Alpha-fetoprotein test is awaiting review.
+AUTH11133,M00744,Screening for chromosomal aneuploidy in prenatal amniotic fluid,2026-05-24,Approved,2026-06-03,Synthetic,Prior authorization for Screening for chromosomal aneuploidy in prenatal amniotic fluid has been approved.
+AUTH11134,M00330,CT Scan,2026-07-30,Denied,2026-07-31,Synthetic,Prior authorization for CT Scan was not approved.
+AUTH11135,M01001,Renal dialysis (procedure),2026-04-10,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH11136,M00290,Physical examination following birth,2026-05-06,Cancelled,2026-05-15,Synthetic,Prior authorization for Physical examination following birth was cancelled.
+AUTH11137,M00603,Auscultation of the fetal heart,2026-02-26,Approved,2026-03-09,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH11138,M00637,Auscultation of the fetal heart,2026-04-09,Approved,2026-04-23,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH11139,M00998,Hemoglobin / Hematocrit / Platelet count,2026-04-21,Approved,2026-04-23,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH11140,M00762,Evaluation of uterine fundal height,2026-03-21,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH11141,M00030,CT Scan,2026-06-17,Approved,2026-06-22,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11142,M00936,CT Scan,2026-06-16,Approved,2026-06-19,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11143,M00052,Standard pregnancy test,2026-04-17,Approved,2026-04-30,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH11144,M00378,Renal dialysis (procedure),2026-04-08,Approved,2026-04-10,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11145,M01125,Cytopathology procedure  preparation of smear  genital source (procedure),2026-03-19,Pending,,Synthetic,Prior authorization request for Cytopathology procedure  preparation of smear  genital source (procedure) is awaiting review.
+AUTH11146,M00885,CT Scan,2026-03-26,Approved,2026-04-01,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11147,M00691,Medication Reconciliation (procedure),2026-03-27,Approved,2026-03-28,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11148,M00731,Medication Reconciliation (procedure),2026-04-22,Approved,2026-04-29,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11149,M00448,Medication Reconciliation (procedure),2026-07-17,Approved,2026-07-28,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11150,M00108,Standard pregnancy test,2026-06-10,Approved,2026-06-11,Synthetic,Prior authorization for Standard pregnancy test has been approved.
+AUTH11151,M01141,Vaccination for diphtheria  pertussis  and tetanus,2026-04-19,Approved,2026-05-03,Synthetic,Prior authorization for Vaccination for diphtheria  pertussis  and tetanus has been approved.
+AUTH11152,M00812,Medication Reconciliation (procedure),2026-07-21,Approved,2026-07-23,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11153,M00317,Hemoglobin / Hematocrit / Platelet count,2026-06-13,Approved,2026-06-25,Synthetic,Prior authorization for Hemoglobin / Hematocrit / Platelet count has been approved.
+AUTH11154,M00226,Auscultation of the fetal heart,2026-03-15,Approved,2026-03-29,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH11155,M00249,Teleradiotherapy procedure (procedure),2026-03-09,Approved,2026-03-12,Synthetic,Prior authorization for Teleradiotherapy procedure (procedure) has been approved.
+AUTH11156,M01001,Renal dialysis (procedure),2026-03-08,Pending,,Synthetic,Prior authorization request for Renal dialysis (procedure) is awaiting review.
+AUTH11157,M01163,Insertion of intrauterine contraceptive device,2026-06-21,Approved,2026-07-04,Synthetic,Prior authorization for Insertion of intrauterine contraceptive device has been approved.
+AUTH11158,M00497,Auscultation of the fetal heart,2026-07-28,Approved,2026-08-06,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH11159,M00082,Auscultation of the fetal heart,2026-06-02,Approved,2026-06-05,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH11160,M00777,Medication Reconciliation (procedure),2026-05-22,Cancelled,2026-05-27,Synthetic,Prior authorization for Medication Reconciliation (procedure) was cancelled.
+AUTH11161,M01001,Renal dialysis (procedure),2026-05-30,Approved,2026-06-13,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11162,M00741,Colonoscopy,2026-04-03,Cancelled,2026-04-14,Synthetic,Prior authorization for Colonoscopy was cancelled.
+AUTH11163,M00768,Evaluation of uterine fundal height,2026-07-19,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH11164,M00656,Medication Reconciliation (procedure),2026-04-29,Denied,2026-05-04,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH11165,M00888,Medication Reconciliation (procedure),2026-02-26,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH11166,M00844,CT Scan,2026-07-10,Approved,2026-07-22,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11167,M00971,Hearing examination (procedure),2026-05-22,Approved,2026-06-04,Synthetic,Prior authorization for Hearing examination (procedure) has been approved.
+AUTH11168,M00739,Renal dialysis (procedure),2026-02-20,Approved,2026-02-23,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11169,M00280,Medication Reconciliation (procedure),2026-03-18,Approved,2026-03-29,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11170,M00108,CT Scan,2026-04-28,Approved,2026-04-30,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11171,M00882,CT Scan,2026-03-03,Approved,2026-03-16,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11172,M01062,Subcutaneous immunotherapy,2026-07-20,Approved,2026-08-01,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH11173,M00849,Mammography (procedure),2026-06-02,Approved,2026-06-08,Synthetic,Prior authorization for Mammography (procedure) has been approved.
+AUTH11174,M00720,Evaluation of uterine fundal height,2026-04-18,Cancelled,2026-04-24,Synthetic,Prior authorization for Evaluation of uterine fundal height was cancelled.
+AUTH11175,M00853,Evaluation of uterine fundal height,2026-03-17,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH11176,M01093,Spirometry (procedure),2026-07-20,Approved,2026-07-28,Synthetic,Prior authorization for Spirometry (procedure) has been approved.
+AUTH11177,M00535,Auscultation of the fetal heart,2026-03-03,Approved,2026-03-09,Synthetic,Prior authorization for Auscultation of the fetal heart has been approved.
+AUTH11178,M00764,Subcutaneous immunotherapy,2026-07-27,Approved,2026-08-03,Synthetic,Prior authorization for Subcutaneous immunotherapy has been approved.
+AUTH11179,M00689,CT Scan,2026-06-18,Cancelled,2026-07-02,Synthetic,Prior authorization for CT Scan was cancelled.
+AUTH11180,M01141,Urine screening for glucose,2026-06-19,Approved,2026-06-25,Synthetic,Prior authorization for Urine screening for glucose has been approved.
+AUTH11181,M00187,Ultrasound scan for fetal viability,2026-06-01,Approved,2026-06-11,Synthetic,Prior authorization for Ultrasound scan for fetal viability has been approved.
+AUTH11182,M01001,Renal dialysis (procedure),2026-07-10,Approved,2026-07-18,Synthetic,Prior authorization for Renal dialysis (procedure) has been approved.
+AUTH11183,M00831,Auscultation of the fetal heart,2026-05-17,Denied,2026-05-30,Synthetic,Prior authorization for Auscultation of the fetal heart was not approved.
+AUTH11184,M00378,CT Scan,2026-07-31,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH11185,M00112,Medication Reconciliation (procedure),2026-03-05,Approved,2026-03-13,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.
+AUTH11186,M00798,Medication Reconciliation (procedure),2026-08-08,Pending,,Synthetic,Prior authorization request for Medication Reconciliation (procedure) is awaiting review.
+AUTH11187,M01077,CT Scan,2026-07-03,Approved,2026-07-04,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11188,M00794,Urine protein test,2026-04-25,Approved,2026-05-07,Synthetic,Prior authorization for Urine protein test has been approved.
+AUTH11189,M00550,Medication Reconciliation (procedure),2026-07-10,Denied,2026-07-15,Synthetic,Prior authorization for Medication Reconciliation (procedure) was not approved.
+AUTH11190,M01042,Peripheral blood smear interpretation,2026-07-03,Denied,2026-07-08,Synthetic,Prior authorization for Peripheral blood smear interpretation was not approved.
+AUTH11191,M00536,Cytopathology procedure  preparation of smear  genital source,2026-07-20,Approved,2026-07-25,Synthetic,Prior authorization for Cytopathology procedure  preparation of smear  genital source has been approved.
+AUTH11192,M01124,CT Scan,2026-07-22,Approved,2026-08-02,Synthetic,Prior authorization for CT Scan has been approved.
+AUTH11193,M00394,Skin test for tuberculosis,2026-07-01,Pending,,Synthetic,Prior authorization request for Skin test for tuberculosis is awaiting review.
+AUTH11194,M01036,Evaluation of uterine fundal height,2026-03-05,Approved,2026-03-17,Synthetic,Prior authorization for Evaluation of uterine fundal height has been approved.
+AUTH11195,M00039,Urine culture,2026-06-14,Approved,2026-06-16,Synthetic,Prior authorization for Urine culture has been approved.
+AUTH11196,M00849,Mammography (procedure),2026-07-19,Pending,,Synthetic,Prior authorization request for Mammography (procedure) is awaiting review.
+AUTH11197,M00725,Evaluation of uterine fundal height,2026-04-12,Pending,,Synthetic,Prior authorization request for Evaluation of uterine fundal height is awaiting review.
+AUTH11198,M00275,Hepatitis C antibody test,2026-03-14,Approved,2026-03-25,Synthetic,Prior authorization for Hepatitis C antibody test has been approved.
+AUTH11199,M00410,CT Scan,2026-04-21,Pending,,Synthetic,Prior authorization request for CT Scan is awaiting review.
+AUTH11200,M01087,Medication Reconciliation (procedure),2026-02-15,Approved,2026-02-17,Synthetic,Prior authorization for Medication Reconciliation (procedure) has been approved.

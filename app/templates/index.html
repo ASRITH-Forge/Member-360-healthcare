@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block title %}Operations Dashboard &bull; Member 360° Care Intelligence{% endblock %}
+
+{% block content %}
+<!-- Page Overview Header -->
+<div class="page-header-block">
+  <h1 class="page-title">Operations &amp; Care Coordination Dashboard</h1>
+  <p class="page-subtitle">
+    Unified healthcare intelligence platform for care coordinators and service representatives. Inspect comprehensive member records, detect open care issues, and access AI-assisted operational guidance.
+  </p>
+
+  <!-- Integrated Enterprise Search Bar -->
+  <form action="/search" method="GET" class="search-form-card">
+    <div class="search-input-group">
+      <span class="search-icon-prefix">🔍</span>
+      <input 
+        type="text" 
+        name="q" 
+        class="search-text-field" 
+        placeholder="Search by Member ID (e.g., M00001), Full Name, City, or State..." 
+        autocomplete="off"
+        required
+      />
+      <button type="submit" class="btn-primary">Search Members</button>
+    </div>
+    <div style="font-size: 0.775rem; color: var(--text-muted); margin-top: 0.5rem; margin-left: 0.25rem;">
+      Search across all synthetic member records by name, identifier, or geographic location.
+    </div>
+  </form>
+</div>
+
+<!-- Operational Summary KPI Strip -->
+<div class="metrics-row">
+  <div class="metric-tile">
+    <div class="metric-tile-header">
+      <span class="metric-tile-label">Indexed Members</span>
+      <span class="metric-tile-indicator" style="background-color: var(--primary-600);"></span>
+    </div>
+    <div class="metric-tile-value">{{ total_members }}</div>
+    <div class="metric-tile-subtext">Active records in database registry</div>
+  </div>
+
+  <div class="metric-tile">
+    <div class="metric-tile-header">
+      <span class="metric-tile-label">Pending Authorizations</span>
+      <span class="metric-tile-indicator" style="background-color: #d97706;"></span>
+    </div>
+    <div class="metric-tile-value" style="color: #92400e;">{{ pending_auths }}</div>
+    <div class="metric-tile-subtext">Prior authorizations awaiting clinical determination</div>
+  </div>
+
+  <div class="metric-tile">
+    <div class="metric-tile-header">
+      <span class="metric-tile-label">Open Care Gaps</span>
+      <span class="metric-tile-indicator" style="background-color: #dc2626;"></span>
+    </div>
+    <div class="metric-tile-value" style="color: #991b1b;">{{ total_open_gaps }}</div>
+    <div class="metric-tile-subtext">Clinical &amp; preventive audit gaps detected</div>
+  </div>
+
+  <div class="metric-tile">
+    <div class="metric-tile-header">
+      <span class="metric-tile-label">Unresolved Contacts</span>
+      <span class="metric-tile-indicator" style="background-color: #059669;"></span>
+    </div>
+    <div class="metric-tile-value" style="color: #065f46;">{{ unresolved_interactions }}</div>
+    <div class="metric-tile-subtext">Member inquiry tickets in progress</div>
+  </div>
+</div>
+
+<!-- Sample / Recent Member Directory Panel -->
+<div class="content-panel">
+  <div class="panel-header">
+    <div class="panel-title-wrap">
+      <span class="panel-title">Member Records Overview</span>
+      <span class="panel-subtitle">&bull; Sample Registry</span>
+    </div>
+    <a href="/search" class="btn-secondary btn-sm">
+      View All Members Directory &rarr;
+    </a>
+  </div>
+
+  <div class="table-responsive">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Member ID</th>
+          <th>Full Name</th>
+          <th>Date of Birth</th>
+          <th>Gender</th>
+          <th>Location</th>
+          <th>Status</th>
+          <th style="text-align: right;">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for m in recent_members %}
+        <tr>
+          <td><code class="code-id">{{ m.member_id }}</code></td>
+          <td class="cell-primary">{{ m.first_name }} {{ m.last_name }}</td>
+          <td>{{ m.date_of_birth }}</td>
+          <td>{{ m.gender }}</td>
+          <td>{{ m.city }}, {{ m.state }}</td>
+          <td>
+            {% if not m.death_date %}
+            <span class="badge badge-active">Active</span>
+            {% else %}
+            <span class="badge badge-denied">Deceased</span>
+            {% endif %}
+          </td>
+          <td style="text-align: right;">
+            <a href="/member/{{ m.member_id }}" class="btn-secondary btn-sm">
+              Open 360° Profile &rarr;
+            </a>
+          </td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="7" class="empty-records-cell">
+            No member records currently available in database.
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

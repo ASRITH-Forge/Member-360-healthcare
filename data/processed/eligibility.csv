@@ -1,0 +1,1172 @@
+eligibility_id,member_id,payer_name,plan_name,plan_type,ownership,effective_date,termination_date,status,source
+ELG10001,M00001,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10002,M00002,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10003,M00003,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10004,M00004,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10005,M00005,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10006,M00006,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10007,M00007,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10008,M00008,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10009,M00009,Blue Cross Blue Shield,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10010,M00010,Medicare,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10011,M00011,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-06-19,Terminated,Synthetic
+ELG10012,M00012,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10013,M00013,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10014,M00014,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10015,M00015,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10016,M00016,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10017,M00017,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10018,M00018,Humana,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10019,M00019,Humana,Medicare Advantage,Medicare,Medicare,2026-01-01,2026-07-13,Terminated,Synthetic
+ELG10020,M00020,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10021,M00021,UnitedHealthcare,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10022,M00022,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10023,M00023,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10024,M00024,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10025,M00025,Anthem,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10026,M00026,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10027,M00027,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10028,M00028,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10029,M00029,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10030,M00030,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10031,M00031,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10032,M00032,Anthem,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10033,M00033,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-06-04,Terminated,Synthetic
+ELG10034,M00034,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10035,M00035,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10036,M00036,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-07-16,Terminated,Synthetic
+ELG10037,M00037,Dual Eligible,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10038,M00038,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10039,M00039,Medicaid,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10040,M00040,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10041,M00041,Humana,Medicare Basic,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10042,M00042,Humana,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10043,M00043,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-05-28,Terminated,Synthetic
+ELG10044,M00044,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10045,M00045,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10046,M00046,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10047,M00047,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10048,M00048,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10049,M00049,NO_INSURANCE,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10050,M00050,Humana,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10051,M00051,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10052,M00052,Medicare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10053,M00053,Humana,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10054,M00054,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10055,M00055,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10056,M00056,Dual Eligible,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10057,M00057,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10058,M00058,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10059,M00059,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10060,M00060,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10061,M00061,Aetna,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10062,M00062,Cigna Health,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10063,M00063,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10064,M00064,Dual Eligible,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10065,M00065,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10066,M00066,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10067,M00067,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10068,M00068,NO_INSURANCE,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10069,M00069,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10070,M00070,Humana,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10071,M00071,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10072,M00072,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10073,M00073,Cigna Health,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10074,M00074,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10075,M00075,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-07-22,Terminated,Synthetic
+ELG10076,M00076,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10077,M00077,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10078,M00078,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10079,M00079,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10080,M00080,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10081,M00081,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10082,M00082,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10083,M00083,Medicare,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10084,M00084,Dual Eligible,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10085,M00085,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10086,M00086,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10087,M00087,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10088,M00088,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10089,M00089,Dual Eligible,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-04-27,Terminated,Synthetic
+ELG10090,M00090,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10091,M00091,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10092,M00092,Medicaid,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG10093,M00093,Dual Eligible,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10094,M00094,Humana,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10095,M00095,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,2026-07-19,Terminated,Synthetic
+ELG10096,M00096,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10097,M00097,Humana,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10098,M00098,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-07-08,Terminated,Synthetic
+ELG10099,M00099,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10100,M00100,Dual Eligible,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10101,M00101,NO_INSURANCE,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG10102,M00102,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10103,M00103,Aetna,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10104,M00104,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10105,M00105,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10106,M00106,Humana,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10107,M00107,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10108,M00108,Blue Cross Blue Shield,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10109,M00109,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10110,M00110,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10111,M00111,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10112,M00112,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10113,M00113,NO_INSURANCE,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10114,M00114,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10115,M00115,Medicaid,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10116,M00116,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10117,M00117,Blue Cross Blue Shield,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10118,M00118,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10119,M00119,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10120,M00120,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10121,M00121,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10122,M00122,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10123,M00123,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10124,M00124,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10125,M00125,NO_INSURANCE,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10126,M00126,Anthem,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10127,M00127,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10128,M00128,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10129,M00129,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10130,M00130,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-04-11,Terminated,Synthetic
+ELG10131,M00131,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10132,M00132,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10133,M00133,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10134,M00134,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-07-07,Terminated,Synthetic
+ELG10135,M00135,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10136,M00136,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10137,M00137,Humana,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10138,M00138,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10139,M00139,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,2026-07-27,Terminated,Synthetic
+ELG10140,M00140,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10141,M00141,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10142,M00142,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10143,M00143,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10144,M00144,Blue Cross Blue Shield,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10145,M00145,Medicare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10146,M00146,UnitedHealthcare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10147,M00147,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10148,M00148,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10149,M00149,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10150,M00150,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10151,M00151,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10152,M00152,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10153,M00153,Aetna,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG10154,M00154,Humana,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10155,M00155,NO_INSURANCE,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10156,M00156,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10157,M00157,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10158,M00158,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10159,M00159,Cigna Health,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10160,M00160,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10161,M00161,Cigna Health,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10162,M00162,UnitedHealthcare,Medicare Basic,Medicare,Medicare,2026-01-01,2026-07-16,Terminated,Synthetic
+ELG10163,M00163,Cigna Health,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10164,M00164,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10165,M00165,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10166,M00166,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10167,M00167,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10168,M00168,Humana,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10169,M00169,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10170,M00170,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10171,M00171,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10172,M00172,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10173,M00173,UnitedHealthcare,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10174,M00174,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10175,M00175,Medicare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10176,M00176,Medicaid,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10177,M00177,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10178,M00178,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-05-08,Terminated,Synthetic
+ELG10179,M00179,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10180,M00180,Dual Eligible,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10181,M00181,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10182,M00182,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10183,M00183,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10184,M00184,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10185,M00185,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10186,M00186,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10187,M00187,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10188,M00188,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10189,M00189,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10190,M00190,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10191,M00191,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10192,M00192,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10193,M00193,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10194,M00194,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10195,M00195,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10196,M00196,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10197,M00197,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-04-10,Terminated,Synthetic
+ELG10198,M00198,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10199,M00199,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10200,M00200,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10201,M00201,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10202,M00202,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10203,M00203,NO_INSURANCE,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10204,M00204,Blue Cross Blue Shield,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10205,M00205,Cigna Health,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10206,M00206,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10207,M00207,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10208,M00208,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-05-13,Terminated,Synthetic
+ELG10209,M00209,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10210,M00210,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10211,M00211,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10212,M00212,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10213,M00213,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10214,M00214,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10215,M00215,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10216,M00216,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10217,M00217,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10218,M00218,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10219,M00219,Cigna Health,Medicare Advantage,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10220,M00220,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10221,M00221,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-05-31,Terminated,Synthetic
+ELG10222,M00222,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10223,M00223,Medicaid,Community Medicaid,Medicaid,Medicaid,2026-01-01,2026-05-06,Terminated,Synthetic
+ELG10224,M00224,UnitedHealthcare,Medicare Basic,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10225,M00225,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10226,M00226,Cigna Health,SeniorCare Advantage,Medicare,Medicare,2026-01-01,2026-05-28,Terminated,Synthetic
+ELG10227,M00227,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10228,M00228,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,2026-06-29,Terminated,Synthetic
+ELG10229,M00229,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,2026-05-23,Terminated,Synthetic
+ELG10230,M00230,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10231,M00231,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10232,M00232,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-07-21,Terminated,Synthetic
+ELG10233,M00233,Anthem,Medicare Advantage,Medicare,Medicare,2026-01-01,2026-04-02,Terminated,Synthetic
+ELG10234,M00234,Medicaid,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10235,M00235,UnitedHealthcare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10236,M00236,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-07-19,Terminated,Synthetic
+ELG10237,M00237,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-04-05,Terminated,Synthetic
+ELG10238,M00238,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10239,M00239,Medicare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10240,M00240,Cigna Health,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10241,M00241,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10242,M00242,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10243,M00243,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10244,M00244,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10245,M00245,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-04-19,Terminated,Synthetic
+ELG10246,M00246,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10247,M00247,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10248,M00248,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10249,M00249,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10250,M00250,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10251,M00251,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10252,M00252,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10253,M00253,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10254,M00254,Humana,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10255,M00255,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10256,M00256,Medicaid,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10257,M00257,Dual Eligible,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10258,M00258,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10259,M00259,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10260,M00260,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-05-17,Terminated,Synthetic
+ELG10261,M00261,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10262,M00262,Blue Cross Blue Shield,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10263,M00263,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10264,M00264,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10265,M00265,Medicare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10266,M00266,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10267,M00267,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10268,M00268,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10269,M00269,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10270,M00270,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-05-09,Terminated,Synthetic
+ELG10271,M00271,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10272,M00272,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10273,M00273,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10274,M00274,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10275,M00275,Medicare,Medicare Basic,Medicare,Medicare,2026-01-01,2026-06-18,Terminated,Synthetic
+ELG10276,M00276,Dual Eligible,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10277,M00277,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,2026-04-13,Terminated,Synthetic
+ELG10278,M00278,Anthem,Medicaid Plus,Medicaid,Medicaid,2026-01-01,2026-06-22,Terminated,Synthetic
+ELG10279,M00279,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10280,M00280,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10281,M00281,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10282,M00282,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10283,M00283,Humana,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10284,M00284,UnitedHealthcare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10285,M00285,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10286,M00286,Anthem,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10287,M00287,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10288,M00288,NO_INSURANCE,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10289,M00289,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10290,M00290,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10291,M00291,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10292,M00292,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10293,M00293,Anthem,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10294,M00294,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10295,M00295,Medicare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10296,M00296,Medicare,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10297,M00297,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10298,M00298,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10299,M00299,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10300,M00300,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10301,M00301,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10302,M00302,Aetna,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10303,M00303,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10304,M00304,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10305,M00305,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10306,M00306,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10307,M00307,UnitedHealthcare,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10308,M00308,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10309,M00309,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10310,M00310,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,2026-05-15,Terminated,Synthetic
+ELG10311,M00311,Medicare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10312,M00312,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10313,M00313,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10314,M00314,Blue Cross Blue Shield,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10315,M00315,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10316,M00316,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10317,M00317,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10318,M00318,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10319,M00319,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10320,M00320,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10321,M00321,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10322,M00322,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10323,M00323,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10324,M00324,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10325,M00325,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10326,M00326,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10327,M00327,Blue Cross Blue Shield,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10328,M00328,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10329,M00329,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10330,M00330,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10331,M00331,Dual Eligible,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10332,M00332,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10333,M00333,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10334,M00334,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10335,M00335,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10336,M00336,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10337,M00337,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10338,M00338,Anthem,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10339,M00339,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10340,M00340,Medicaid,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10341,M00341,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10342,M00342,Medicare,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10343,M00343,Cigna Health,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10344,M00344,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10345,M00345,UnitedHealthcare,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10346,M00346,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10347,M00347,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10348,M00348,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10349,M00349,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10350,M00350,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10351,M00351,Cigna Health,Medicare Advantage,Medicare,Medicare,2026-01-01,2026-06-13,Terminated,Synthetic
+ELG10352,M00352,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10353,M00353,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10354,M00354,Medicare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10355,M00355,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10356,M00356,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10357,M00357,Aetna,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10358,M00358,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10359,M00359,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10360,M00360,Medicaid,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10361,M00361,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10362,M00362,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10363,M00363,Anthem,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10364,M00364,Anthem,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10365,M00365,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10366,M00366,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10367,M00367,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10368,M00368,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10369,M00369,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10370,M00370,Medicaid,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10371,M00371,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10372,M00372,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10373,M00373,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10374,M00374,Humana,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10375,M00375,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10376,M00376,Cigna Health,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10377,M00377,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10378,M00378,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10379,M00379,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10380,M00380,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10381,M00381,Cigna Health,Medicare Basic,Medicare,Medicare,2026-01-01,2026-04-19,Terminated,Synthetic
+ELG10382,M00382,Humana,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10383,M00383,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10384,M00384,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10385,M00385,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10386,M00386,UnitedHealthcare,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10387,M00387,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10388,M00388,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10389,M00389,Blue Cross Blue Shield,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10390,M00390,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10391,M00391,Blue Cross Blue Shield,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10392,M00392,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10393,M00393,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10394,M00394,Humana,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10395,M00395,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10396,M00396,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10397,M00397,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10398,M00398,Dual Eligible,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10399,M00399,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10400,M00400,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10401,M00401,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10402,M00402,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10403,M00403,Cigna Health,Medicare Advantage,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10404,M00404,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10405,M00405,Dual Eligible,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10406,M00406,Dual Eligible,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10407,M00407,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10408,M00408,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10409,M00409,UnitedHealthcare,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10410,M00410,Aetna,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10411,M00411,UnitedHealthcare,Medicare Basic,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10412,M00412,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10413,M00413,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10414,M00414,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10415,M00415,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10416,M00416,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10417,M00417,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10418,M00418,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10419,M00419,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10420,M00420,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10421,M00421,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10422,M00422,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10423,M00423,Cigna Health,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10424,M00424,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10425,M00425,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10426,M00426,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-04-16,Terminated,Synthetic
+ELG10427,M00427,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10428,M00428,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10429,M00429,Medicaid,Medicare Basic,Medicare,Medicare,2026-01-01,2026-05-27,Terminated,Synthetic
+ELG10430,M00430,UnitedHealthcare,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10431,M00431,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10432,M00432,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10433,M00433,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10434,M00434,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10435,M00435,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10436,M00436,Blue Cross Blue Shield,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10437,M00437,Anthem,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10438,M00438,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10439,M00439,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10440,M00440,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10441,M00441,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10442,M00442,Anthem,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10443,M00443,Humana,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10444,M00444,Medicare,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10445,M00445,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10446,M00446,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10447,M00447,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10448,M00448,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-06-12,Terminated,Synthetic
+ELG10449,M00449,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10450,M00450,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10451,M00451,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10452,M00452,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10453,M00453,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10454,M00454,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10455,M00455,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10456,M00456,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10457,M00457,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10458,M00458,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10459,M00459,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10460,M00460,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10461,M00461,UnitedHealthcare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10462,M00462,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10463,M00463,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10464,M00464,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10465,M00465,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10466,M00466,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10467,M00467,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10468,M00468,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10469,M00469,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10470,M00470,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10471,M00471,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10472,M00472,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10473,M00473,UnitedHealthcare,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10474,M00474,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10475,M00475,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10476,M00476,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-04-18,Terminated,Synthetic
+ELG10477,M00477,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10478,M00478,Blue Cross Blue Shield,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10479,M00479,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10480,M00480,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10481,M00481,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10482,M00482,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10483,M00483,NO_INSURANCE,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10484,M00484,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10485,M00485,Medicaid,Medicare Basic,Medicare,Medicare,2026-01-01,2026-05-02,Terminated,Synthetic
+ELG10486,M00486,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10487,M00487,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10488,M00488,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-07-04,Terminated,Synthetic
+ELG10489,M00489,Medicaid,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10490,M00490,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10491,M00491,Anthem,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10492,M00492,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10493,M00493,Anthem,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10494,M00494,Blue Cross Blue Shield,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10495,M00495,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10496,M00496,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10497,M00497,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10498,M00498,Blue Cross Blue Shield,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10499,M00499,UnitedHealthcare,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG10500,M00500,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10501,M00501,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10502,M00502,Humana,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10503,M00503,Humana,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10504,M00504,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10505,M00505,Dual Eligible,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10506,M00506,Aetna,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10507,M00507,Cigna Health,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10508,M00508,UnitedHealthcare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10509,M00509,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10510,M00510,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10511,M00511,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10512,M00512,Dual Eligible,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10513,M00513,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10514,M00514,Anthem,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10515,M00515,Cigna Health,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10516,M00516,Medicaid,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10517,M00517,Dual Eligible,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10518,M00518,Humana,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10519,M00519,Aetna,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10520,M00520,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10521,M00521,Dual Eligible,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10522,M00522,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10523,M00523,Blue Cross Blue Shield,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10524,M00524,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10525,M00525,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10526,M00526,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10527,M00527,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10528,M00528,UnitedHealthcare,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10529,M00529,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10530,M00530,NO_INSURANCE,Medicare Advantage,Medicare,Medicare,2026-01-01,2026-04-11,Terminated,Synthetic
+ELG10531,M00531,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10532,M00532,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-04-26,Terminated,Synthetic
+ELG10533,M00533,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10534,M00534,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10535,M00535,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10536,M00536,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10537,M00537,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10538,M00538,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10539,M00539,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10540,M00540,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10541,M00541,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10542,M00542,Aetna,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10543,M00543,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10544,M00544,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10545,M00545,Dual Eligible,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10546,M00546,Anthem,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10547,M00547,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10548,M00548,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10549,M00549,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10550,M00550,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10551,M00551,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10552,M00552,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10553,M00553,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10554,M00554,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10555,M00555,Humana,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10556,M00556,Humana,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10557,M00557,NO_INSURANCE,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-07-26,Terminated,Synthetic
+ELG10558,M00558,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10559,M00559,Aetna,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10560,M00560,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10561,M00561,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10562,M00562,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-06-11,Terminated,Synthetic
+ELG10563,M00563,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10564,M00564,Humana,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10565,M00565,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10566,M00566,Dual Eligible,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10567,M00567,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-04-25,Terminated,Synthetic
+ELG10568,M00568,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10569,M00569,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10570,M00570,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10571,M00571,NO_INSURANCE,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10572,M00572,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10573,M00573,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10574,M00574,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-05-30,Terminated,Synthetic
+ELG10575,M00575,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,2026-05-18,Terminated,Synthetic
+ELG10576,M00576,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-07-04,Terminated,Synthetic
+ELG10577,M00577,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10578,M00578,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10579,M00579,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,2026-06-03,Terminated,Synthetic
+ELG10580,M00580,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10581,M00581,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10582,M00582,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10583,M00583,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10584,M00584,Dual Eligible,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10585,M00585,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10586,M00586,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10587,M00587,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10588,M00588,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10589,M00589,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10590,M00590,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10591,M00591,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10592,M00592,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10593,M00593,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10594,M00594,Blue Cross Blue Shield,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10595,M00595,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10596,M00596,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10597,M00597,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10598,M00598,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10599,M00599,Dual Eligible,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10600,M00600,NO_INSURANCE,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10601,M00601,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-06-12,Terminated,Synthetic
+ELG10602,M00602,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10603,M00603,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10604,M00604,Humana,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10605,M00605,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10606,M00606,Medicare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10607,M00607,Medicare,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10608,M00608,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10609,M00609,UnitedHealthcare,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10610,M00610,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10611,M00611,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10612,M00612,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10613,M00613,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10614,M00614,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10615,M00615,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10616,M00616,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10617,M00617,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10618,M00618,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10619,M00619,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10620,M00620,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-05-02,Terminated,Synthetic
+ELG10621,M00621,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10622,M00622,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10623,M00623,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10624,M00624,Blue Cross Blue Shield,Medicare Basic,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10625,M00625,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10626,M00626,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10627,M00627,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10628,M00628,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10629,M00629,Medicaid,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10630,M00630,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10631,M00631,Blue Cross Blue Shield,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10632,M00632,Humana,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10633,M00633,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10634,M00634,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10635,M00635,Cigna Health,Medicare Advantage,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10636,M00636,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10637,M00637,Cigna Health,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10638,M00638,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10639,M00639,Cigna Health,Medicare Advantage,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10640,M00640,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10641,M00641,Aetna,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10642,M00642,Anthem,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10643,M00643,Humana,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10644,M00644,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10645,M00645,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10646,M00646,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10647,M00647,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10648,M00648,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10649,M00649,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10650,M00650,Medicare,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10651,M00651,Medicare,Medicaid Standard,Medicaid,Medicaid,2026-01-01,2026-07-03,Terminated,Synthetic
+ELG10652,M00652,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10653,M00653,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10654,M00654,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10655,M00655,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-06-22,Terminated,Synthetic
+ELG10656,M00656,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10657,M00657,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10658,M00658,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10659,M00659,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10660,M00660,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10661,M00661,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10662,M00662,NO_INSURANCE,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10663,M00663,UnitedHealthcare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10664,M00664,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10665,M00665,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10666,M00666,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-06-19,Terminated,Synthetic
+ELG10667,M00667,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10668,M00668,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10669,M00669,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10670,M00670,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10671,M00671,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10672,M00672,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10673,M00673,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10674,M00674,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10675,M00675,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10676,M00676,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10677,M00677,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10678,M00678,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10679,M00679,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10680,M00680,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-05-17,Terminated,Synthetic
+ELG10681,M00681,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10682,M00682,Humana,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10683,M00683,Blue Cross Blue Shield,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10684,M00684,Medicare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10685,M00685,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-06-18,Terminated,Synthetic
+ELG10686,M00686,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10687,M00687,Dual Eligible,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10688,M00688,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10689,M00689,Blue Cross Blue Shield,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10690,M00690,Medicare,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10691,M00691,Dual Eligible,Medicare Basic,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG10692,M00692,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10693,M00693,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10694,M00694,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10695,M00695,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10696,M00696,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10697,M00697,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10698,M00698,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10699,M00699,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10700,M00700,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10701,M00701,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,2026-07-07,Terminated,Synthetic
+ELG10702,M00702,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10703,M00703,Cigna Health,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10704,M00704,Humana,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG10705,M00705,Blue Cross Blue Shield,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10706,M00706,Medicare,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10707,M00707,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10708,M00708,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10709,M00709,Humana,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10710,M00710,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10711,M00711,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10712,M00712,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10713,M00713,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10714,M00714,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10715,M00715,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10716,M00716,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10717,M00717,Medicaid,SeniorCare Advantage,Medicare,Medicare,2026-01-01,2026-06-18,Terminated,Synthetic
+ELG10718,M00718,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-04-18,Terminated,Synthetic
+ELG10719,M00719,Aetna,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10720,M00720,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10721,M00721,NO_INSURANCE,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10722,M00722,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10723,M00723,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10724,M00724,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10725,M00725,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10726,M00726,UnitedHealthcare,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10727,M00727,Aetna,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10728,M00728,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10729,M00729,Humana,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10730,M00730,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10731,M00731,Aetna,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10732,M00732,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10733,M00733,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10734,M00734,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10735,M00735,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10736,M00736,Dual Eligible,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10737,M00737,Cigna Health,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10738,M00738,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10739,M00739,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10740,M00740,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10741,M00741,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10742,M00742,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10743,M00743,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10744,M00744,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-04-22,Terminated,Synthetic
+ELG10745,M00745,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-06-26,Terminated,Synthetic
+ELG10746,M00746,Anthem,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10747,M00747,Humana,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10748,M00748,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10749,M00749,Aetna,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10750,M00750,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-06-13,Terminated,Synthetic
+ELG10751,M00751,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10752,M00752,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10753,M00753,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10754,M00754,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10755,M00755,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10756,M00756,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10757,M00757,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10758,M00758,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10759,M00759,UnitedHealthcare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10760,M00760,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10761,M00761,Cigna Health,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG10762,M00762,Blue Cross Blue Shield,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10763,M00763,Aetna,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10764,M00764,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10765,M00765,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10766,M00766,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10767,M00767,UnitedHealthcare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10768,M00768,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10769,M00769,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10770,M00770,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10771,M00771,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10772,M00772,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10773,M00773,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10774,M00774,Medicare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10775,M00775,Anthem,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10776,M00776,Dual Eligible,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10777,M00777,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10778,M00778,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10779,M00779,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10780,M00780,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10781,M00781,Dual Eligible,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG10782,M00782,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10783,M00783,Medicare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10784,M00784,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10785,M00785,Dual Eligible,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10786,M00786,Humana,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-05-06,Terminated,Synthetic
+ELG10787,M00787,Dual Eligible,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10788,M00788,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10789,M00789,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10790,M00790,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10791,M00791,Dual Eligible,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG10792,M00792,Cigna Health,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10793,M00793,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10794,M00794,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10795,M00795,Dual Eligible,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10796,M00796,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10797,M00797,Humana,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10798,M00798,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10799,M00799,UnitedHealthcare,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG10800,M00800,Medicaid,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10801,M00801,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10802,M00802,NO_INSURANCE,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10803,M00803,Anthem,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10804,M00804,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10805,M00805,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10806,M00806,Medicaid,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10807,M00807,Dual Eligible,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10808,M00808,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-07-20,Terminated,Synthetic
+ELG10809,M00809,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10810,M00810,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10811,M00811,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10812,M00812,UnitedHealthcare,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10813,M00813,NO_INSURANCE,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10814,M00814,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10815,M00815,Medicaid,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10816,M00816,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-07-08,Terminated,Synthetic
+ELG10817,M00817,Medicaid,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10818,M00818,Humana,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10819,M00819,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10820,M00820,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10821,M00821,UnitedHealthcare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10822,M00822,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10823,M00823,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10824,M00824,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,2026-06-03,Terminated,Synthetic
+ELG10825,M00825,Anthem,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10826,M00826,Humana,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10827,M00827,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10828,M00828,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10829,M00829,Medicare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10830,M00830,UnitedHealthcare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10831,M00831,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10832,M00832,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10833,M00833,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10834,M00834,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10835,M00835,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10836,M00836,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10837,M00837,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-06-20,Terminated,Synthetic
+ELG10838,M00838,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10839,M00839,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10840,M00840,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10841,M00841,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10842,M00842,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10843,M00843,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10844,M00844,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10845,M00845,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10846,M00846,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10847,M00847,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10848,M00848,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,2026-05-31,Terminated,Synthetic
+ELG10849,M00849,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10850,M00850,NO_INSURANCE,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10851,M00851,Medicaid,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG10852,M00852,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10853,M00853,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10854,M00854,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10855,M00855,Medicare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10856,M00856,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10857,M00857,NO_INSURANCE,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10858,M00858,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10859,M00859,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10860,M00860,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-07-22,Terminated,Synthetic
+ELG10861,M00861,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10862,M00862,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10863,M00863,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10864,M00864,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-05-13,Terminated,Synthetic
+ELG10865,M00865,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10866,M00866,UnitedHealthcare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10867,M00867,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-06-27,Terminated,Synthetic
+ELG10868,M00868,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10869,M00869,Blue Cross Blue Shield,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10870,M00870,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10871,M00871,Cigna Health,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10872,M00872,Anthem,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10873,M00873,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10874,M00874,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10875,M00875,Dual Eligible,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10876,M00876,Humana,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10877,M00877,Aetna,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10878,M00878,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10879,M00879,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10880,M00880,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10881,M00881,Dual Eligible,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10882,M00882,Humana,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-06-22,Terminated,Synthetic
+ELG10883,M00883,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10884,M00884,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-06-22,Terminated,Synthetic
+ELG10885,M00885,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10886,M00886,Blue Cross Blue Shield,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10887,M00887,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10888,M00888,NO_INSURANCE,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10889,M00889,UnitedHealthcare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10890,M00890,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10891,M00891,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10892,M00892,Blue Cross Blue Shield,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10893,M00893,Dual Eligible,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10894,M00894,Aetna,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10895,M00895,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10896,M00896,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10897,M00897,Humana,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10898,M00898,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10899,M00899,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10900,M00900,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10901,M00901,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10902,M00902,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10903,M00903,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10904,M00904,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10905,M00905,Dual Eligible,Medicare Basic,Medicare,Medicare,2026-01-01,2026-06-14,Terminated,Synthetic
+ELG10906,M00906,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10907,M00907,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10908,M00908,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10909,M00909,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10910,M00910,Medicare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10911,M00911,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10912,M00912,Humana,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10913,M00913,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10914,M00914,NO_INSURANCE,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10915,M00915,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10916,M00916,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10917,M00917,Humana,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10918,M00918,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10919,M00919,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10920,M00920,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-05-09,Terminated,Synthetic
+ELG10921,M00921,Anthem,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10922,M00922,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10923,M00923,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10924,M00924,Dual Eligible,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10925,M00925,Humana,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10926,M00926,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10927,M00927,Aetna,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-05-03,Terminated,Synthetic
+ELG10928,M00928,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10929,M00929,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10930,M00930,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10931,M00931,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10932,M00932,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10933,M00933,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10934,M00934,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10935,M00935,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10936,M00936,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10937,M00937,Blue Cross Blue Shield,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10938,M00938,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10939,M00939,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-06-25,Terminated,Synthetic
+ELG10940,M00940,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10941,M00941,Humana,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10942,M00942,Cigna Health,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10943,M00943,Blue Cross Blue Shield,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10944,M00944,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10945,M00945,Dual Eligible,Medicare Advantage,Medicare,Medicare,2026-01-01,2026-06-24,Terminated,Synthetic
+ELG10946,M00946,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-06-19,Terminated,Synthetic
+ELG10947,M00947,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10948,M00948,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10949,M00949,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10950,M00950,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10951,M00951,Medicare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10952,M00952,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10953,M00953,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10954,M00954,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10955,M00955,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10956,M00956,Dual Eligible,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10957,M00957,NO_INSURANCE,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10958,M00958,Anthem,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10959,M00959,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10960,M00960,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10961,M00961,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10962,M00962,Cigna Health,Community Medicaid,Medicaid,Medicaid,2026-01-01,2026-07-21,Terminated,Synthetic
+ELG10963,M00963,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10964,M00964,Anthem,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10965,M00965,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10966,M00966,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10967,M00967,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10968,M00968,Medicare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10969,M00969,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-07-11,Terminated,Synthetic
+ELG10970,M00970,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-06-11,Terminated,Synthetic
+ELG10971,M00971,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10972,M00972,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10973,M00973,Cigna Health,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10974,M00974,Medicare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10975,M00975,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10976,M00976,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10977,M00977,Medicaid,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10978,M00978,Aetna,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10979,M00979,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10980,M00980,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10981,M00981,Dual Eligible,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10982,M00982,Medicare,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10983,M00983,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10984,M00984,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10985,M00985,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10986,M00986,NO_INSURANCE,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10987,M00987,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10988,M00988,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-05-24,Terminated,Synthetic
+ELG10989,M00989,Humana,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10990,M00990,Cigna Health,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10991,M00991,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10992,M00992,Anthem,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10993,M00993,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10994,M00994,Medicaid,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG10995,M00995,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG10996,M00996,NO_INSURANCE,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG10997,M00997,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10998,M00998,Anthem,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG10999,M00999,Dual Eligible,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11000,M01000,Blue Cross Blue Shield,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11001,M01001,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11002,M01002,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11003,M01003,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,2026-07-05,Terminated,Synthetic
+ELG11004,M01004,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11005,M01005,Blue Cross Blue Shield,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11006,M01006,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11007,M01007,UnitedHealthcare,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG11008,M01008,Humana,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11009,M01009,Humana,Medicare Basic,Medicare,Medicare,2026-01-01,2026-06-30,Terminated,Synthetic
+ELG11010,M01010,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11011,M01011,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11012,M01012,Medicaid,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG11013,M01013,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11014,M01014,Medicaid,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11015,M01015,UnitedHealthcare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11016,M01016,Medicaid,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Pending,Synthetic
+ELG11017,M01017,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11018,M01018,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11019,M01019,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11020,M01020,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11021,M01021,Humana,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-06-24,Terminated,Synthetic
+ELG11022,M01022,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11023,M01023,Cigna Health,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG11024,M01024,Dual Eligible,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11025,M01025,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-05-02,Terminated,Synthetic
+ELG11026,M01026,UnitedHealthcare,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11027,M01027,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11028,M01028,Anthem,Medicare Advantage,Medicare,Medicare,2026-01-01,2026-05-18,Terminated,Synthetic
+ELG11029,M01029,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11030,M01030,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11031,M01031,Anthem,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11032,M01032,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,2026-05-25,Terminated,Synthetic
+ELG11033,M01033,Anthem,Medicare Advantage,Medicare,Medicare,2026-01-01,2026-07-22,Terminated,Synthetic
+ELG11034,M01034,Medicare,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11035,M01035,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11036,M01036,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11037,M01037,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11038,M01038,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11039,M01039,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11040,M01040,NO_INSURANCE,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11041,M01041,Anthem,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11042,M01042,NO_INSURANCE,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11043,M01043,Aetna,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11044,M01044,Medicaid,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11045,M01045,Anthem,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11046,M01046,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG11047,M01047,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11048,M01048,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11049,M01049,Humana,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11050,M01050,Humana,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11051,M01051,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11052,M01052,Humana,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11053,M01053,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-07-29,Terminated,Synthetic
+ELG11054,M01054,Cigna Health,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11055,M01055,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11056,M01056,UnitedHealthcare,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11057,M01057,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11058,M01058,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11059,M01059,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11060,M01060,Aetna,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11061,M01061,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11062,M01062,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11063,M01063,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11064,M01064,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-07-19,Terminated,Synthetic
+ELG11065,M01065,Humana,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11066,M01066,Medicare,Medicare Advantage,Medicare,Medicare,2026-01-01,2026-07-18,Terminated,Synthetic
+ELG11067,M01067,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11068,M01068,Dual Eligible,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11069,M01069,Cigna Health,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11070,M01070,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,2026-06-15,Terminated,Synthetic
+ELG11071,M01071,Medicaid,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11072,M01072,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11073,M01073,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11074,M01074,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11075,M01075,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG11076,M01076,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11077,M01077,Humana,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11078,M01078,Cigna Health,Medicare Basic,Medicare,Medicare,2026-01-01,2026-07-22,Terminated,Synthetic
+ELG11079,M01079,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11080,M01080,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11081,M01081,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11082,M01082,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11083,M01083,Anthem,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11084,M01084,Cigna Health,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11085,M01085,Anthem,Medicare Advantage,Medicare,Medicare,2026-01-01,2026-05-27,Terminated,Synthetic
+ELG11086,M01086,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11087,M01087,Medicaid,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11088,M01088,Humana,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11089,M01089,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11090,M01090,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11091,M01091,Dual Eligible,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11092,M01092,Anthem,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11093,M01093,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11094,M01094,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG11095,M01095,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11096,M01096,Cigna Health,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11097,M01097,Medicaid,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11098,M01098,NO_INSURANCE,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11099,M01099,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11100,M01100,Aetna,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11101,M01101,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11102,M01102,Medicare,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11103,M01103,Dual Eligible,Community Medicaid,Medicaid,Medicaid,2026-01-01,2026-06-08,Terminated,Synthetic
+ELG11104,M01104,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11105,M01105,Anthem,Prime Health Plus,Commercial,Commercial,2026-01-01,2026-07-24,Terminated,Synthetic
+ELG11106,M01106,Aetna,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11107,M01107,Anthem,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11108,M01108,Aetna,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11109,M01109,NO_INSURANCE,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11110,M01110,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,2026-04-11,Terminated,Synthetic
+ELG11111,M01111,Aetna,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11112,M01112,NO_INSURANCE,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11113,M01113,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11114,M01114,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11115,M01115,Blue Cross Blue Shield,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-05-25,Terminated,Synthetic
+ELG11116,M01116,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG11117,M01117,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11118,M01118,UnitedHealthcare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11119,M01119,NO_INSURANCE,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11120,M01120,Medicaid,SeniorCare Advantage,Medicare,Medicare,2026-01-01,2026-06-24,Terminated,Synthetic
+ELG11121,M01121,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11122,M01122,Humana,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11123,M01123,NO_INSURANCE,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11124,M01124,Aetna,Medicare Advantage,Medicare,Medicare,2026-01-01,,Pending,Synthetic
+ELG11125,M01125,Medicaid,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11126,M01126,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11127,M01127,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11128,M01128,NO_INSURANCE,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11129,M01129,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG11130,M01130,Cigna Health,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11131,M01131,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11132,M01132,Anthem,SeniorCare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11133,M01133,UnitedHealthcare,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11134,M01134,Medicare,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG11135,M01135,Aetna,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11136,M01136,Medicare,HealthPlus Gold,Commercial,Commercial,2026-01-01,2026-06-10,Terminated,Synthetic
+ELG11137,M01137,NO_INSURANCE,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11138,M01138,Humana,Medicaid Plus,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11139,M01139,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11140,M01140,Medicare,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11141,M01141,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11142,M01142,NO_INSURANCE,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11143,M01143,NO_INSURANCE,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11144,M01144,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11145,M01145,Cigna Health,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11146,M01146,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11147,M01147,Anthem,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11148,M01148,Humana,Medicare Basic,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11149,M01149,Medicare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11150,M01150,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11151,M01151,Humana,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11152,M01152,Blue Cross Blue Shield,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11153,M01153,NO_INSURANCE,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11154,M01154,Medicare,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11155,M01155,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11156,M01156,Cigna Health,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11157,M01157,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11158,M01158,Blue Cross Blue Shield,Community Medicaid,Medicaid,Medicaid,2026-01-01,,Active,Synthetic
+ELG11159,M01159,Dual Eligible,Medicare Advantage,Medicare,Medicare,2026-01-01,,Active,Synthetic
+ELG11160,M01160,Dual Eligible,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11161,M01161,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG11162,M01162,UnitedHealthcare,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11163,M01163,Aetna,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11164,M01164,Blue Cross Blue Shield,Prime Health Plus,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11165,M01165,Cigna Health,CareFirst Standard,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG11166,M01166,Cigna Health,HealthPlus Silver,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11167,M01167,UnitedHealthcare,CareFirst Standard,Commercial,Commercial,2026-01-01,2026-05-06,Terminated,Synthetic
+ELG11168,M01168,Medicaid,Prime Health Plus,Commercial,Commercial,2026-01-01,,Pending,Synthetic
+ELG11169,M01169,Blue Cross Blue Shield,HealthPlus Gold,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11170,M01170,Humana,Community Health Plan,Commercial,Commercial,2026-01-01,,Active,Synthetic
+ELG11171,M01171,Cigna Health,Medicaid Standard,Medicaid,Medicaid,2026-01-01,,Active,Synthetic

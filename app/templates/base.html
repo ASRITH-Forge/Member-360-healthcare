@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Member 360° Health Intelligence Assistant{% endblock %}</title>
+  <meta name="description" content="Enterprise healthcare operations and care coordination intelligence platform.">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <!-- Enterprise Header Navigation -->
+  <header class="app-header">
+    <div class="header-container">
+      <a href="/" class="brand-section">
+        <div class="brand-logo-mark">360</div>
+        <div class="brand-info">
+          <span class="brand-title">Member 360° Care Intelligence</span>
+          <span class="brand-subtitle">Health Operations &amp; Coordination Platform</span>
+        </div>
+      </a>
+      
+      <!-- Mobile Navigation Hamburger Toggle Button -->
+      <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="headerNav">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav class="header-nav" id="headerNav">
+        {% if request.session.get('admin_authenticated') %}
+        <div class="nav-links-group">
+          <a href="/" class="nav-link-item {% if request.url.path == '/' %}active{% endif %}">Operations Dashboard</a>
+          <a href="/search" class="nav-link-item {% if '/search' in request.url.path %}active{% endif %}">Member Directory</a>
+        </div>
+        <div class="nav-auth-group">
+          <div class="user-status-strip">
+            <span class="status-dot-active"></span>
+            <span>Admin &bull; Active Session</span>
+          </div>
+          <form action="/logout" method="POST" class="logout-form">
+            <button type="submit" class="btn-signout" title="Sign out of admin session">Sign Out</button>
+          </form>
+        </div>
+        {% else %}
+        <div class="user-status-strip">
+          <span>Restricted Operations Access</span>
+        </div>
+        {% endif %}
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Work Area -->
+  <main class="app-main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Global Source Record Inspector Modal -->
+  <div id="sourceModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="sourceModalTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="sourceModalTitle" class="modal-title">Source Record Traceability</h3>
+        <button id="closeModalBtn" class="btn-close-modal" aria-label="Close modal">&times;</button>
+      </div>
+      <div id="sourceModalContent" class="modal-body">
+        <!-- Dynamically injected by member_360.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Enterprise Application Footer -->
+  <footer class="app-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>Member 360° Health Intelligence Assistant</strong> &bull; Healthcare Operational Intelligence Platform
+      </div>
+      <div>
+        <span>Confidential &bull; Care Coordination &amp; Service Representative Portal</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/static/js/member_360.js"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

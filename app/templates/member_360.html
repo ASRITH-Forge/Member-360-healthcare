@@ -1,0 +1,501 @@
+{% extends "base.html" %}
+
+{% block title %}{{ m.first_name }} {{ m.last_name }} &bull; Member 360° Health Profile{% endblock %}
+
+{% block content %}
+<!-- Navigation Breadcrumbs -->
+<div class="breadcrumbs-bar">
+  <div class="breadcrumbs-trail">
+    <a href="/">Dashboard</a>
+    <span class="breadcrumb-separator">/</span>
+    <a href="/search">Member Directory</a>
+    <span class="breadcrumb-separator">/</span>
+    <span class="breadcrumb-current">{{ m.first_name }} {{ m.last_name }}</span>
+  </div>
+  <a href="/search" class="back-link">&larr; Back to Member Directory</a>
+</div>
+
+<!-- Member 360 Header Profile Panel -->
+<div class="member-360-header">
+  <div class="member-identity-wrap">
+    <div class="member-initials-badge">
+      {{ m.first_name[:1] }}{{ m.last_name[:1] }}
+    </div>
+    <div class="member-meta-block">
+      <div class="member-title-row">
+        <h1 class="member-name-heading">{{ m.first_name }} {{ m.last_name }}</h1>
+        <code class="code-id">ID: {{ m.member_id }}</code>
+        {% if not m.death_date or m.death_date == 'None' or m.death_date == 'nan' %}
+        <span class="badge badge-active">Active Coverage</span>
+        {% else %}
+        <span class="badge badge-denied">Deceased ({{ m.death_date }})</span>
+        {% endif %}
+      </div>
+      <div class="member-demographics-strip">
+        {% if m.date_of_birth and m.date_of_birth != 'None' and m.date_of_birth != 'nan' and m.date_of_birth|trim != '' %}
+        <div class="demographic-chip">
+          <span class="demographic-label">DOB:</span>
+          <span class="demographic-value">{{ m.date_of_birth }}</span>
+        </div>
+        {% endif %}
+        {% if m.gender and m.gender != 'None' and m.gender != 'nan' and m.gender != 'U' and m.gender|trim != '' %}
+        <div class="demographic-chip">
+          <span class="demographic-label">Gender:</span>
+          <span class="demographic-value">{{ m.gender }}</span>
+        </div>
+        {% endif %}
+        {% if m.city or m.state %}
+        <div class="demographic-chip">
+          <span class="demographic-label">Location:</span>
+          <span class="demographic-value">{{ m.city }}{% if m.city and m.state %}, {% endif %}{{ m.state }}{% if m.zip and m.zip != 'None' and m.zip != 'nan' %} {{ m.zip }}{% elif m.postal_code and not (m.postal_code != m.postal_code) %} {{ m.postal_code|int if m.postal_code is number else m.postal_code }}{% endif %}</span>
+        </div>
+        {% endif %}
+        <div class="demographic-chip">
+          <span class="demographic-label">Alerts:</span> 
+          {% if p.open_issues_count > 0 %}
+          <span class="demographic-value text-amber">{{ p.open_issues_count }} Actionable Issues</span>
+          {% else %}
+          <span class="demographic-value text-emerald">No Open Issues</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Financial Overview Grid Strip -->
+  <div class="member-financial-summary">
+    <div class="financial-stat-card">
+      <div class="financial-stat-label">Total Expenses</div>
+      <div class="financial-stat-value">{{ m.healthcare_expenses|inr }}</div>
+    </div>
+    <div class="financial-stat-card">
+      <div class="financial-stat-label">Plan Coverage Paid</div>
+      <div class="financial-stat-value value-coverage">{{ m.healthcare_coverage|inr }}</div>
+    </div>
+    <div class="financial-stat-card">
+      <div class="financial-stat-label">Total Claims ({{ stats.claims_count }})</div>
+      <div class="financial-stat-value">{{ stats.total_claims_amount|inr }}</div>
+    </div>
+  </div>
+</div>
+
+<!-- Deterministic Open Issues Section -->
+{% if p.deterministic_open_issues %}
+<div class="operational-alerts-panel">
+  <div class="alerts-header">
+    <div class="alerts-title">
+      <span>⚠️ Active Operational Alerts &amp; Care Issues ({{ p.deterministic_open_issues|length }})</span>
+    </div>
+    <span class="badge badge-pending" style="font-size: 0.7rem;">
+      Rule-Engine Verified
+    </span>
+  </div>
+  <div class="alerts-grid">
+    {% for iss in p.deterministic_open_issues %}
+    <div class="alert-item-card" {% if iss.severity == 'High' %}style="border-left-color: #dc2626;"{% endif %}>
+      <div class="alert-item-header">
+        <span class="alert-item-type">{{ iss.issue_type }}</span>
+        {% if iss.severity == 'High' %}
+        <span class="badge badge-denied" style="font-size: 0.65rem;">High Priority</span>
+        {% else %}
+        <span class="badge badge-pending" style="font-size: 0.65rem;">Medium Priority</span>
+        {% endif %}
+      </div>
+      <div class="alert-item-desc">{{ iss.description }}</div>
+      {% if iss.action_hint and iss.action_hint != 'None' and iss.action_hint != 'nan' %}
+      <div style="font-size: 0.75rem; color: #475569; margin-bottom: 0.45rem;">
+        <strong>Recommended Action:</strong> {{ iss.action_hint }}
+      </div>
+      {% endif %}
+      <div class="alert-item-footer">
+        <span class="source-chip" data-source-type="{{ iss.source_type }}" data-source-id="{{ iss.source_id }}">
+          Source: {{ iss.source_type }} [{{ iss.source_id }}] &bull; Inspect
+        </span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+<!-- AI Assistant Member Synthesis Section -->
+<section class="ai-assistant-panel">
+  <div class="ai-assistant-header">
+    <div class="ai-assistant-title-group">
+      <div class="ai-assistant-title">
+        <span>AI-Assisted Member Synthesis</span>
+        <span class="ai-badge-tag">Grounded with Gemini</span>
+      </div>
+      <div class="ai-assistant-subtitle">
+        Operational clinical summary synthesized with verifiable database source traceability.
+      </div>
+    </div>
+    <button id="btnGenerateAi" class="btn-generate-ai" data-member-id="{{ m.member_id }}">
+      Generate AI Summary
+    </button>
+  </div>
+
+  <div id="aiStatusMsg" class="ai-status-indicator" style="display: none;">
+    <span class="spinner spinner-dark"></span>
+    <span id="aiStatusText">Analyzing member records and verifying sources...</span>
+  </div>
+
+  <div id="aiResultsContainer" class="ai-results-wrapper">
+    <div class="ai-empty-placeholder">
+      Click <strong>"Generate AI Summary"</strong> above to extract Key Facts, Open Issues, and Suggested Next Operational Actions with database source traceability.
+    </div>
+  </div>
+</section>
+
+<!-- Tabs Container for 6 Healthcare Data Domains -->
+<div class="tabs-widget">
+  <div class="tabs-bar">
+    <button class="tab-nav-btn active" data-tab="eligibility">
+      <span>Eligibility</span>
+      <span class="tab-count-pill">{{ p.eligibility|length }}</span>
+    </button>
+    <button class="tab-nav-btn" data-tab="claims">
+      <span>Claims-Like View</span>
+      <span class="tab-count-pill">{{ p.claims|length }}</span>
+    </button>
+    <button class="tab-nav-btn" data-tab="medications">
+      <span>Medications</span>
+      <span class="tab-count-pill">{{ p.medications|length }}</span>
+    </button>
+    <button class="tab-nav-btn" data-tab="care_gaps">
+      <span>Care Gaps</span>
+      <span class="tab-count-pill">{{ p.care_gaps|length }}</span>
+    </button>
+    <button class="tab-nav-btn" data-tab="authorizations">
+      <span>Authorizations</span>
+      <span class="tab-count-pill">{{ p.authorizations|length }}</span>
+    </button>
+    <button class="tab-nav-btn" data-tab="interactions">
+      <span>Interactions</span>
+      <span class="tab-count-pill">{{ p.interactions|length }}</span>
+    </button>
+  </div>
+
+  <!-- TAB 1: ELIGIBILITY -->
+  <div id="tab-eligibility" class="tab-content-pane active">
+    <div class="table-responsive">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Eligibility ID</th>
+            <th>Payer Name</th>
+            <th>Plan Name</th>
+            <th>Ownership</th>
+            <th>Coverage Period</th>
+            <th>Status</th>
+            <th style="text-align: right;">Source Trace</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for e in p.eligibility %}
+          <tr>
+            <td><code class="code-id">{{ e.eligibility_id }}</code></td>
+            <td class="cell-primary">{{ e.payer_name }}</td>
+            <td>{{ e.plan_name }}</td>
+            <td>{{ e.ownership }}</td>
+            <td>{{ e.effective_date or e.coverage_start or '2026-01-01' }} &rarr; {{ e.termination_date or e.coverage_end or 'Present' }}</td>
+            <td>
+              {% if e.status == 'Active' %}
+              <span class="badge badge-active">Active</span>
+              {% else %}
+              <span class="badge badge-expired">Expired</span>
+              {% endif %}
+            </td>
+            <td style="text-align: right;">
+              <button class="source-chip" data-source-type="eligibility" data-source-id="{{ e.eligibility_id }}">
+                Inspect Record
+              </button>
+            </td>
+          </tr>
+          {% else %}
+          <tr>
+            <td colspan="7" class="empty-records-cell">
+              <div class="empty-state-icon">📋</div>
+              <div>No eligibility coverage records documented for this member.</div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB 2: CLAIMS -->
+  <div id="tab-claims" class="tab-content-pane">
+    <div class="table-responsive">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Claim ID</th>
+            <th>Service Date</th>
+            <th>Type</th>
+            <th>Provider</th>
+            <th>Procedure / Service</th>
+            <th>Total Amount</th>
+            <th>Payer Paid</th>
+            <th>Member Copay</th>
+            <th>Status</th>
+            <th style="text-align: right;">Source Trace</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for c in p.claims %}
+          <tr>
+            <td><code class="code-id">{{ c.claim_id }}</code></td>
+            <td>{{ c.claim_date }}</td>
+            <td><span class="badge badge-neutral">{{ c.claim_type }}</span></td>
+            <td>{{ c.provider }}</td>
+            <td class="cell-primary">{{ c.procedure }}</td>
+            <td class="cell-amount">{{ c.amount|inr }}</td>
+            <td class="cell-numeric" style="color: var(--status-active-text); font-weight: 600;">{{ c.payer_coverage|inr }}</td>
+            <td class="cell-numeric">{{ c.member_copay|inr }}</td>
+            <td>
+              {% if c.status == 'Paid' or c.status == 'Approved' %}
+              <span class="badge badge-approved">{{ c.status }}</span>
+              {% elif c.status == 'Pending' %}
+              <span class="badge badge-pending">Pending</span>
+              {% else %}
+              <span class="badge badge-denied">{{ c.status }}</span>
+              {% endif %}
+            </td>
+            <td style="text-align: right;">
+              <button class="source-chip" data-source-type="claim" data-source-id="{{ c.claim_id }}">
+                Inspect Record
+              </button>
+            </td>
+          </tr>
+          {% else %}
+          <tr>
+            <td colspan="10" class="empty-records-cell">
+              <div class="empty-state-icon">📄</div>
+              <div>No claims-like records documented for this member.</div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB 3: MEDICATIONS -->
+  <div id="tab-medications" class="tab-content-pane">
+    <div class="table-responsive">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Medication ID</th>
+            <th>Medication Name</th>
+            <th>RxNorm Code</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Documented Reason</th>
+            <th>Total Cost</th>
+            <th>Status</th>
+            <th style="text-align: right;">Source Trace</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for m_med in p.medications %}
+          <tr>
+            <td><code class="code-id">{{ m_med.medication_id }}</code></td>
+            <td class="cell-primary">{{ m_med.medication_name }}</td>
+            <td><code class="code-id">{{ m_med.code }}</code></td>
+            <td>{{ m_med.start_date }}</td>
+            <td>{{ m_med.end_date or 'Ongoing' }}</td>
+            <td>{{ m_med.reason }}</td>
+            <td class="cell-amount">{{ m_med.total_cost|inr }}</td>
+            <td>
+              {% if m_med.status == 'Active' %}
+              <span class="badge badge-active">Active</span>
+              {% else %}
+              <span class="badge badge-neutral">Completed</span>
+              {% endif %}
+            </td>
+            <td style="text-align: right;">
+              <button class="source-chip" data-source-type="medication" data-source-id="{{ m_med.medication_id }}">
+                Inspect Record
+              </button>
+            </td>
+          </tr>
+          {% else %}
+          <tr>
+            <td colspan="9" class="empty-records-cell">
+              <div class="empty-state-icon">💊</div>
+              <div>No medication prescription records on file for this member.</div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB 4: CARE GAPS -->
+  <div id="tab-care_gaps" class="tab-content-pane">
+    <div class="table-responsive">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Gap ID</th>
+            <th>Gap Type</th>
+            <th>Standard Clinical / Record Description</th>
+            <th>Due / Detected Date</th>
+            <th>Status</th>
+            <th style="text-align: right;">Source Trace</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for g in p.care_gaps %}
+          <tr>
+            <td><code class="code-id">{{ g.gap_id }}</code></td>
+            <td class="cell-primary">{{ g.gap_type }}</td>
+            <td>{{ g.description }}</td>
+            <td>{{ g.detected_date or g.due_date or 'Recorded' }}</td>
+            <td>
+              {% if g.status == 'Open' %}
+              <span class="badge badge-open">Open</span>
+              {% else %}
+              <span class="badge badge-resolved">Resolved</span>
+              {% endif %}
+            </td>
+            <td style="text-align: right;">
+              <button class="source-chip" data-source-type="care_gap" data-source-id="{{ g.gap_id }}">
+                Inspect Record
+              </button>
+            </td>
+          </tr>
+          {% else %}
+          <tr>
+            <td colspan="6" class="empty-records-cell">
+              <div class="empty-state-icon">✅</div>
+              <div>No active care gaps or record discrepancies identified for this member.</div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB 5: AUTHORIZATIONS -->
+  <div id="tab-authorizations" class="tab-content-pane">
+    <div class="table-responsive">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Authorization ID</th>
+            <th>Requested Service</th>
+            <th>Request Date</th>
+            <th>Decision Date</th>
+            <th>Status</th>
+            <th>Operational Notes</th>
+            <th style="text-align: right;">Source Trace</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for a in p.authorizations %}
+          <tr>
+            <td><code class="code-id">{{ a.authorization_id }}</code></td>
+            <td class="cell-primary">{{ a.service }}</td>
+            <td>{{ a.request_date }}</td>
+            <td>{{ a.decision_date or 'Awaiting Decision' }}</td>
+            <td>
+              {% if a.status == 'Approved' %}
+              <span class="badge badge-approved">Approved</span>
+              {% elif a.status == 'Pending' %}
+              <span class="badge badge-pending">Pending</span>
+              {% elif a.status == 'Denied' %}
+              <span class="badge badge-denied">Denied</span>
+              {% else %}
+              <span class="badge badge-neutral">{{ a.status }}</span>
+              {% endif %}
+            </td>
+            <td style="font-size: 0.8125rem; color: var(--text-secondary);">
+              {% if a.notes and a.notes != 'None' and a.notes != 'nan' and a.notes|trim != '' %}
+              {{ a.notes }}
+              {% else %}
+              <span style="color: var(--text-light);">-</span>
+              {% endif %}
+            </td>
+            <td style="text-align: right;">
+              <button class="source-chip" data-source-type="authorization" data-source-id="{{ a.authorization_id }}">
+                Inspect Record
+              </button>
+            </td>
+          </tr>
+          {% else %}
+          <tr>
+            <td colspan="7" class="empty-records-cell">
+              <div class="empty-state-icon">📋</div>
+              <div>No prior authorization requests on file for this member.</div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB 6: INTERACTIONS -->
+  <div id="tab-interactions" class="tab-content-pane">
+    <div class="table-responsive">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Interaction ID</th>
+            <th>Date &amp; Time</th>
+            <th>Channel</th>
+            <th>Inquiry Reason</th>
+            <th>Representative Summary</th>
+            <th>Status</th>
+            <th style="text-align: right;">Source Trace</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for i in p.interactions %}
+          <tr>
+            <td><code class="code-id">{{ i.interaction_id }}</code></td>
+            <td>{{ i.interaction_date }}</td>
+            <td><span class="badge badge-neutral">{{ i.channel }}</span></td>
+            <td class="cell-primary">{{ i.reason }}</td>
+            <td style="font-size: 0.8125rem; color: var(--text-secondary);">
+              {% if i.summary and i.summary != 'None' and i.summary != 'nan' and i.summary|trim != '' %}
+              {{ i.summary }}
+              {% else %}
+              <span style="color: var(--text-light);">-</span>
+              {% endif %}
+            </td>
+            <td>
+              {% if i.status == 'Resolved' %}
+              <span class="badge badge-resolved">Resolved</span>
+              {% elif i.status == 'In Progress' %}
+              <span class="badge badge-in-progress">In Progress</span>
+              {% else %}
+              <span class="badge badge-open">Open</span>
+              {% endif %}
+            </td>
+            <td style="text-align: right;">
+              <button class="source-chip" data-source-type="interaction" data-source-id="{{ i.interaction_id }}">
+                Inspect Record
+              </button>
+            </td>
+          </tr>
+          {% else %}
+          <tr>
+            <td colspan="7" class="empty-records-cell">
+              <div class="empty-state-icon">📞</div>
+              <div>No contact logs or service representative interactions documented.</div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}

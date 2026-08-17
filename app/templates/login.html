@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Sign In &bull; Member 360° Care Intelligence{% endblock %}
+
+{% block content %}
+<div class="login-page-wrap">
+  <div class="login-card">
+    <div class="login-brand-header">
+      <div class="login-logo-mark">360</div>
+      <h1 class="login-title">Member 360° Care Intelligence</h1>
+      <p class="login-subtitle">Health Operations &amp; Coordination Platform</p>
+    </div>
+
+    {% if error %}
+    <div class="auth-error-banner" role="alert">
+      <span>⚠️</span>
+      <span>{{ error }}</span>
+    </div>
+    {% endif %}
+
+    <form action="/login" method="POST" id="loginForm">
+      <div class="form-group">
+        <label for="username" class="form-label">Administrator Username</label>
+        <input 
+          type="text" 
+          id="username" 
+          name="username" 
+          class="form-control-input" 
+          placeholder="Enter admin username"
+          value="{{ username or '' }}"
+          required 
+          autocomplete="username"
+          autofocus
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="password" class="form-label">Password</label>
+        <input 
+          type="password" 
+          id="password" 
+          name="password" 
+          class="form-control-input" 
+          placeholder="••••••••••••"
+          required 
+          autocomplete="current-password"
+        />
+      </div>
+
+      <button type="submit" class="btn-login-submit" id="btnLogin">
+        <span>Sign In to Operations Portal</span>
+      </button>
+    </form>
+
+    <div class="login-security-notice">
+      🔒 <strong>Restricted Access:</strong> Authorized healthcare operations personnel only. All access is logged and verified.
+    </div>
+  </div>
+</div>
+{% endblock %}

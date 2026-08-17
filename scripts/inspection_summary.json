@@ -1,0 +1,266 @@
+{
+  "allergies.csv": {
+    "rows": 597,
+    "columns": [
+      "START",
+      "STOP",
+      "PATIENT",
+      "ENCOUNTER",
+      "CODE",
+      "DESCRIPTION"
+    ],
+    "size_mb": 0.07
+  },
+  "careplans.csv": {
+    "rows": 3483,
+    "columns": [
+      "Id",
+      "START",
+      "STOP",
+      "PATIENT",
+      "ENCOUNTER",
+      "CODE",
+      "DESCRIPTION",
+      "REASONCODE",
+      "REASONDESCRIPTION"
+    ],
+    "size_mb": 0.64
+  },
+  "conditions.csv": {
+    "rows": 8376,
+    "columns": [
+      "START",
+      "STOP",
+      "PATIENT",
+      "ENCOUNTER",
+      "CODE",
+      "DESCRIPTION"
+    ],
+    "size_mb": 1.01
+  },
+  "devices.csv": {
+    "rows": 78,
+    "columns": [
+      "START",
+      "STOP",
+      "PATIENT",
+      "ENCOUNTER",
+      "CODE",
+      "DESCRIPTION",
+      "UDI"
+    ],
+    "size_mb": 0.02
+  },
+  "encounters.csv": {
+    "rows": 53346,
+    "columns": [
+      "Id",
+      "START",
+      "STOP",
+      "PATIENT",
+      "ORGANIZATION",
+      "PROVIDER",
+      "PAYER",
+      "ENCOUNTERCLASS",
+      "CODE",
+      "DESCRIPTION",
+      "BASE_ENCOUNTER_COST",
+      "TOTAL_CLAIM_COST",
+      "PAYER_COVERAGE",
+      "REASONCODE",
+      "REASONDESCRIPTION"
+    ],
+    "size_mb": 15.71
+  },
+  "imaging_studies.csv": {
+    "rows": 855,
+    "columns": [
+      "Id",
+      "DATE",
+      "PATIENT",
+      "ENCOUNTER",
+      "BODYSITE_CODE",
+      "BODYSITE_DESCRIPTION",
+      "MODALITY_CODE",
+      "MODALITY_DESCRIPTION",
+      "SOP_CODE",
+      "SOP_DESCRIPTION"
+    ],
+    "size_mb": 0.2
+  },
+  "immunizations.csv": {
+    "rows": 15478,
+    "columns": [
+      "DATE",
+      "PATIENT",
+      "ENCOUNTER",
+      "CODE",
+      "DESCRIPTION",
+      "BASE_COST"
+    ],
+    "size_mb": 2.12
+  },
+  "medications.csv": {
+    "rows": 42989,
+    "columns": [
+      "START",
+      "STOP",
+      "PATIENT",
+      "PAYER",
+      "ENCOUNTER",
+      "CODE",
+      "DESCRIPTION",
+      "BASE_COST",
+      "PAYER_COVERAGE",
+      "DISPENSES",
+      "TOTALCOST",
+      "REASONCODE",
+      "REASONDESCRIPTION"
+    ],
+    "size_mb": 10.38
+  },
+  "observations.csv": {
+    "rows": 299697,
+    "columns": [
+      "DATE",
+      "PATIENT",
+      "ENCOUNTER",
+      "CODE",
+      "DESCRIPTION",
+      "VALUE",
+      "UNITS",
+      "TYPE"
+    ],
+    "size_mb": 41.1
+  },
+  "organizations.csv": {
+    "rows": 1119,
+    "columns": [
+      "Id",
+      "NAME",
+      "ADDRESS",
+      "CITY",
+      "STATE",
+      "ZIP",
+      "LAT",
+      "LON",
+      "PHONE",
+      "REVENUE",
+      "UTILIZATION"
+    ],
+    "size_mb": 0.16
+  },
+  "patients.csv": {
+    "rows": 1171,
+    "columns": [
+      "Id",
+      "BIRTHDATE",
+      "DEATHDATE",
+      "SSN",
+      "DRIVERS",
+      "PASSPORT",
+      "PREFIX",
+      "FIRST",
+      "LAST",
+      "SUFFIX",
+      "MAIDEN",
+      "MARITAL",
+      "RACE",
+      "ETHNICITY",
+      "GENDER",
+      "BIRTHPLACE",
+      "ADDRESS",
+      "CITY",
+      "STATE",
+      "COUNTY",
+      "ZIP",
+      "LAT",
+      "LON",
+      "HEALTHCARE_EXPENSES",
+      "HEALTHCARE_COVERAGE"
+    ],
+    "size_mb": 0.32
+  },
+  "payer_transitions.csv": {
+    "rows": 3801,
+    "columns": [
+      "PATIENT",
+      "START_YEAR",
+      "END_YEAR",
+      "PAYER",
+      "OWNERSHIP"
+    ],
+    "size_mb": 0.33
+  },
+  "payers.csv": {
+    "rows": 10,
+    "columns": [
+      "Id",
+      "NAME",
+      "ADDRESS",
+      "CITY",
+      "STATE_HEADQUARTERED",
+      "ZIP",
+      "PHONE",
+      "AMOUNT_COVERED",
+      "AMOUNT_UNCOVERED",
+      "REVENUE",
+      "COVERED_ENCOUNTERS",
+      "UNCOVERED_ENCOUNTERS",
+      "COVERED_MEDICATIONS",
+      "UNCOVERED_MEDICATIONS",
+      "COVERED_PROCEDURES",
+      "UNCOVERED_PROCEDURES",
+      "COVERED_IMMUNIZATIONS",
+      "UNCOVERED_IMMUNIZATIONS",
+      "UNIQUE_CUSTOMERS",
+      "QOLS_AVG",
+      "MEMBER_MONTHS"
+    ],
+    "size_mb": 0.0
+  },
+  "procedures.csv": {
+    "rows": 34981,
+    "columns": [
+      "DATE",
+      "PATIENT",
+      "ENCOUNTER",
+      "CODE",
+      "DESCRIPTION",
+      "BASE_COST",
+      "REASONCODE",
+      "REASONDESCRIPTION"
+    ],
+    "size_mb": 5.43
+  },
+  "providers.csv": {
+    "rows": 5855,
+    "columns": [
+      "Id",
+      "ORGANIZATION",
+      "NAME",
+      "GENDER",
+      "SPECIALITY",
+      "ADDRESS",
+      "CITY",
+      "STATE",
+      "ZIP",
+      "LAT",
+      "LON",
+      "UTILIZATION"
+    ],
+    "size_mb": 1.0
+  },
+  "supplies.csv": {
+    "rows": 0,
+    "columns": [
+      "DATE",
+      "PATIENT",
+      "ENCOUNTER",
+      "CODE",
+      "DESCRIPTION",
+      "QUANTITY"
+    ],
+    "size_mb": 0.0
+  }
+}
