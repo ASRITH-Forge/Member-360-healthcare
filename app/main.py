@@ -16,8 +16,10 @@ from starlette.middleware.sessions import SessionMiddleware
 from app.api.routes_members import router as members_router
 from app.api.routes_ai import router as ai_router
 from app.api.routes_health import router as health_router
+from app.api.routes_requests import router as requests_router
 from app.database.mongodb import get_database
 from app.services.member_service import search_members, count_members, get_member_by_id
+from app.services.request_service import search_requests, count_requests
 from app.services.aggregation_service import get_member_360_profile
 from app.services.auth import (
     get_secret_key,
@@ -103,6 +105,7 @@ templates.env.filters["inr"] = format_inr
 # Mount API Routers
 app.include_router(health_router, prefix="/api")
 app.include_router(members_router, prefix="/api")
+app.include_router(requests_router, prefix="/api")
 app.include_router(ai_router, prefix="/api/ai")
 
 # Authentication Routes
@@ -185,6 +188,7 @@ async def index_page(request: Request):
     total_open_gaps = db.care_gaps.count_documents({"status": "Open"})
     pending_auths = db.authorizations.count_documents({"status": "Pending"})
     unresolved_interactions = db.interactions.count_documents({"status": {"$in": ["Open", "In Progress"]}})
+    pending_org_requests = db.requests.count_documents({"status": {"$in": ["Pending", "In Review"]}})
 
     return templates.TemplateResponse(
         request=request,
@@ -194,7 +198,58 @@ async def index_page(request: Request):
             "recent_members": recent_members,
             "total_open_gaps": total_open_gaps,
             "pending_auths": pending_auths,
-            "unresolved_interactions": unresolved_interactions
+            "unresolved_interactions": unresolved_interactions,
+            "pending_org_requests": pending_org_requests
+        }
+    )
+
+@app.get("/requests", response_class=HTMLResponse)
+async def requests_page(
+    request: Request,
+    q: str = "",
+    member_id: str = "",
+    status: str = "",
+    priority: str = "",
+    request_type: str = "",
+    page: int = 1
+):
+    """Organization Requests Management & Directory (Admin Protected)"""
+    if not is_admin_authenticated(request):
+        return RedirectResponse(url="/login", status_code=303)
+
+    limit = 15
+    skip = (page - 1) * limit
+    requests_list = search_requests(
+        member_id=member_id or None,
+        status=status or None,
+        priority=priority or None,
+        request_type=request_type or None,
+        query=q or None,
+        limit=limit,
+        skip=skip
+    )
+    total = count_requests(
+        member_id=member_id or None,
+        status=status or None,
+        priority=priority or None,
+        request_type=request_type or None,
+        query=q or None
+    )
+    total_pages = max(1, (total + limit - 1) // limit)
+
+    return templates.TemplateResponse(
+        request=request,
+        name="requests.html",
+        context={
+            "requests": requests_list,
+            "total": total,
+            "page": page,
+            "total_pages": total_pages,
+            "query": q,
+            "member_id": member_id,
+            "selected_status": status,
+            "selected_priority": priority,
+            "selected_type": request_type
         }
     )
 

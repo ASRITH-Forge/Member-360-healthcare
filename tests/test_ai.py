@@ -90,3 +90,19 @@ def test_authenticated_source_traceability_endpoint_invalid_404():
     auth_client = get_authenticated_client()
     response = auth_client.get("/api/ai/source/authorization/FAKE_AUTH_999999")
     assert response.status_code == 404
+
+def test_ai_context_includes_organization_requests():
+    from app.services.ai_service import construct_ai_context, generate_fallback_summary
+    from app.services.aggregation_service import get_member_360_profile
+    profile = get_member_360_profile("M00004")
+    assert profile is not None
+    context_str = construct_ai_context(profile)
+    assert "ORGANIZATION / HOSPITAL REQUESTS:" in context_str
+    
+    # Fallback summary generates valid structure
+    fallback = generate_fallback_summary(profile)
+    assert "key_facts" in fallback
+    assert "open_issues" in fallback
+    assert "next_actions" in fallback
+
+

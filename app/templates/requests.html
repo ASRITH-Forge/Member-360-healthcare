@@ -1,0 +1,243 @@
+{% extends "base.html" %}
+
+{% block title %}Organization Requests Directory &bull; Member 360° Care Intelligence{% endblock %}
+
+{% block content %}
+<!-- Navigation Breadcrumbs -->
+<div class="breadcrumbs-bar">
+  <div class="breadcrumbs-trail">
+    <a href="/">Dashboard</a>
+    <span class="breadcrumb-separator">/</span>
+    <span class="breadcrumb-current">Organization Requests</span>
+  </div>
+  <a href="/" class="back-link">&larr; Back to Dashboard</a>
+</div>
+
+<!-- Page Header & Filter Form -->
+<div class="page-header-block">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+    <div>
+      <h1 class="page-title">Organization &amp; Hospital Requests</h1>
+      <p class="page-subtitle">
+        Operational intake and tracking platform for healthcare providers, hospitals, and clinical partners submitting prior authorization, medical record, care coordination, and discharge planning requests.
+      </p>
+    </div>
+    <button type="button" class="btn-primary btn-open-submit-modal" style="display: inline-flex; align-items: center; gap: 0.4rem;">
+      <span>+ Submit Organization Request</span>
+    </button>
+  </div>
+
+  <form action="/requests" method="GET" class="search-form-card" style="margin-top: 1.25rem;">
+    <div style="display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr auto; gap: 0.5rem; align-items: center;">
+      <div class="search-input-group" style="padding: 0.25rem 0.6rem;">
+        <span class="search-icon-prefix">🔍</span>
+        <input 
+          type="text" 
+          name="q" 
+          class="search-text-field" 
+          placeholder="Search by Request ID, Organization, Service, or Description..." 
+          value="{{ query }}"
+          autocomplete="off"
+        />
+      </div>
+
+      <div>
+        <input 
+          type="text" 
+          name="member_id" 
+          class="form-control-input" 
+          placeholder="Member ID (e.g. M00004)" 
+          value="{{ member_id }}"
+          style="padding: 0.45rem 0.65rem; font-size: 0.875rem;"
+        />
+      </div>
+
+      <div>
+        <select name="status" class="form-control-input" style="padding: 0.45rem 0.65rem; font-size: 0.875rem;">
+          <option value="">All Statuses</option>
+          <option value="Pending" {% if selected_status == 'Pending' %}selected{% endif %}>Pending</option>
+          <option value="In Review" {% if selected_status == 'In Review' %}selected{% endif %}>In Review</option>
+          <option value="Approved" {% if selected_status == 'Approved' %}selected{% endif %}>Approved</option>
+          <option value="Rejected" {% if selected_status == 'Rejected' %}selected{% endif %}>Rejected</option>
+          <option value="Completed" {% if selected_status == 'Completed' %}selected{% endif %}>Completed</option>
+          <option value="Cancelled" {% if selected_status == 'Cancelled' %}selected{% endif %}>Cancelled</option>
+        </select>
+      </div>
+
+      <div>
+        <select name="priority" class="form-control-input" style="padding: 0.45rem 0.65rem; font-size: 0.875rem;">
+          <option value="">All Priorities</option>
+          <option value="Urgent" {% if selected_priority == 'Urgent' %}selected{% endif %}>Urgent</option>
+          <option value="High" {% if selected_priority == 'High' %}selected{% endif %}>High</option>
+          <option value="Medium" {% if selected_priority == 'Medium' %}selected{% endif %}>Medium</option>
+          <option value="Low" {% if selected_priority == 'Low' %}selected{% endif %}>Low</option>
+        </select>
+      </div>
+
+      <div>
+        <select name="request_type" class="form-control-input" style="padding: 0.45rem 0.65rem; font-size: 0.875rem;">
+          <option value="">All Types</option>
+          <option value="Authorization Request" {% if selected_type == 'Authorization Request' %}selected{% endif %}>Authorization Request</option>
+          <option value="Medical Record Request" {% if selected_type == 'Medical Record Request' %}selected{% endif %}>Medical Record Request</option>
+          <option value="Care Coordination" {% if selected_type == 'Care Coordination' %}selected{% endif %}>Care Coordination</option>
+          <option value="Second Opinion" {% if selected_type == 'Second Opinion' %}selected{% endif %}>Second Opinion</option>
+          <option value="Discharge Planning" {% if selected_type == 'Discharge Planning' %}selected{% endif %}>Discharge Planning</option>
+          <option value="Transportation Request" {% if selected_type == 'Transportation Request' %}selected{% endif %}>Transportation Request</option>
+        </select>
+      </div>
+
+      <div style="display: flex; gap: 0.35rem;">
+        <button type="submit" class="btn-primary" style="padding: 0.45rem 0.85rem; font-size: 0.875rem;">Filter</button>
+        {% if query or member_id or selected_status or selected_priority or selected_type %}
+        <a href="/requests" class="btn-secondary" style="padding: 0.45rem 0.75rem; font-size: 0.875rem;">Reset</a>
+        {% endif %}
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Requests Table Panel -->
+<div class="content-panel">
+  <div class="panel-header">
+    <div class="panel-title-wrap">
+      <span class="panel-title">Requests Registry</span>
+      <span class="panel-subtitle">
+        &bull; Showing {{ requests|length }} of {{ total }} records
+      </span>
+    </div>
+
+    {% if total_pages > 1 %}
+    <div class="pagination-controls">
+      {% if page > 1 %}
+      <a href="/requests?q={{ query }}&member_id={{ member_id }}&status={{ selected_status }}&priority={{ selected_priority }}&request_type={{ selected_type }}&page={{ page - 1 }}" class="pagination-btn">&laquo; Previous</a>
+      {% endif %}
+      <span class="pagination-current">Page {{ page }} of {{ total_pages }}</span>
+      {% if page < total_pages %}
+      <a href="/requests?q={{ query }}&member_id={{ member_id }}&status={{ selected_status }}&priority={{ selected_priority }}&request_type={{ selected_type }}&page={{ page + 1 }}" class="pagination-btn">Next &raquo;</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="table-responsive">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Request ID</th>
+          <th>Member ID</th>
+          <th>Organization</th>
+          <th>Request Type</th>
+          <th>Service / Procedure</th>
+          <th>Priority</th>
+          <th>Status</th>
+          <th>Request Date</th>
+          <th>Due Date</th>
+          <th>Assigned To</th>
+          <th style="text-align: right;">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in requests %}
+        <tr>
+          <td><code class="code-id">{{ r.request_id }}</code></td>
+          <td>
+            <a href="/member/{{ r.member_id }}" style="font-weight: 600; color: var(--primary-700); text-decoration: none;" title="Open Member 360 profile">
+              {{ r.member_id }} &rarr;
+            </a>
+          </td>
+          <td class="cell-primary">
+            <div>{{ r.organization_name }}</div>
+            <div style="font-size: 0.725rem; color: var(--text-muted);">{{ r.organization_id }}</div>
+          </td>
+          <td><span class="badge badge-neutral">{{ r.request_type }}</span></td>
+          <td style="font-weight: 500;">{{ r.service }}</td>
+          <td>
+            {% if r.priority == 'Urgent' %}
+            <span class="badge badge-denied">Urgent</span>
+            {% elif r.priority == 'High' %}
+            <span class="badge badge-urgent">High</span>
+            {% elif r.priority == 'Medium' %}
+            <span class="badge badge-pending">Medium</span>
+            {% else %}
+            <span class="badge badge-neutral">Low</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if r.status == 'Approved' or r.status == 'Completed' %}
+            <span class="badge badge-approved">{{ r.status }}</span>
+            {% elif r.status == 'Pending' %}
+            <span class="badge badge-pending">Pending</span>
+            {% elif r.status == 'In Review' %}
+            <span class="badge badge-in-progress">In Review</span>
+            {% elif r.status == 'Rejected' or r.status == 'Cancelled' %}
+            <span class="badge badge-denied">{{ r.status }}</span>
+            {% else %}
+            <span class="badge badge-neutral">{{ r.status }}</span>
+            {% endif %}
+          </td>
+          <td>{{ r.request_date }}</td>
+          <td>{{ r.due_date or '-' }}</td>
+          <td style="font-size: 0.8125rem;">
+            {% if r.assigned_to and r.assigned_to != 'None' and r.assigned_to != 'nan' and r.assigned_to|trim != '' %}
+            {{ r.assigned_to }}
+            {% else %}
+            <span style="color: var(--text-light); font-style: italic;">Unassigned</span>
+            {% endif %}
+          </td>
+          <td style="text-align: right; white-space: nowrap;">
+            <button class="source-chip" data-source-type="request" data-source-id="{{ r.request_id }}" title="Inspect source database record">
+              Inspect
+            </button>
+            <button class="btn-secondary btn-sm btn-update-status" 
+              data-request-id="{{ r.request_id }}"
+              data-org="{{ r.organization_name }}"
+              data-service="{{ r.service }}"
+              data-status="{{ r.status }}"
+              data-priority="{{ r.priority }}"
+              data-assigned="{{ r.assigned_to or '' }}"
+              data-due="{{ r.due_date or '' }}"
+              data-notes="{{ r.resolution_notes or '' }}"
+              style="margin-left: 0.25rem; padding: 0.25rem 0.5rem; font-size: 0.75rem;"
+              title="Update status, coordinator assignment, or disposition notes">
+              Update Status
+            </button>
+            <a href="/member/{{ r.member_id }}" class="btn-secondary btn-sm" style="margin-left: 0.25rem; padding: 0.25rem 0.5rem; font-size: 0.75rem;" title="Open Member 360 profile">
+              360° &rarr;
+            </a>
+          </td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="11" class="empty-records-cell">
+            <div class="empty-state-icon">🏥</div>
+            <div>No organization requests matched your active filter criteria.</div>
+            <div style="margin-top: 0.5rem;">
+              <button type="button" class="btn-secondary btn-sm btn-open-submit-modal">
+                + Submit Organization Request
+              </button>
+            </div>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  {% if total_pages > 1 %}
+  <div class="pagination-container">
+    <div>
+      Showing page {{ page }} of {{ total_pages }} ({{ total }} total requests)
+    </div>
+    <div class="pagination-controls">
+      {% if page > 1 %}
+      <a href="/requests?q={{ query }}&member_id={{ member_id }}&status={{ selected_status }}&priority={{ selected_priority }}&request_type={{ selected_type }}&page={{ page - 1 }}" class="pagination-btn">&laquo; Previous</a>
+      {% endif %}
+      <span class="pagination-current">Page {{ page }} of {{ total_pages }}</span>
+      {% if page < total_pages %}
+      <a href="/requests?q={{ query }}&member_id={{ member_id }}&status={{ selected_status }}&priority={{ selected_priority }}&request_type={{ selected_type }}&page={{ page + 1 }}" class="pagination-btn">Next &raquo;</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

@@ -29,19 +29,20 @@ CRITICAL SAFETY & OPERATIONAL RULES:
 3. Do NOT diagnose diseases or make unsupported clinical conclusions.
 4. Do NOT recommend treatments, clinical protocols, or medication changes.
 5. Do NOT infer diseases merely from medications (e.g. if Metformin is listed, state 'Medication record for Metformin is present', do NOT assert 'Member has diabetes' unless an explicit condition record says so).
-6. Next operational actions must be strictly administrative and operational for a service coordinator (e.g. follow up on pending prior authorization, review claim adjudication status, schedule annual wellness outreach).
+6. Next operational actions must be strictly administrative and operational for a service coordinator (e.g. follow up on pending prior authorization, review claim adjudication status, review organization request documentation, verify eligibility, schedule annual wellness outreach).
 7. Every fact, open issue, and action MUST reference an exact source_type and source_id from the supplied records.
+8. When organization or hospital requests are present, highlight pending or high/urgent priority requests, approaching due dates, and recommend specific coordinator operational follow-ups.
 
 You MUST return your response as a valid JSON object matching this exact schema:
 {
   "key_facts": [
-    {"text": "Fact description directly from record.", "source_type": "eligibility|claim|medication|authorization|interaction|member", "source_id": "EXACT_ID"}
+    {"text": "Fact description directly from record.", "source_type": "eligibility|claim|medication|authorization|interaction|member|request", "source_id": "EXACT_ID"}
   ],
   "open_issues": [
-    {"text": "Documented operational or record issue.", "source_type": "authorization|claim|care_gap|interaction|eligibility", "source_id": "EXACT_ID", "urgency": "High|Medium|Operational"}
+    {"text": "Documented operational or record issue.", "source_type": "authorization|claim|care_gap|interaction|eligibility|request", "source_id": "EXACT_ID", "urgency": "High|Medium|Operational"}
   ],
   "next_actions": [
-    {"text": "Operational follow-up step.", "source_type": "authorization|claim|care_gap|interaction", "source_id": "EXACT_ID", "action_type": "Operational Follow-up|Documentation Request|Outreach"}
+    {"text": "Operational follow-up step.", "source_type": "authorization|claim|care_gap|interaction|request", "source_id": "EXACT_ID", "action_type": "Operational Follow-up|Documentation Request|Outreach"}
   ]
 }
 """
@@ -77,6 +78,10 @@ def construct_ai_context(profile: Dict[str, Any]) -> str:
     for auth in profile.get("authorizations", []):
         context_lines.append(f"- ID: {auth.get('authorization_id')} | Service: {auth.get('service')} | Request Date: {auth.get('request_date')} | Status: {auth.get('status')} | Notes: {auth.get('notes')}")
 
+    context_lines.append("\nORGANIZATION / HOSPITAL REQUESTS:")
+    for req in profile.get("requests", []):
+        context_lines.append(f"- ID: {req.get('request_id')} | Organization: {req.get('organization_name')} ({req.get('organization_id')}) | Type: {req.get('request_type')} | Service: {req.get('service')} | Priority: {req.get('priority')} | Status: {req.get('status')} | Request Date: {req.get('request_date')} | Due Date: {req.get('due_date') or 'None'} | Description: {req.get('description')} | Requested By: {req.get('requested_by')} | Assigned To: {req.get('assigned_to') or 'Unassigned'}")
+
     context_lines.append("\nRECENT SERVICE INTERACTIONS:")
     for inter in profile.get("interactions", [])[:5]:
         context_lines.append(f"- ID: {inter.get('interaction_id')} | Date: {inter.get('interaction_date')} | Channel: {inter.get('channel')} | Reason: {inter.get('reason')} | Status: {inter.get('status')} | Summary: {inter.get('summary')}")
@@ -108,6 +113,8 @@ def validate_and_fetch_source_record(source_type: str, source_id: str) -> Option
         "care_gaps": ("care_gaps", "gap_id"),
         "interaction": ("interactions", "interaction_id"),
         "interactions": ("interactions", "interaction_id"),
+        "request": ("requests", "request_id"),
+        "requests": ("requests", "request_id"),
         "member": ("members", "member_id")
     }
 
@@ -124,6 +131,7 @@ def validate_and_fetch_source_record(source_type: str, source_id: str) -> Option
     # Broad search across all collections as fallback
     for c_name, key_f in [
         ("authorizations", "authorization_id"),
+        ("requests", "request_id"),
         ("claims", "claim_id"),
         ("eligibility", "eligibility_id"),
         ("medications", "medication_id"),
@@ -183,6 +191,15 @@ def generate_fallback_summary(profile: Dict[str, Any]) -> Dict[str, Any]:
             "text": f"Most recent claim on {latest_claim.get('claim_date')} for {latest_claim.get('procedure')} (${latest_claim.get('amount')}) is marked as {latest_claim.get('status')}.",
             "source_type": "claim",
             "source_id": latest_claim.get("claim_id")
+        })
+
+    # 4. Organization Requests Fact (if present)
+    if profile.get("requests"):
+        latest_req = profile["requests"][0]
+        key_facts.append({
+            "text": f"Organization request {latest_req.get('request_id')} ({latest_req.get('request_type')} - {latest_req.get('service')}) submitted by {latest_req.get('organization_name')} is currently {latest_req.get('status')}.",
+            "source_type": "request",
+            "source_id": latest_req.get("request_id")
         })
 
     # Open issues & next actions from deterministic issues

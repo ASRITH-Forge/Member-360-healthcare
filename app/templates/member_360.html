@@ -66,15 +66,19 @@
   <div class="member-financial-summary">
     <div class="financial-stat-card">
       <div class="financial-stat-label">Total Expenses</div>
-      <div class="financial-stat-value">{{ m.healthcare_expenses|inr }}</div>
+      <div class="financial-stat-value">{{ stats.total_claim_amount|inr }}</div>
     </div>
     <div class="financial-stat-card">
       <div class="financial-stat-label">Plan Coverage Paid</div>
-      <div class="financial-stat-value value-coverage">{{ m.healthcare_coverage|inr }}</div>
+      <div class="financial-stat-value value-coverage">{{ stats.plan_coverage_paid|inr }}</div>
     </div>
     <div class="financial-stat-card">
-      <div class="financial-stat-label">Total Claims ({{ stats.claims_count }})</div>
-      <div class="financial-stat-value">{{ stats.total_claims_amount|inr }}</div>
+      <div class="financial-stat-label">Member Responsibility</div>
+      <div class="financial-stat-value" style="color: #b45309;">{{ stats.member_responsibility|inr }}</div>
+    </div>
+    <div class="financial-stat-card">
+      <div class="financial-stat-label">Total Claims</div>
+      <div class="financial-stat-value" style="color: var(--text-primary);">{{ stats.claims_count }}</div>
     </div>
   </div>
 </div>
@@ -173,6 +177,10 @@
     <button class="tab-nav-btn" data-tab="interactions">
       <span>Interactions</span>
       <span class="tab-count-pill">{{ p.interactions|length }}</span>
+    </button>
+    <button class="tab-nav-btn" data-tab="requests">
+      <span>Organization Requests</span>
+      <span class="tab-count-pill">{{ p.requests|length }}</span>
     </button>
   </div>
 
@@ -490,6 +498,124 @@
             <td colspan="7" class="empty-records-cell">
               <div class="empty-state-icon">📞</div>
               <div>No contact logs or service representative interactions documented.</div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB 7: ORGANIZATION REQUESTS -->
+  <div id="tab-requests" class="tab-content-pane">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+      <div style="font-size: 0.875rem; color: var(--text-muted);">
+        Operational requests submitted by authorized hospitals &amp; health systems for <strong>{{ m.first_name }} {{ m.last_name }}</strong> ({{ m.member_id }}).
+      </div>
+      <button type="button" class="btn-primary btn-sm btn-open-submit-modal" data-member-id="{{ m.member_id }}">
+        + Submit Request to Org
+      </button>
+    </div>
+
+    <div class="table-responsive">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Request ID</th>
+            <th>Organization</th>
+            <th>Request Type</th>
+            <th>Service / Procedure</th>
+            <th>Priority</th>
+            <th>Status</th>
+            <th>Request Date</th>
+            <th>Due Date</th>
+            <th>Assigned To</th>
+            <th>Description &amp; Resolution</th>
+            <th style="text-align: right;">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for r in p.requests %}
+          <tr>
+            <td><code class="code-id">{{ r.request_id }}</code></td>
+            <td class="cell-primary">
+              <div>{{ r.organization_name }}</div>
+              <div style="font-size: 0.725rem; color: var(--text-muted);">{{ r.organization_id }}</div>
+            </td>
+            <td><span class="badge badge-neutral">{{ r.request_type }}</span></td>
+            <td style="font-weight: 500;">{{ r.service }}</td>
+            <td>
+              {% if r.priority == 'Urgent' %}
+              <span class="badge badge-denied">Urgent</span>
+              {% elif r.priority == 'High' %}
+              <span class="badge badge-urgent">High</span>
+              {% elif r.priority == 'Medium' %}
+              <span class="badge badge-pending">Medium</span>
+              {% else %}
+              <span class="badge badge-neutral">Low</span>
+              {% endif %}
+            </td>
+            <td>
+              {% if r.status == 'Approved' or r.status == 'Completed' %}
+              <span class="badge badge-approved">{{ r.status }}</span>
+              {% elif r.status == 'Pending' %}
+              <span class="badge badge-pending">Pending</span>
+              {% elif r.status == 'In Review' %}
+              <span class="badge badge-in-progress">In Review</span>
+              {% elif r.status == 'Rejected' or r.status == 'Cancelled' %}
+              <span class="badge badge-denied">{{ r.status }}</span>
+              {% else %}
+              <span class="badge badge-neutral">{{ r.status }}</span>
+              {% endif %}
+            </td>
+            <td>{{ r.request_date }}</td>
+            <td>{{ r.due_date or '-' }}</td>
+            <td style="font-size: 0.8125rem;">
+              {% if r.assigned_to and r.assigned_to != 'None' and r.assigned_to != 'nan' and r.assigned_to|trim != '' %}
+              {{ r.assigned_to }}
+              {% else %}
+              <span style="color: var(--text-light); font-style: italic;">Unassigned</span>
+              {% endif %}
+            </td>
+            <td style="font-size: 0.8125rem; max-width: 260px;">
+              {% if r.description and r.description != 'None' and r.description != 'nan' and r.description|trim != '' %}
+              <div style="color: var(--text-secondary); margin-bottom: 0.25rem;">{{ r.description }}</div>
+              {% endif %}
+              {% if r.resolution_notes and r.resolution_notes != 'None' and r.resolution_notes != 'nan' and r.resolution_notes|trim != '' %}
+              <div style="color: #065f46; font-size: 0.75rem; background: #ecfdf5; padding: 0.2rem 0.4rem; border-radius: 3px;">
+                <strong>Resolution:</strong> {{ r.resolution_notes }}
+              </div>
+              {% endif %}
+            </td>
+            <td style="text-align: right; white-space: nowrap;">
+              <button class="source-chip" data-source-type="request" data-source-id="{{ r.request_id }}" title="Inspect source database record">
+                Inspect
+              </button>
+              <button class="btn-secondary btn-sm btn-update-status" 
+                data-request-id="{{ r.request_id }}"
+                data-org="{{ r.organization_name }}"
+                data-service="{{ r.service }}"
+                data-status="{{ r.status }}"
+                data-priority="{{ r.priority }}"
+                data-assigned="{{ r.assigned_to or '' }}"
+                data-due="{{ r.due_date or '' }}"
+                data-notes="{{ r.resolution_notes or '' }}"
+                style="margin-left: 0.25rem; padding: 0.25rem 0.5rem; font-size: 0.75rem;"
+                title="Update status, coordinator assignment, or disposition notes">
+                Update Status
+              </button>
+            </td>
+          </tr>
+          {% else %}
+          <tr>
+            <td colspan="11" class="empty-records-cell">
+              <div class="empty-state-icon">🏥</div>
+              <div>No organization or hospital operational requests recorded for this member.</div>
+              <div style="margin-top: 0.5rem;">
+                <button type="button" class="btn-secondary btn-sm btn-open-submit-modal" data-member-id="{{ m.member_id }}">
+                  + Submit Initial Request
+                </button>
+              </div>
             </td>
           </tr>
           {% endfor %}

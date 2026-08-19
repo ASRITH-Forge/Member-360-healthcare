@@ -94,6 +94,8 @@ class InteractionModel(BaseModel):
     source_type: Optional[str] = "synthetic_service_log"
     source_id: Optional[str] = ""
 
+from app.schemas.request import OrganizationRequestModel
+
 class Member360Response(BaseModel):
     member: MemberModel
     eligibility: List[EligibilityModel] = []
@@ -102,5 +104,6 @@ class Member360Response(BaseModel):
     care_gaps: List[CareGapModel] = []
     authorizations: List[AuthorizationModel] = []
     interactions: List[InteractionModel] = []
+    requests: List[OrganizationRequestModel] = []
     open_issues_count: int = 0
     deterministic_open_issues: List[dict] = []

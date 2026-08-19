@@ -121,3 +121,47 @@ def test_authenticated_get_invalid_member_404():
     assert response.status_code == 404
     data = response.json()
     assert "detail" in data
+
+def test_member_financial_metrics_consistency_across_members():
+    """
+    Validate financial metrics consistency across at least 5 different members.
+    Ensures Total Claims is an integer count, Total Claim Amount equals sum of claims,
+    Plan Coverage Paid equals sum of payer coverage, and Member Responsibility equals sum of copays.
+    """
+    from app.database.mongodb import get_collection
+    auth_client = get_authenticated_client()
+    test_member_ids = ["M00001", "M00002", "M00003", "M00004", "M00005"]
+
+    for mid in test_member_ids:
+        # 1. Fetch direct from claims collection
+        direct_claims = list(get_collection("claims").find({"member_id": mid}))
+        expected_count = len(direct_claims)
+        expected_claim_amount = round(sum(float(c.get("amount", 0) or 0) for c in direct_claims), 2)
+        expected_payer_coverage = round(sum(float(c.get("payer_coverage", 0) or 0) for c in direct_claims), 2)
+        expected_member_copay = round(sum(float(c.get("member_copay", 0) or 0) for c in direct_claims), 2)
+
+        # 2. Fetch via aggregation service
+        profile = get_member_360_profile(mid)
+        assert profile is not None
+        stats = profile["stats"]
+
+        # 3. Assert exact matching
+        assert stats["claims_count"] == expected_count
+        assert stats["total_claims"] == expected_count
+        assert isinstance(stats["claims_count"], int)
+        assert stats["total_claim_amount"] == expected_claim_amount
+        assert stats["plan_coverage_paid"] == expected_payer_coverage
+        assert stats["member_responsibility"] == expected_member_copay
+        assert stats["total_expenses"] == expected_claim_amount
+
+        # 4. Assert mathematical balance: Total = Coverage + Responsibility
+        assert abs(stats["total_claim_amount"] - (stats["plan_coverage_paid"] + stats["member_responsibility"])) < 0.02
+
+        # 5. Check UI rendering
+        res_ui = auth_client.get(f"/member/{mid}")
+        assert res_ui.status_code == 200
+        assert "Total Expenses" in res_ui.text
+        assert "Plan Coverage Paid" in res_ui.text
+        assert "Member Responsibility" in res_ui.text
+        assert "Total Claims" in res_ui.text
+

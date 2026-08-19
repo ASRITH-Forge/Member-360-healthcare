@@ -123,9 +123,24 @@ document.addEventListener("DOMContentLoaded", () => {
     interaction_id: "Interaction ID",
     interaction_date: "Interaction Timestamp",
     channel: "Contact Channel",
+    reason: "Documented Reason",
     reason_for_contact: "Contact Reason",
     summary: "Representative Summary",
     status: "Record Status",
+    request_id: "Request ID",
+    organization_id: "Organization ID",
+    organization_name: "Organization Name",
+    request_type: "Request Type",
+    service: "Requested Service / Procedure",
+    priority: "Priority Level",
+    request_date: "Request Submission Date",
+    due_date: "Target Due Date",
+    resolution_notes: "Resolution / Action Notes",
+    requested_by: "Submitted By",
+    assigned_to: "Assigned Coordinator",
+    created_at: "Creation Timestamp",
+    updated_at: "Last Updated Timestamp",
+    source: "Data Source",
     _id: "Database Object Identifier"
   };
 
@@ -464,6 +479,288 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     `;
   }
+
+  // =========================================================================
+  // Submit Organization Request Modal Controller
+  // =========================================================================
+  const submitRequestModal = document.getElementById("submitRequestModal");
+  const closeSubmitRequestModalBtn = document.getElementById("closeSubmitRequestModalBtn");
+  const btnCancelSubmitRequest = document.getElementById("btnCancelSubmitRequest");
+  const submitRequestForm = document.getElementById("submitRequestForm");
+  const submitRequestFeedback = document.getElementById("submitRequestFeedback");
+  const reqMemberIdInput = document.getElementById("reqMemberId");
+  const reqDateInput = document.getElementById("reqDate");
+
+  function openSubmitRequestModal(memberId = "") {
+    if (!submitRequestModal) return;
+    if (submitRequestFeedback) {
+      submitRequestFeedback.style.display = "none";
+      submitRequestFeedback.innerHTML = "";
+    }
+    if (submitRequestForm) {
+      submitRequestForm.reset();
+    }
+    if (reqMemberIdInput && memberId) {
+      reqMemberIdInput.value = memberId;
+    }
+    if (reqDateInput) {
+      reqDateInput.value = new Date().toISOString().split("T")[0];
+    }
+    submitRequestModal.classList.add("active");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeSubmitRequestModal() {
+    if (submitRequestModal) {
+      submitRequestModal.classList.remove("active");
+      document.body.style.overflow = "";
+    }
+  }
+
+  document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".btn-open-submit-modal");
+    if (btn) {
+      const memberId = btn.getAttribute("data-member-id") || "";
+      openSubmitRequestModal(memberId);
+    }
+  });
+
+  if (closeSubmitRequestModalBtn) {
+    closeSubmitRequestModalBtn.addEventListener("click", closeSubmitRequestModal);
+  }
+  if (btnCancelSubmitRequest) {
+    btnCancelSubmitRequest.addEventListener("click", closeSubmitRequestModal);
+  }
+  if (submitRequestModal) {
+    submitRequestModal.addEventListener("click", (e) => {
+      if (e.target === submitRequestModal) closeSubmitRequestModal();
+    });
+  }
+
+  if (submitRequestForm) {
+    submitRequestForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const btnSubmit = document.getElementById("btnSubmitRequest");
+      if (btnSubmit) {
+        btnSubmit.disabled = true;
+        btnSubmit.innerHTML = `<span class="spinner spinner-dark" style="margin-right: 0.4rem;"></span> Submitting...`;
+      }
+
+      const formData = new FormData(submitRequestForm);
+      const payload = {
+        organization_name: formData.get("organization_name") || "",
+        organization_id: formData.get("organization_id") || "",
+        member_id: formData.get("member_id") || "",
+        request_type: formData.get("request_type") || "",
+        service: formData.get("service") || "",
+        priority: formData.get("priority") || "Medium",
+        request_date: formData.get("request_date") || "",
+        due_date: formData.get("due_date") || "",
+        requested_by: formData.get("requested_by") || "",
+        description: formData.get("description") || ""
+      };
+
+      try {
+        const res = await fetch("/api/requests", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        if (res.status === 401) {
+          window.location.href = "/login";
+          throw new Error("Authentication required. Redirecting to login...");
+        }
+
+        const data = await res.json();
+
+        if (!res.ok) {
+          throw new Error(data.detail?.message || data.detail || "Failed to submit request.");
+        }
+
+        if (submitRequestFeedback) {
+          submitRequestFeedback.style.display = "block";
+          submitRequestFeedback.innerHTML = `
+            <div style="background: #ecfdf5; border: 1px solid #a7f3d0; color: #065f46; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.875rem;">
+              <strong>Success:</strong> Request ${escapeHtml(data.request_id || "submitted")} submitted successfully.
+            </div>
+          `;
+        }
+
+        submitRequestForm.reset();
+
+        // Reload page smoothly after brief delay to show updated data
+        setTimeout(() => {
+          closeSubmitRequestModal();
+          window.location.reload();
+        }, 1200);
+      } catch (err) {
+        if (submitRequestFeedback) {
+          submitRequestFeedback.style.display = "block";
+          submitRequestFeedback.innerHTML = `
+            <div style="background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.875rem;">
+              <strong>Error:</strong> ${escapeHtml(err.message)}
+            </div>
+          `;
+        }
+      } finally {
+        if (btnSubmit) {
+          btnSubmit.disabled = false;
+          btnSubmit.innerHTML = `Submit Request`;
+        }
+      }
+    });
+  }
+
+  // =========================================================================
+  // Update Request Status Modal Controller (Care Coordinator)
+  // =========================================================================
+  const updateStatusModal = document.getElementById("updateStatusModal");
+  const closeUpdateStatusModalBtn = document.getElementById("closeUpdateStatusModalBtn");
+  const btnCancelUpdateStatus = document.getElementById("btnCancelUpdateStatus");
+  const updateStatusForm = document.getElementById("updateStatusForm");
+  const updateStatusFeedback = document.getElementById("updateStatusFeedback");
+
+  function openUpdateStatusModal(btn) {
+    if (!updateStatusModal) return;
+    if (updateStatusFeedback) {
+      updateStatusFeedback.style.display = "none";
+      updateStatusFeedback.innerHTML = "";
+    }
+
+    const reqId = btn.getAttribute("data-request-id") || "";
+    const org = btn.getAttribute("data-org") || "";
+    const service = btn.getAttribute("data-service") || "";
+    const currentStatus = btn.getAttribute("data-status") || "Pending";
+    const priority = btn.getAttribute("data-priority") || "Medium";
+    const assigned = btn.getAttribute("data-assigned") || "";
+    const due = btn.getAttribute("data-due") || "";
+    const notes = btn.getAttribute("data-notes") || "";
+
+    const editReqIdInput = document.getElementById("editRequestId");
+    const displayReqId = document.getElementById("displayEditRequestId");
+    const displayOrgService = document.getElementById("displayEditOrgService");
+    const editStatusSelect = document.getElementById("editStatus");
+    const editPrioritySelect = document.getElementById("editPriority");
+    const editAssignedToInput = document.getElementById("editAssignedTo");
+    const editDueDateInput = document.getElementById("editDueDate");
+    const editNotesTextarea = document.getElementById("editResolutionNotes");
+
+    if (editReqIdInput) editReqIdInput.value = reqId;
+    if (displayReqId) displayReqId.textContent = reqId;
+    if (displayOrgService) displayOrgService.textContent = `${org} • ${service}`;
+    if (editStatusSelect) editStatusSelect.value = currentStatus;
+    if (editPrioritySelect) editPrioritySelect.value = priority;
+    if (editAssignedToInput) editAssignedToInput.value = assigned;
+    if (editDueDateInput) editDueDateInput.value = due;
+    if (editNotesTextarea) editNotesTextarea.value = notes;
+
+    updateStatusModal.classList.add("active");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeUpdateStatusModal() {
+    if (updateStatusModal) {
+      updateStatusModal.classList.remove("active");
+      document.body.style.overflow = "";
+    }
+  }
+
+  document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".btn-update-status");
+    if (btn) {
+      openUpdateStatusModal(btn);
+    }
+  });
+
+  if (closeUpdateStatusModalBtn) {
+    closeUpdateStatusModalBtn.addEventListener("click", closeUpdateStatusModal);
+  }
+  if (btnCancelUpdateStatus) {
+    btnCancelUpdateStatus.addEventListener("click", closeUpdateStatusModal);
+  }
+  if (updateStatusModal) {
+    updateStatusModal.addEventListener("click", (e) => {
+      if (e.target === updateStatusModal) closeUpdateStatusModal();
+    });
+  }
+
+  if (updateStatusForm) {
+    updateStatusForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const btnSave = document.getElementById("btnSaveStatus");
+      if (btnSave) {
+        btnSave.disabled = true;
+        btnSave.innerHTML = `<span class="spinner spinner-dark" style="margin-right: 0.4rem;"></span> Updating...`;
+      }
+
+      const reqId = document.getElementById("editRequestId")?.value;
+      if (!reqId) return;
+
+      const formData = new FormData(updateStatusForm);
+      const payload = {
+        status: formData.get("status") || "Pending",
+        priority: formData.get("priority") || "Medium",
+        assigned_to: formData.get("assigned_to") || "",
+        due_date: formData.get("due_date") || "",
+        resolution_notes: formData.get("resolution_notes") || ""
+      };
+
+      try {
+        const res = await fetch(`/api/requests/${encodeURIComponent(reqId)}`, {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        if (res.status === 401) {
+          window.location.href = "/login";
+          throw new Error("Authentication required. Redirecting to login...");
+        }
+
+        const data = await res.json();
+        if (!res.ok) {
+          throw new Error(data.detail?.message || data.detail || "Failed to update request status.");
+        }
+
+        if (updateStatusFeedback) {
+          updateStatusFeedback.style.display = "block";
+          updateStatusFeedback.innerHTML = `
+            <div style="background: #ecfdf5; border: 1px solid #a7f3d0; color: #065f46; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.875rem;">
+              <strong>Success:</strong> Request ${escapeHtml(reqId)} updated successfully.
+            </div>
+          `;
+        }
+
+        setTimeout(() => {
+          closeUpdateStatusModal();
+          window.location.reload();
+        }, 1000);
+      } catch (err) {
+        if (updateStatusFeedback) {
+          updateStatusFeedback.style.display = "block";
+          updateStatusFeedback.innerHTML = `
+            <div style="background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.875rem;">
+              <strong>Error:</strong> ${escapeHtml(err.message)}
+            </div>
+          `;
+        }
+      } finally {
+        if (btnSave) {
+          btnSave.disabled = false;
+          btnSave.innerHTML = `Update Request`;
+        }
+      }
+    });
+  }
+
+  // Handle global escape key for all modals
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      closeSubmitRequestModal();
+      closeUpdateStatusModal();
+    }
+  });
 
   function escapeHtml(str) {
     if (!str) return "";

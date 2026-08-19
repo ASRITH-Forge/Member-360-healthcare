@@ -30,7 +30,8 @@ def load_all():
         "medications": "medications.csv",
         "care_gaps": "care_gaps.csv",
         "authorizations": "authorizations.csv",
-        "interactions": "interactions.csv"
+        "interactions": "interactions.csv",
+        "requests": "requests.csv"
     }
 
     total_inserted = 0

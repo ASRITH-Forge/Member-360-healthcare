@@ -36,6 +36,7 @@
         <div class="nav-links-group">
           <a href="/" class="nav-link-item {% if request.url.path == '/' %}active{% endif %}">Operations Dashboard</a>
           <a href="/search" class="nav-link-item {% if '/search' in request.url.path %}active{% endif %}">Member Directory</a>
+          <a href="/requests" class="nav-link-item {% if '/requests' in request.url.path %}active{% endif %}">Organization Requests</a>
         </div>
         <div class="nav-auth-group">
           <div class="user-status-strip">
@@ -69,6 +70,162 @@
       </div>
       <div id="sourceModalContent" class="modal-body">
         <!-- Dynamically injected by member_360.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Submit Organization Request Modal -->
+  <div id="submitRequestModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="submitRequestModalTitle">
+    <div class="modal-dialog" style="max-width: 620px;">
+      <div class="modal-header">
+        <h3 id="submitRequestModalTitle" class="modal-title">Submit Organization / Hospital Request</h3>
+        <button id="closeSubmitRequestModalBtn" class="btn-close-modal" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 1.25rem;">
+        <div id="submitRequestFeedback" style="display: none; margin-bottom: 1rem;"></div>
+        <form id="submitRequestForm">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="reqOrgName" class="form-label">Organization Name *</label>
+              <input type="text" id="reqOrgName" name="organization_name" class="form-control-input" placeholder="e.g. CityCare Hospital" required />
+            </div>
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="reqOrgId" class="form-label">Organization ID *</label>
+              <input type="text" id="reqOrgId" name="organization_id" class="form-control-input" placeholder="e.g. ORG1001" required />
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="reqMemberId" class="form-label">Member ID *</label>
+              <input type="text" id="reqMemberId" name="member_id" class="form-control-input" placeholder="e.g. M00004" required />
+            </div>
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="reqType" class="form-label">Request Type *</label>
+              <select id="reqType" name="request_type" class="form-control-input" required>
+                <option value="Authorization Request">Authorization Request</option>
+                <option value="Medical Record Request">Medical Record Request</option>
+                <option value="Care Coordination">Care Coordination</option>
+                <option value="Second Opinion">Second Opinion</option>
+                <option value="Discharge Planning">Discharge Planning</option>
+                <option value="Transportation Request">Transportation Request</option>
+                <option value="Diagnostic Service">Diagnostic Service</option>
+              </select>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="reqService" class="form-label">Requested Service / Procedure *</label>
+              <input type="text" id="reqService" name="service" class="form-control-input" placeholder="e.g. MRI, Cardiology Consult" required />
+            </div>
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="reqPriority" class="form-label">Priority Level *</label>
+              <select id="reqPriority" name="priority" class="form-control-input" required>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+                <option value="Urgent">Urgent</option>
+                <option value="Low">Low</option>
+              </select>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="reqDate" class="form-label">Request Date</label>
+              <input type="date" id="reqDate" name="request_date" class="form-control-input" />
+            </div>
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="reqDueDate" class="form-label">Target Due Date</label>
+              <input type="date" id="reqDueDate" name="due_date" class="form-control-input" />
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-bottom: 0.75rem;">
+            <label for="reqRequestedBy" class="form-label">Requested By</label>
+            <input type="text" id="reqRequestedBy" name="requested_by" class="form-control-input" placeholder="e.g. Hospital Coordinator, Dr. Smith" />
+          </div>
+
+          <div class="form-group" style="margin-bottom: 1rem;">
+            <label for="reqDescription" class="form-label">Description / Clinical Rationale</label>
+            <textarea id="reqDescription" name="description" class="form-control-input" rows="3" placeholder="Provide details regarding the clinical evaluation or coordination need..." style="resize: vertical;"></textarea>
+          </div>
+
+          <div style="display: flex; justify-content: flex-end; gap: 0.5rem;">
+            <button type="button" id="btnCancelSubmitRequest" class="btn-secondary">Cancel</button>
+            <button type="submit" id="btnSubmitRequest" class="btn-primary">Submit Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Update Request Status Modal -->
+  <div id="updateStatusModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="updateStatusModalTitle">
+    <div class="modal-dialog" style="max-width: 580px;">
+      <div class="modal-header">
+        <h3 id="updateStatusModalTitle" class="modal-title">Update Request Operational Status</h3>
+        <button id="closeUpdateStatusModalBtn" class="btn-close-modal" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 1.25rem;">
+        <div id="updateStatusFeedback" style="display: none; margin-bottom: 1rem;"></div>
+        <form id="updateStatusForm">
+          <input type="hidden" id="editRequestId" name="request_id" />
+          
+          <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 0.75rem 1rem; margin-bottom: 1rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+              <span style="font-size: 0.8125rem; color: var(--text-muted);">Request ID:</span>
+              <code class="code-id" id="displayEditRequestId">REQ00000</code>
+            </div>
+            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-primary);" id="displayEditOrgService">
+              Organization &bull; Service
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="editStatus" class="form-label">Lifecycle Status *</label>
+              <select id="editStatus" name="status" class="form-control-input" required>
+                <option value="Pending">Pending</option>
+                <option value="In Review">In Review</option>
+                <option value="Approved">Approved</option>
+                <option value="Rejected">Rejected</option>
+                <option value="Completed">Completed</option>
+                <option value="Cancelled">Cancelled</option>
+              </select>
+            </div>
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="editPriority" class="form-label">Priority</label>
+              <select id="editPriority" name="priority" class="form-control-input">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+                <option value="Urgent">Urgent</option>
+              </select>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="editAssignedTo" class="form-label">Assigned Coordinator</label>
+              <input type="text" id="editAssignedTo" name="assigned_to" class="form-control-input" placeholder="e.g. Care Coordinator Sarah" />
+            </div>
+            <div class="form-group" style="margin-bottom: 0.75rem;">
+              <label for="editDueDate" class="form-label">Target Due Date</label>
+              <input type="date" id="editDueDate" name="due_date" class="form-control-input" />
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-bottom: 1rem;">
+            <label for="editResolutionNotes" class="form-label">Coordinator Resolution / Action Notes</label>
+            <textarea id="editResolutionNotes" name="resolution_notes" class="form-control-input" rows="3" placeholder="Document clinical review rationale, outreach details, or reason for status update..." style="resize: vertical;"></textarea>
+          </div>
+
+          <div style="display: flex; justify-content: flex-end; gap: 0.5rem;">
+            <button type="button" id="btnCancelUpdateStatus" class="btn-secondary">Cancel</button>
+            <button type="submit" id="btnSaveStatus" class="btn-primary">Update Request</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>

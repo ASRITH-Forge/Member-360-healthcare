@@ -73,7 +73,8 @@ def _bootstrap_mock_data(db):
         "medications": "medications.csv",
         "care_gaps": "care_gaps.csv",
         "authorizations": "authorizations.csv",
-        "interactions": "interactions.csv"
+        "interactions": "interactions.csv",
+        "requests": "requests.csv"
     }
 
     for coll_name, fname in collections_map.items():
@@ -93,7 +94,7 @@ def create_indexes(db):
     """Create optimized indexes for fast queries across all entities."""
     try:
         # Member ID index on every collection
-        collections = ["members", "eligibility", "claims", "medications", "care_gaps", "authorizations", "interactions"]
+        collections = ["members", "eligibility", "claims", "medications", "care_gaps", "authorizations", "interactions", "requests"]
         for coll in collections:
             db[coll].create_index("member_id")
 
@@ -108,6 +109,12 @@ def create_indexes(db):
         db.interactions.create_index([("member_id", 1), ("status", 1)])
         db.interactions.create_index("interaction_id", unique=True)
         db.medications.create_index([("member_id", 1), ("status", 1)])
+        db.requests.create_index("request_id", unique=True)
+        db.requests.create_index("organization_id")
+        db.requests.create_index("status")
+        db.requests.create_index("priority")
+        db.requests.create_index("request_date")
+        db.requests.create_index([("member_id", 1), ("status", 1)])
         logger.info("[Database] Indexes created successfully.")
     except Exception as e:
         logger.warning(f"[Database] Index creation note: {e}")
