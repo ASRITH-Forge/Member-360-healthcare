@@ -24,36 +24,56 @@ _is_mock = False
 def get_database():
     """
     Get or initialize the MongoDB database connection.
-    Attempts live connection first; falls back to mongomock seamlessly.
+    Attempts to connect to MongoDB Atlas first.
+    Falls back to mongomock only if Atlas is unavailable.
     """
     global _client, _db, _is_mock
 
     if _db is not None:
         return _db
 
-    # Try live MongoDB connection with short timeout
     try:
         real_client = pymongo.MongoClient(
             MONGODB_URI,
-            serverSelectionTimeoutMS=1500,
-            connectTimeoutMS=1500
+            serverSelectionTimeoutMS=10000,
+            connectTimeoutMS=10000
         )
-        # Verify connection
-        real_client.admin.command('ping')
+
+        # Verify Atlas connection
+        real_client.admin.command("ping")
+
         _client = real_client
         _db = _client[MONGODB_DATABASE]
         _is_mock = False
-        logger.info(f"[Database] Connected successfully to live MongoDB at {MONGODB_URI}, DB: {MONGODB_DATABASE}")
+
+        logger.info(
+            f"[Database] Connected successfully to MongoDB Atlas. "
+            f"Database: {MONGODB_DATABASE}"
+        )
+
+        # Load processed CSV data into Atlas if collections are empty
+        _bootstrap_real_data(_db)
+
         return _db
+
     except Exception as e:
-        logger.warning(f"[Database] Live MongoDB connection unavailable ({e}). Initializing resilient in-memory MongoDB store (mongomock)...")
+
+        logger.error(
+            f"[Database] MongoDB Atlas connection failed: {e}"
+        )
+
+        logger.warning(
+            "[Database] Falling back to in-memory mongomock."
+        )
+
         mock_client = mongomock.MongoClient()
+
         _client = mock_client
         _db = _client[MONGODB_DATABASE]
         _is_mock = True
-        
-        # Proactively load processed CSV data into mongomock if empty
+
         _bootstrap_mock_data(_db)
+
         return _db
 
 def is_mock_db() -> bool:
